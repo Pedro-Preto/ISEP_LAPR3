@@ -1,0 +1,15 @@
+@startuml
+autonumber
+actor "Pharmacy" as Pharmacy
+participant ":System" as STM
+activate Pharmacy
+
+Pharmacy-> STM :Gets a new order
+activate STM
+STM --> Pharmacy : Returns an invoice\ receipt for order receipt
+deactivate STM
+
+
+
+deactivate Pharmacy
+@enduml

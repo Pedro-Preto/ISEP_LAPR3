@@ -1,0 +1,35 @@
+@startuml
+hide methods
+left to right direction
+
+class Client {
+
+}
+
+class Delivery {
+
+}
+
+class Order {
+
+}
+
+class System {
+
+}
+
+class User {
+
+}
+
+
+
+Client "1" -- "0..*" Order: creates >
+Client "1" -- "1" User: acts as >
+Client "1" -- "*" Delivery: confirms >
+
+Order "1..*" -- "1" Delivery: has >
+
+System "1" -- "1..*" User: has >
+
+@enduml

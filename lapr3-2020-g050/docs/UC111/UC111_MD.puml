@@ -1,0 +1,39 @@
+@startuml
+hide methods
+left to right direction
+
+class Client {
+    -Integer id
+    -String name
+    -String emailAddress
+    -String password
+    -String cellphone
+    -Integer nif
+    -Integer numberOfCredits
+}
+
+
+class Application {
+
+}
+class User {
+    -Integer id
+    -String name
+    -String emailAddress
+    -String password
+}
+
+class Order {
+    - id Integer
+}
+
+class Receipt {
+    - id Integer
+}
+
+Client "1" -- "0..*" Order: creates >
+Application "1" -- "1" User: has >
+Client "1" -- "1" User: acts as >
+Order "1" -- "1" Receipt: generates >
+
+@enduml

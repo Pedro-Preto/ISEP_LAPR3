@@ -1,0 +1,43 @@
+@startuml
+
+left to right direction
+
+class CheckOrderStatusUI {
+}
+
+class CheckOrderStatusController {
++getReceipDB()
++checkClientOrderStatus(orderId, clientNIF)
+}
+
+class Application {
+  +getReceipDB()
+}
+
+class OrderRegister {
+    +getCourier()
+    +checkClientOrderStatus(orderId, clientNIF)
+    +checkClientOrders(clientNIF)
+}
+
+
+
+class ReceipRegister {
+    +getReceiptByClientNif(clientNIF)
+
+}
+
+class ReceipDB {
+    +getReceiptByClientNif(clientNIF)
+
+}
+
+
+CheckOrderStatusUI ..> CheckOrderStatusController
+CheckOrderStatusController ..> OrderRegister
+CheckOrderStatusController ..> Application
+OrderRegister ..>ReceipRegister
+ReceipRegister ..>ReceipDB
+
+
+@enduml

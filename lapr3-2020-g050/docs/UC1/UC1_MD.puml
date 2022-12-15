@@ -1,0 +1,19 @@
+@startuml
+hide methods
+left to right direction
+
+
+class Platform {}
+
+class User {
+    -name String
+    -emailAddress String
+    -password String
+}
+
+class Client {}
+
+Platform "1" -- "0..*" Client: has >
+
+Client "1" -- "1" User: act as >
+@enduml

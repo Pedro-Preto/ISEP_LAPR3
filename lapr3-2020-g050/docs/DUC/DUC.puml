@@ -1,0 +1,102 @@
+@startuml
+usecase UC1 as "UC1 - Register Client"
+usecase UC2 as "UC2 - Make Order"
+usecase UC3 as "UC3 - Check Order Status"
+usecase UC4 as "UC4 - Check Credits"
+usecase UC5 as "UC5 - Make Order As Received"
+usecase UC6 as "UC6 - Courier Login"
+usecase UC10 as "UC10 - Administrator Login"
+usecase UC16 as "UC16 - Pharmacy Administrator Login"
+usecase UC17 as "UC17 - Check Order"
+usecase UC18 as "UC18 - Check Stock"
+usecase UC19 as "UC19 - Client Login"
+usecase UC21 as "UC21 - Check Scooter Battery"
+usecase UC24 as "UC24 - Assign Orders"
+usecase UC26 as "UC26 - Shortest Phat"
+usecase UC28 as "UC28 - Charging Time Email"
+usecase UC48 as "UC48 - Energy Consumption"
+usecase UC56 as "UC56 - Add Pharmacy"
+usecase UC60 as "UC60 - Add Scooter"
+usecase UC61 as "UC61 - Remove Scooter"
+usecase UC67 as "UC67 - Check Catalogue"
+usecase UC70 as "UC70 - Check Courier Requests"
+usecase UC72 as "UC72 - Register Courier"
+usecase UC105 as "UC105 - Update Credits"
+usecase UC106 as "UC106 - Add Items to Stock"
+usecase UC107 as "UC107 - Remove Items From Stock"
+usecase UC108 as "UC108 - Order Can Not Be Full filled"
+usecase UC109 as "UC109 - Client Item Not In Cart Notification "
+usecase UC110 as "UC110 - Pharmacy Invoice/Receipt "
+usecase UC111 as "UC111 - Client Invoice/Receipt "
+usecase UC113 as "UC113 - Add Park Slot and Charging Station to Scooter Park"
+usecase UC114 as "UC114 - Add Drone"
+usecase UC115 as "UC115 -Remove Drone"
+usecase UC117 as "UC117 - Add Park Slot and Charging Station to Drone Park"
+usecase UC118 as "UC118 - Delivery Start Notification"
+usecase UC121 as "UC121 - Nearest Pharmacy"
+usecase UC122 as "UC122 - Request Not Existent Item"
+usecase UC124 as "UC124 - Send Request Asking for Items to Another Pharmacy"
+usecase UC125 as "UC125 - Send Request Items"
+usecase UC126 as "UC126 - Distribute Park Energy"
+usecase UC127 as "UC127 - Send Scooter Message to Courier"
+
+
+
+actor "Unregistered  User" as UU
+actor "Pharmacy Administrator" as PHARADM
+actor "Pharmacy" as PHAR
+actor "Administrator" as ADM
+actor "Client" as C
+actor "COURIER" as CO
+actor "System" as SYS
+
+left to right direction
+SYS-->(UC28)
+SYS-->(UC108)
+SYS-->(UC109)
+SYS-->(UC110)
+SYS-->(UC111)
+SYS-->(UC118)
+SYS-->(UC121)
+SYS-->(UC125)
+SYS-->(UC126)
+SYS-->(UC127)
+
+UU -->(UC1)
+
+PHAR -->(UC18)
+PHAR -->(UC21)
+PHAR -->(UC24)
+PHAR -->(UC124)
+
+C -->(UC2)
+C -->(UC3)
+C -->(UC4)
+C -->(UC5)
+C -->(UC17)
+C -->(UC19)
+C -->(UC67)
+C -->(UC105)
+
+CO->(UC6)
+CO->(UC26)
+CO->(UC48)
+CO->(UC70)
+
+ADM->(UC10)
+ADM->(UC56)
+ADM->(UC60)
+ADM->(UC61)
+ADM->(UC72)
+ADM->(UC113)
+ADM->(UC114)
+ADM->(UC115)
+ADM->(UC117)
+
+
+PHARADM->(UC16)
+PHARADM->(UC106)
+PHARADM->(UC107)
+PHARADM->(UC122)
+
+@enduml

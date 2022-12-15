@@ -1,0 +1,73 @@
+@startuml
+hide methods
+left to right direction
+
+class Application {}
+
+class User {
+    -Integer id
+    -String name
+    -String emailAddress
+    -String password
+}
+
+
+class Order {
+    -Integer id
+}
+
+
+class Catalogue {}
+
+class Pharmacy_Administrator {
+    -Integer id
+    -String name
+    -String emailAddress
+    -String password
+}
+
+class Pharmacy {
+    -Integer id
+    -String designation
+    -String nif
+}
+
+
+class Address {
+    -Integer id
+    -String street
+    -Integer doorNumber
+    -String city
+    -String country
+}
+
+class Item {
+    -Integer id
+    -String name
+    -Double price
+}
+
+class Stock {
+    -Integer id
+}
+
+
+
+Application "1" -- "1" Pharmacy: has >
+Application "1" -- "1" Catalogue: has >
+
+Catalogue "1" -- "*" Item: has >
+
+Order "1" -- "1..*" Item: has >
+
+Pharmacy "1" -- "1" Pharmacy_Administrator: has >
+Pharmacy "1" -- "0..*" Order: has >
+Pharmacy "1" -- "0..*" Drone: has >
+Pharmacy "1" -- "1" Stock: has >
+Pharmacy "1" -- "1" Address: has >
+Pharmacy_Administrator "1" -- "1" User: act as >
+
+Stock "1" -- "0..*" Item: has >
+
+
+@enduml

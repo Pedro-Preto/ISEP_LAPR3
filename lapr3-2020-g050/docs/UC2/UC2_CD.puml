@@ -1,0 +1,48 @@
+@startuml
+
+left to right direction
+
+class MakeOrderUI {
+}
+
+class MakeOrderController {
+  getCatalogue()
+  makeOrder(desiredItemList)
+  saveOrder()
+}
+
+class System {
+  getCatalogue()
+}
+
+class Order {
+  newOrder()
+  updateItemList(order, desiredItemList)
+  getDetails(order)
+}
+
+class OrderDatabase {
+  saveOrder(order)
+}
+
+class Catalogue {
+  getAllItems()
+}
+
+class ItemDatabase {
+  getOneOfEach()
+}
+
+
+MakeOrderUI ..> MakeOrderController
+MakeOrderController ..> System
+MakeOrderController ..> OrderDatabase
+System "1" --> "1" OrderDatabase: has
+System "1" --> "1" ItemDatabase: has
+System "1" --> "1" Catalogue: has
+OrderDatabase "1" --> "*" Order: has registered
+ItemDatabase "1" --> "*" Item: has registered
+Catalogue "1" --> "*" Item: has
+Order "1" --> "1..*" Item: has
+
+@enduml

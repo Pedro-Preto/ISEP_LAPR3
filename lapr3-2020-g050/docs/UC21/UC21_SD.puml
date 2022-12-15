@@ -1,0 +1,62 @@
+@startuml
+autonumber
+
+actor "Client" as CLI
+participant ":CheckScooterBateryUI" as UI
+participant ":CheckScooterBateryController" as CTRL
+participant ":Application" as SYS
+participant ":Scooter" as S
+participant ":ScooterParkRegister" as SPR
+participant ":ScooterRegister" as SR
+participant ":ScooterParkRegister" as SPR
+participant ":ScooterParkDB" as SPDB
+
+activate CLI
+CLI -> UI : Access the ScooterParkDB
+activate UI
+
+UI -> CTRL : getScooterParkDB()
+activate CTRL
+CTRL-> SYS:getScooterParkDB()
+activate SYS
+deactivate SYS
+
+
+deactivate CTRL
+
+
+UI --> CLI :Shows the scooters
+
+deactivate UI
+
+CLI -> UI : Choose the scooter in order to know her battery
+activate UI
+
+UI -->CTRL :checkScootersParkedBatterys(scooterId, pharNIF)
+activate  CTRL
+
+CTRL --> SR: checkScootersParkedBatterys(scooterId, pharNIF)
+activate SR
+
+SR-->SPR:getScootertParkedOnPharmacy(pharNIF)
+deactivate SR
+
+activate SPR
+
+SPR-->SPDB:getScootertParkedOnPharmacy(pharNIF)
+activate SPDB
+deactivate CTRL
+deactivate SPR
+deactivate SPDB
+
+UI --> CLI : presents the scooter battery
+
+deactivate UI
+
+
+deactivate CTRL
+
+deactivate UI
+
+deactivate CLI
+@enduml

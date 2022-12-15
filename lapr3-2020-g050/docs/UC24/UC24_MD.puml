@@ -1,0 +1,45 @@
+@startuml
+hide methods
+left to right direction
+
+
+class Client {
+    -Integer id
+    -String name
+    -String emailAddress
+    -String password
+    -String cellphone
+    -Integer nif
+    -Integer numberOfCredits
+}
+
+class Courier {
+    -Integer id
+    -String name
+    -String emailAddress
+    -String password
+    -String iban
+    -Integer nif
+}
+
+class Application {
+
+}
+
+
+class Order {
+    - id Integer
+}
+
+class Pharmacy {
+    -Integer id
+    -String designation
+    -String nif
+}
+
+Client "1" -- "0..*" Order: creates >
+Courier "1" -- "0..*" Order: has >
+Pharmacy "1" -- "0..*" Courier: has >
+Pharmacy "1" -- "0..*" Order: has >
+Application "1" -- "1" Pharmacy: has >
+@enduml

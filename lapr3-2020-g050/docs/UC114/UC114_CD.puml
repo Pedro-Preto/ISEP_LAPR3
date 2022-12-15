@@ -1,0 +1,32 @@
+@startuml
+
+left to right direction
+
+class AddDroneUI {
+}
+
+class AddDroneController {
+  +getDroneDB()
+    +addDrone(id, batterySize, batteryConsumption,\n batteryEfficiency, currentBattery, weight,\n frontalArea, motorPower, pharmacyNif, payload)
+  +addDrone(drone)
+}
+
+class Application {
+  +getDroneDB()
+}
+
+class DroneRegister {
+    +addDrone(id, batterySize, batteryConsumption,\n batteryEfficiency, currentBattery, weight,\n frontalArea, motorPower, pharmacyNif, payload)
+}
+
+class DroneDB {
+  +addDrone(drone)
+}
+
+
+AddDroneUI ..> AddDroneController
+AddDroneController ..> Application
+AddDroneController ..> DroneRegister
+Application "1" --> "1" DroneDB: has
+DroneRegister..>DroneDB
+@enduml

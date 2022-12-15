@@ -1,0 +1,30 @@
+@startuml
+hide methods
+left to right direction
+
+class Client {
+
+}
+
+class System {
+
+}
+
+class User {
+
+}
+
+class Catalogue {
+
+}
+
+
+Client "1" -- "1" User: acts as >
+Client "1" -- "1" Catalogue: checks >
+
+Catalogue "1" -- "1..*" Item: has >
+
+System "1" -- "1..*" User: has >
+System "1" -- "1" Catalogue: has >
+
+@enduml

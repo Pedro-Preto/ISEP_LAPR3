@@ -1,0 +1,42 @@
+@startuml
+hide methods
+left to right direction
+
+
+class Client {
+    -Integer id
+    -String name
+    -String emailAddress
+    -String password
+    -String cellphone
+    -Integer nif
+    -Integer numberOfCredits
+}
+
+
+
+class Application {
+
+}
+
+
+class Order {
+    - id Integer
+}
+
+class Pharmacy {
+    -Integer id
+    -String designation
+    -String nif
+}
+class User {
+    -Integer id
+    -String name
+    -String emailAddress
+    -String password
+}
+Client "1" -- "1" User: acts as >
+Client "1" -- "0..*" Order: creates >
+Pharmacy "1" -- "0..*" Order: has >
+Application "1" -- "1" Pharmacy: has >
+@enduml

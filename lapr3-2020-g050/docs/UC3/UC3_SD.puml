@@ -1,0 +1,63 @@
+@startuml
+autonumber
+
+actor "Client" as CLI
+participant ":CheckOrderStatusUI" as UI
+participant ":CheckOrderStatusController" as CTRL
+participant ":Application" as SYS
+participant ":Order" as O
+participant ":OrderRegister" as OR
+participant ":ReceipRegister" as RR
+participant ":ReceipDB" as RRDB
+
+activate CLI
+CLI -> UI : Access the orders made by the clients
+activate UI
+
+UI -> CTRL : getReceipDB()
+activate CTRL
+
+CTRL -> SYS : getReceipDB()
+activate SYS
+deactivate SYS
+
+deactivate CTRL
+
+
+UI --> CLI :Shows the orders
+
+deactivate UI
+
+CLI -> UI : Assigns the orders to each Courier \naccording to his payload
+activate UI
+activate  CTRL
+UI -->CTRL :checkClientOrderStatus(orderId, clientNIF)
+CTRL --> OR: checkClientOrderStatus(orderId, clientNIF)
+activate OR
+OR -->OR:checkClientOrders(clientNIF)
+OR--> RR:getReceiptByClientNif(clientNIF)
+activate RR
+RR-->RRDB:getReceiptByClientNif(clientNIF)
+
+activate RRDB
+deactivate CTRL
+
+deactivate RRDB
+deactivate RR
+deactivate OR
+
+UI --> CLI : presents the data and asks for confirmation
+deactivate UI
+
+CLI -> UI : Confirms
+activate UI
+UI --> CLI : Presents the success of the operation
+deactivate UI
+
+
+deactivate CTRL
+
+deactivate UI
+
+deactivate CLI
+@enduml

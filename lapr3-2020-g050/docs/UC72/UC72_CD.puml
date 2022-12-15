@@ -1,0 +1,48 @@
+@startuml
+
+left to right direction
+
+class RegisterCourierUI {
+}
+
+class RegisterCourierController {
+    +newCourier(name, NIF, email, cellphone)
+    +registerCourier()
+}
+
+class ApplicationEM {
++{static} ApplicationEM getInstance()
++Platform getPlatform()
+}
+
+class Platform {
+  -String designation
+ +CourierRegister getCourierRegister()
+}
+
+class Courier{
+  -String name
+  -String NIF
+  -String cellphone
+  -String email
+  +createCourier(name, NIF,cellphone, email)
+}
+
+
+class CourierRegister {
+    -list<Organization> lst_couriers
+    +createCourier(name, NIF, cellphone, email)
+    +registerCourier(courier, pwd)
+    -validateCourier(courier, pwd)
+    -addCourier(courier)
+}
+
+
+RegisterCourierUI ..> RegisterCourierController
+RegisterCourierController ..> ApplicationEM
+RegisterCourierController ..> Platform
+RegisterCourierController ..> CourierRegister
+CourierRegister "1" --> "*" Courier: has registered
+Platform "1" ..> "1" CourierRegister: has
+
+@enduml

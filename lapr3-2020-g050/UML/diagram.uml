@@ -1,0 +1,2668 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="7578.804282445566" y="530.0">lapr.project.data.ParkSlotDB</node>
+    <node x="1286.066488110022" y="1360.0">lapr.project.model.DomainClasses.Order</node>
+    <node x="4705.176543718754" y="100.0">lapr.project.data.DataHandler</node>
+    <node x="3340.073388971633" y="1700.0">lapr.project.data.DeliveryDB</node>
+    <node x="423.5" y="2310.0">lapr.project.model.Registers.CreditsRegister</node>
+    <node x="8294.949197837106" y="530.0">lapr.project.data.ScooterParkDB</node>
+    <node x="10481.962039389682" y="0.0">lapr.project.model.DomainClasses.Vehicle</node>
+    <node x="2168.3160360304564" y="1700.0">lapr.project.data.PharmacyDB</node>
+    <node x="8189.28895160552" y="3510.0">lapr.project.controller.CheckScootersBatteryController</node>
+    <node x="649.566488110022" y="2310.0">lapr.project.model.Registers.PharmacyAdministratorRegister</node>
+    <node x="12371.732715412229" y="0.0">lapr.project.model.DomainClasses.Constants</node>
+    <node x="10953.233400812664" y="810.0">lapr.project.model.Registers.CourierRegister</node>
+    <node x="8003.091602900398" y="1360.0">lapr.project.data.UserRoleDB</node>
+    <node x="2467.3160360304564" y="1700.0">lapr.project.data.ClientDB</node>
+    <node x="5991.183583014427" y="1700.0">lapr.project.data.DroneDB</node>
+    <node x="7711.28895160552" y="3510.0">lapr.project.controller.AddScooterController</node>
+    <node x="7838.843185178879" y="1360.0">lapr.project.data.UserDB</node>
+    <node x="1915.3785360304564" y="810.0">lapr.project.model.BinaryTrees.BSTInterface</node>
+    <node x="3883.573388971633" y="1700.0">lapr.project.data.AerialPathDB</node>
+    <node x="4249.198388971632" y="2310.0">lapr.project.model.Registers.LandPathRegister</node>
+    <node x="9815.756185622791" y="2310.0">lapr.project.controller.LoginController</node>
+    <node x="1417.6910360304564" y="2310.0">lapr.project.model.Registers.ItemsOfOrderRegister</node>
+    <node x="10172.889518956124" y="810.0">lapr.project.model.autorization.model</node>
+    <node x="3967.073388971633" y="2310.0">lapr.project.model.Registers.AerialPathRegister</node>
+    <node x="5430.456452212738" y="2310.0">lapr.project.model.DomainClasses.Catalogue</node>
+    <node x="2962.8160360304564" y="3510.0">lapr.project.controller.RemovePharmacyController</node>
+    <node x="4911.049299152962" y="810.0">lapr.project.model.DomainClasses.Path</node>
+    <node x="4729.198388971632" y="3510.0">lapr.project.controller.CheckCatalogueController</node>
+    <node x="6764.562815241884" y="3510.0">lapr.project.controller.UpdateDroneController</node>
+    <node x="632.5" y="1700.0">lapr.project.data.PharmacyAdministratorDB</node>
+    <node x="5563.992844617802" y="2920.0">lapr.project.model.DomainClasses.Platform</node>
+    <node x="3046.2586444058406" y="1360.0">lapr.project.model.DomainClasses.Client</node>
+    <node x="10606.64142091891" y="4000.0">lapr.project.controller.DistanceLandMapController</node>
+    <node x="7938.28895160552" y="3510.0">lapr.project.controller.UpdateScooterController</node>
+    <node x="7695.449197837106" y="100.0">lapr.project.model.DomainClasses.ParkSlot</node>
+    <node x="1095.6071428571422" y="1700.0">lapr.project.model.Registers.ReceiptRegister</node>
+    <node x="1951.3785360304564" y="1360.0">lapr.project.model.BinaryTrees.BST</node>
+    <node x="10637.389518956124" y="1360.0">lapr.project.model.MatrixGraph.AdjacencyMatrixGraph</node>
+    <node x="8495.28895160552" y="3510.0">lapr.project.controller.RemoveScooterController</node>
+    <node x="10968.14142091891" y="4280.0">lapr.project.controller.DeliverySimulationsController</node>
+    <node x="1130.8109878086343" y="2310.0">lapr.project.model.Registers.OrderRegister</node>
+    <node x="10926.983400812664" y="530.0">lapr.project.data.CourierDB</node>
+    <node x="9548.368580580775" y="2310.0">lapr.project.model.Registers.ScooterRegister</node>
+    <node x="1434.6243693637898" y="1360.0">lapr.project.model.DomainClasses.ItemsOfOrder</node>
+    <node x="6419.321839982966" y="4280.0">lapr.project.controller.RegisterClientController</node>
+    <node x="6738.54339314101" y="2310.0">lapr.project.model.Registers.DroneRegister</node>
+    <node x="5061.5342991529615" y="1360.0">lapr.project.model.DomainClasses.LandPath</node>
+    <node x="2728.8160360304564" y="3510.0">lapr.project.controller.CheckOrdersController</node>
+    <node x="10140.889518956124" y="2310.0">lapr.project.model.Registers.AddressRegister</node>
+    <node x="10327.889518956124" y="1700.0">lapr.project.model.MatrixGraph.EdgeAsDoubleGraphAlgorithms</node>
+    <node x="11893.41119848286" y="4000.0">lapr.project.controller.EnergyLandMapController</node>
+    <node x="1068.316488110022" y="810.0">lapr.project.model.DomainClasses.Receipt</node>
+    <node x="8575.503645329263" y="4000.0">lapr.project.controller.RegistrationController</node>
+    <node x="11018.875805875956" y="1700.0">lapr.project.data.GeoLocationDB</node>
+    <node x="10675.462039389682" y="100.0">lapr.project.model.DomainClasses.Scooter</node>
+    <node x="1148.066488110022" y="1360.0">lapr.project.data.ReceiptDB</node>
+    <node x="10609.889518956124" y="1700.0">lapr.project.model.MatrixGraph.GraphAlgorithms</node>
+    <node x="7282.859197837106" y="810.0">lapr.project.model.Registers.ParkSlotRegister</node>
+    <node x="7838.824197837106" y="810.0">lapr.project.data.ItemDB</node>
+    <node x="7990.598090242171" y="1700.0">lapr.project.data.AddressDB</node>
+    <node x="2469.3160360304564" y="3510.0">lapr.project.controller.CheckCreditsController</node>
+    <node x="8286.549197837106" y="810.0">lapr.project.model.Registers.ScooterParkRegister</node>
+    <node x="1398.1910360304564" y="1700.0">lapr.project.data.ItemsOfOrderDB</node>
+    <node x="107.19148811002196" y="1360.0">lapr.project.model.DomainClasses.Stock</node>
+    <node x="6120.4835830144275" y="3510.0">lapr.project.controller.AddScooterParkController</node>
+    <node x="4867.549299152962" y="1360.0">lapr.project.model.DomainClasses.AerialPath</node>
+    <node x="972.6071428571422" y="1700.0">lapr.project.data.OrderDB</node>
+    <node x="6998.562815241884" y="3510.0">lapr.project.controller.RemoveDroneController</node>
+    <node x="7676.843185178879" y="1360.0">lapr.project.model.Registers.ItemRegister</node>
+    <node x="1805.3785360304564" y="1360.0">lapr.project.model.DomainClasses.StockItems</node>
+    <node x="12166.41119848286" y="1360.0">lapr.project.model.DomainClasses.Address</node>
+    <node x="6484.660973128044" y="1360.0">lapr.project.model.DomainClasses.DronePark</node>
+    <node x="5645.116648536685" y="2310.0">lapr.project.model.Registers.DroneParkRegister</node>
+    <node x="642.4764881100218" y="1360.0">lapr.project.model.DomainClasses.PharmacyAdministrator</node>
+    <node x="4850.698388971632" y="4000.0">lapr.project.controller.ManagePharmaciesController</node>
+    <node x="10013.972852289458" y="1360.0">lapr.project.model.DomainClasses.Drone</node>
+    <node x="8653.529102900398" y="1360.0">lapr.project.controller.ScooterNotificationsController</node>
+    <node x="4046.573388971633" y="1700.0">lapr.project.data.LandPathDB</node>
+    <node x="11155.64142091891" y="4000.0">lapr.project.controller.EnergyAerialMapController</node>
+    <node x="4701.176543718754" y="0.0">lapr.project.data.ScriptRunner</node>
+    <node x="10872.64142091891" y="4000.0">lapr.project.controller.DistanceAerialMapController</node>
+    <node x="404.06648811002196" y="1360.0">lapr.project.model.DomainClasses.Credits</node>
+    <node x="3804.240055638299" y="1360.0">lapr.project.model.DomainClasses.Delivery</node>
+    <node x="7819.598090242171" y="1700.0">lapr.project.controller.ApplicationEM</node>
+    <node x="5834.901612710239" y="3510.0">lapr.project.controller.AddDroneParkController</node>
+    <node x="2571.5883012685854" y="4520.0">lapr.project.controller.MakeOrderController</node>
+    <node x="10903.125805875956" y="2310.0">lapr.project.model.DomainClasses.LocationNet</node>
+    <node x="0.0" y="1700.0">lapr.project.data.StockDB</node>
+    <node x="3161.073388971633" y="2310.0">lapr.project.model.Registers.ClientRegister</node>
+    <node x="7588.824197837106" y="810.0">lapr.project.model.Registers.ChargingStationRegister</node>
+    <node x="3722.073388971633" y="2310.0">lapr.project.model.Registers.DeliveryRegister</node>
+    <node x="1588.1910360304564" y="1700.0">lapr.project.data.StockItemsDB</node>
+    <node x="8293.249197837107" y="100.0">lapr.project.model.DomainClasses.ScooterPark</node>
+    <node x="8155.949197837106" y="530.0">lapr.project.data.ScooterDB</node>
+    <node x="2292.9410360304573" y="1360.0">lapr.project.model.DomainClasses.Pharmacy</node>
+    <node x="3487.073388971633" y="3510.0">lapr.project.controller.AddPharmacyController</node>
+    <node x="1961.0035360304564" y="2310.0">lapr.project.model.Registers.StockItemsRegister</node>
+    <node x="4455.198388971632" y="3510.0">lapr.project.controller.CheckOrderStatusController</node>
+    <node x="12292.70237495345" y="1360.0">lapr.project.model.DomainClasses.GeoLocation</node>
+    <node x="7747.804282445566" y="530.0">lapr.project.data.ChargingStationDB</node>
+    <node x="8611.753645329263" y="4280.0">lapr.project.controller.RegisterCourierController</node>
+    <node x="2320.8160360304564" y="2310.0">lapr.project.model.Registers.PharmacyRegister</node>
+    <node x="10943.245587585576" y="3510.0">lapr.project.controller.MapController</node>
+    <node x="6554.562815241884" y="3510.0">lapr.project.controller.AddDroneController</node>
+    <node x="12299.000805875954" y="100.0">lapr.project.model.DomainClasses.Courier</node>
+    <node x="10181.077018956124" y="530.0">lapr.project.model.DomainClasses.Item</node>
+    <node x="11057.125805875956" y="2310.0">lapr.project.model.Registers.GeoLocationRegister</node>
+    <node x="145.0" y="2310.0">lapr.project.model.Registers.StockRegister</node>
+    <node x="273.5" y="1700.0">lapr.project.data.CreditsDB</node>
+    <node x="1734.0035360304564" y="3510.0">lapr.project.controller.CheckStockController</node>
+    <node x="9469.154078229696" y="3510.0">lapr.project.utils</node>
+    <node x="7879.324197837106" y="100.0">lapr.project.model.DomainClasses.ChargingStation</node>
+    <node x="8120.449197837106" y="0.0">lapr.project.model.DomainClasses.Park</node>
+    <node x="11662.91119848286" y="1360.0">lapr.project.model.autorization.AutorizationFacade</node>
+    <node x="5296.209152414405" y="1700.0">lapr.project.data.DroneParkDB</node>
+    <node x="10677.389518956124" y="810.0">lapr.project.model.MatrixGraph.BasicGraph</node>
+    <node x="1776.7535360304564" y="1700.0">lapr.project.model.BinaryTrees.AVL</node>
+    <node x="7303.220769787338" y="3510.0">lapr.project.controller.AddItemsToPharmacyStockController</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="lapr.project.model.Registers.StockItemsRegister" target="lapr.project.model.DomainClasses.StockItems">
+      <point x="23.75" y="-15.0" />
+      <point x="2079.7535360304564" y="2290.0" />
+      <point x="2098.0035360304564" y="2290.0" />
+      <point x="2098.0035360304564" y="1650.0" />
+      <point x="1907.7535360304564" y="1650.0" />
+      <point x="39.375" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.EnergyAerialMapController" target="lapr.project.utils">
+      <point x="-76.875" y="-15.0" />
+      <point x="11201.76642091891" y="3650.0" />
+      <point x="9580.820744896362" y="3650.0" />
+      <point x="44.66666666666606" y="15.0" />
+    </edge>
+    <edge source="lapr.project.model.DomainClasses.Catalogue" target="lapr.project.model.BinaryTrees.AVL">
+      <point x="-29.5" y="-15.0" />
+      <point x="5459.956452212738" y="2240.0" />
+      <point x="1811.7535360304564" y="2240.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="lapr.project.model.Registers.ItemsOfOrderRegister" target="lapr.project.model.DomainClasses.ItemsOfOrder">
+      <point x="25.75" y="-15.0" />
+      <point x="1546.4410360304564" y="2290.0" />
+      <point x="1566.6910360304564" y="2290.0" />
+      <point x="1566.6910360304564" y="1610.0" />
+      <point x="1534.0243693637904" y="1610.0" />
+      <point x="28.400000000000546" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.ManagePharmaciesController" target="lapr.project.utils">
+      <point x="101.59999999999991" y="-15.0" />
+      <point x="5079.298388971632" y="3810.0" />
+      <point x="9491.48741156303" y="3810.0" />
+      <point x="-44.66666666666606" y="15.0" />
+    </edge>
+    <edge source="lapr.project.model.Registers.CourierRegister" target="lapr.project.model.DomainClasses.Courier">
+      <point x="20.75" y="-15.0" />
+      <point x="11056.983400812664" y="780.0" />
+      <point x="12256.66747254262" y="780.0" />
+      <point x="12256.66747254262" y="490.0" />
+      <point x="12327.334139209288" y="490.0" />
+      <point x="-22.66666666666606" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.AddPharmacyController" target="lapr.project.model.Registers.StockRegister">
+      <point x="-89.16666666666652" y="-15.0" />
+      <point x="3504.9067223049665" y="3170.0" />
+      <point x="812.066488110022" y="3170.0" />
+      <point x="812.066488110022" y="2860.0" />
+      <point x="207.5" y="2860.0" />
+      <point x="-12.5" y="15.0" />
+    </edge>
+    <edge source="lapr.project.model.Registers.PharmacyRegister" target="lapr.project.model.DomainClasses.Pharmacy">
+      <point x="65.25" y="-15.0" />
+      <point x="2473.0660360304564" y="2290.0" />
+      <point x="2456.8160360304564" y="2290.0" />
+      <point x="2456.8160360304564" y="1670.0" />
+      <point x="2393.7743693637904" y="1670.0" />
+      <point x="45.83333333333303" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.EnergyAerialMapController" target="lapr.project.controller.MapController">
+      <point x="15.375" y="-15.0" />
+      <point x="11294.01642091891" y="3620.0" />
+      <point x="11051.57892091891" y="3620.0" />
+      <point x="33.33333333333394" y="15.0" />
+    </edge>
+    <edge source="lapr.project.data.GeoLocationDB" target="lapr.project.model.DomainClasses.GeoLocation">
+      <point x="18.75" y="-15.0" />
+      <point x="11112.625805875956" y="1670.0" />
+      <point x="12298.793284044361" y="1670.0" />
+      <point x="-60.90909090909008" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.RegistrationController" target="lapr.project.model.autorization.AutorizationFacade">
+      <point x="31.714285714286234" y="-15.0" />
+      <point x="8718.21793104355" y="3850.0" />
+      <point x="11841.04247254262" y="3850.0" />
+      <point x="11841.04247254262" y="1610.0" />
+      <point x="11833.91119848286" y="1610.0" />
+      <point x="76.0" y="15.0" />
+    </edge>
+    <edge source="lapr.project.data.OrderDB" target="lapr.project.model.DomainClasses.Order">
+      <point x="12.75" y="-15.0" />
+      <point x="1036.3571428571422" y="1670.0" />
+      <point x="1293.233154776689" y="1670.0" />
+      <point x="-35.83333333333337" y="15.0" />
+    </edge>
+    <edge source="lapr.project.model.Registers.DeliveryRegister" target="lapr.project.data.DeliveryDB">
+      <point x="-65.25" y="-15.0" />
+      <point x="3743.823388971633" y="2290.0" />
+      <point x="3371.573388971633" y="2290.0" />
+      <point x="-31.5" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.ManagePharmaciesController" target="lapr.project.model.Registers.ReceiptRegister">
+      <point x="-101.59999999999991" y="-15.0" />
+      <point x="4876.098388971633" y="3980.0" />
+      <point x="1120.3109878086343" y="3980.0" />
+      <point x="1120.3109878086343" y="2290.0" />
+      <point x="1131.1785714285706" y="2290.0" />
+      <point x="-47.42857142857156" y="15.0" />
+    </edge>
+    <edge source="lapr.project.data.DeliveryDB" target="lapr.project.data.DataHandler">
+      <point x="-47.25" y="-15.0" />
+      <point x="3355.823388971633" y="1630.0" />
+      <point x="3017.411144405841" y="1630.0" />
+      <point x="3017.411144405841" y="450.0" />
+      <point x="4754.756543718754" y="450.0" />
+      <point x="-17.420000000000073" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.CheckCreditsController" target="lapr.project.model.Registers.CreditsRegister">
+      <point x="-55.5" y="-15.0" />
+      <point x="2524.8160360304564" y="3220.0" />
+      <point x="579.566488110022" y="3220.0" />
+      <point x="579.566488110022" y="2890.0" />
+      <point x="473.3000000000002" y="2890.0" />
+      <point x="-33.19999999999982" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.MakeOrderController" target="lapr.project.model.Registers.CreditsRegister">
+      <point x="-79.75" y="-15.0" />
+      <point x="2590.8383012685854" y="4470.0" />
+      <point x="374.9436584114419" y="4470.0" />
+      <point x="374.9436584114419" y="2890.0" />
+      <point x="440.10000000000036" y="2890.0" />
+      <point x="-66.39999999999964" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.RegisterClientController" target="lapr.project.model.DomainClasses.Client">
+      <point x="-102.0" y="-15.0" />
+      <point x="6436.321839982966" y="4260.0" />
+      <point x="2718.3160360304564" y="4260.0" />
+      <point x="2718.3160360304564" y="1680.0" />
+      <point x="3099.1336444058406" y="1680.0" />
+      <point x="5.875" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.DeliverySimulationsController" target="lapr.project.controller.MapController">
+      <point x="6.3181818181819835" y="-15.0" />
+      <point x="11113.459602737092" y="4130.0" />
+      <point x="11145.14142091891" y="4130.0" />
+      <point x="11145.14142091891" y="3830.0" />
+      <point x="11018.245587585576" y="3830.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="lapr.project.model.Registers.ScooterRegister" target="lapr.project.model.DomainClasses.Scooter">
+      <point x="69.16666666666697" y="-15.0" />
+      <point x="9700.53524724744" y="2210.0" />
+      <point x="11652.41119848286" y="2210.0" />
+      <point x="11652.41119848286" y="190.0" />
+      <point x="10739.212039389682" y="190.0" />
+      <point x="12.75" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.ScooterNotificationsController" target="lapr.project.model.DomainClasses.ParkSlot">
+      <point x="-17.875" y="-15.0" />
+      <point x="8778.654102900398" y="920.0" />
+      <point x="8497.199197837106" y="920.0" />
+      <point x="8497.199197837106" y="230.0" />
+      <point x="7794.449197837106" y="230.0" />
+      <point x="44.0" y="15.0" />
+    </edge>
+    <edge source="lapr.project.model.Registers.ReceiptRegister" target="lapr.project.data.ReceiptDB">
+      <point x="20.75" y="-15.0" />
+      <point x="1199.3571428571422" y="1660.0" />
+      <point x="1177.566488110022" y="1660.0" />
+      <point x="-29.5" y="15.0" />
+    </edge>
+    <edge source="lapr.project.data.DroneDB" target="lapr.project.model.DomainClasses.Drone">
+      <point x="12.75" y="-15.0" />
+      <point x="6054.933583014427" y="1600.0" />
+      <point x="10021.139518956124" y="1600.0" />
+      <point x="-35.83333333333303" y="15.0" />
+    </edge>
+    <edge source="lapr.project.model.DomainClasses.Catalogue" target="lapr.project.model.DomainClasses.Item">
+      <point x="29.5" y="-15.0" />
+      <point x="5518.956452212738" y="1840.0" />
+      <point x="6103.683583014427" y="1840.0" />
+      <point x="6103.683583014427" y="1590.0" />
+      <point x="6613.160973128044" y="1590.0" />
+      <point x="6613.160973128044" y="1150.0" />
+      <point x="8156.449197837106" y="1150.0" />
+      <point x="8156.449197837106" y="700.0" />
+      <point x="10205.452018956124" y="700.0" />
+      <point x="-14.625" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.AddScooterController" target="lapr.project.model.DomainClasses.Platform">
+      <point x="-68.66666666666652" y="-15.0" />
+      <point x="7745.622284938854" y="3110.0" />
+      <point x="5652.471105487368" y="3110.0" />
+      <point x="33.47826086956502" y="15.0" />
+    </edge>
+    <edge source="lapr.project.model.BinaryTrees.AVL" target="lapr.project.model.BinaryTrees.BST">
+      <point x="-17.5" y="-15.0" />
+      <point x="1794.2535360304564" y="1670.0" />
+      <point x="1968.8785360304564" y="1670.0" />
+      <point x="-17.5" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.DeliverySimulationsController" target="lapr.project.model.DomainClasses.Courier">
+      <point x="120.04545454545405" y="-15.0" />
+      <point x="11227.186875464364" y="4250.0" />
+      <point x="12459.20237495345" y="4250.0" />
+      <point x="12459.20237495345" y="490.0" />
+      <point x="12384.000805875954" y="490.0" />
+      <point x="34.0" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.AddDroneParkController" target="lapr.project.model.Registers.ChargingStationRegister">
+      <point x="44.399999999999636" y="-15.0" />
+      <point x="5990.301612710238" y="3370.0" />
+      <point x="6125.683583014427" y="3370.0" />
+      <point x="6125.683583014427" y="1090.0" />
+      <point x="7722.990864503774" y="1090.0" />
+      <point x="19.16666666666697" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.MakeOrderController" target="lapr.project.model.Registers.OrderRegister">
+      <point x="-46.75" y="-15.0" />
+      <point x="2623.8383012685854" y="4410.0" />
+      <point x="1087.3109878086343" y="4410.0" />
+      <point x="1087.3109878086343" y="2890.0" />
+      <point x="1143.3109878086343" y="2890.0" />
+      <point x="-62.5" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.LoginController" target="lapr.project.controller.ApplicationEM">
+      <point x="-55.33333333333303" y="-15.0" />
+      <point x="9843.422852289457" y="1780.0" />
+      <point x="7962.779908423989" y="1780.0" />
+      <point x="68.18181818181802" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.AddScooterController" target="lapr.project.controller.ApplicationEM">
+      <point x="0.0" y="-15.0" />
+      <point x="7814.28895160552" y="2150.0" />
+      <point x="7912.779908423989" y="2150.0" />
+      <point x="18.181818181818016" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.CheckOrdersController" target="lapr.project.model.DomainClasses.Order">
+      <point x="-26.75" y="-15.0" />
+      <point x="2809.0660360304564" y="3200.0" />
+      <point x="1376.3160360304564" y="3200.0" />
+      <point x="1376.3160360304564" y="1680.0" />
+      <point x="1364.899821443355" y="1680.0" />
+      <point x="35.83333333333303" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.ApplicationEM" target="lapr.project.controller.ScooterNotificationsController">
+      <point x="-9.375" y="-15.0" />
+      <point x="7885.223090242171" y="1570.0" />
+      <point x="8682.129102900399" y="1570.0" />
+      <point x="-114.39999999999964" y="15.0" />
+    </edge>
+    <edge source="lapr.project.model.Registers.PharmacyAdministratorRegister" target="lapr.project.data.PharmacyAdministratorDB">
+      <point x="-104.25" y="-15.0" />
+      <point x="684.316488110022" y="2290.0" />
+      <point x="690.0" y="2290.0" />
+      <point x="-57.5" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.MapController" target="lapr.project.controller.ApplicationEM">
+      <point x="-42.85714285714312" y="-15.0" />
+      <point x="10975.388444728433" y="2980.0" />
+      <point x="10589.924226162593" y="2980.0" />
+      <point x="10589.924226162593" y="2640.0" />
+      <point x="9805.256185622791" y="2640.0" />
+      <point x="9805.256185622791" y="1790.0" />
+      <point x="7958.234453878535" y="1790.0" />
+      <point x="63.63636363636397" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.MapController" target="lapr.project.model.DomainClasses.LocationNet">
+      <point x="21.42857142857065" y="-15.0" />
+      <point x="11039.674159014146" y="3430.0" />
+      <point x="11029.245587585576" y="3430.0" />
+      <point x="11029.245587585576" y="2830.0" />
+      <point x="11023.725805875954" y="2830.0" />
+      <point x="53.600000000000364" y="15.0" />
+    </edge>
+    <edge source="lapr.project.data.StockItemsDB" target="lapr.project.data.DataHandler">
+      <point x="-53.25" y="-15.0" />
+      <point x="1605.9410360304564" y="1610.0" />
+      <point x="1633.1285360304564" y="1610.0" />
+      <point x="1633.1285360304564" y="390.0" />
+      <point x="4738.676543718754" y="390.0" />
+      <point x="-33.5" y="15.0" />
+    </edge>
+    <edge source="lapr.project.utils" target="lapr.project.model.Registers.ClientRegister">
+      <point x="-47.294117647059466" y="-15.0" />
+      <point x="9488.859960582637" y="3050.0" />
+      <point x="3230.198388971633" y="3050.0" />
+      <point x="-9.875" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.AddPharmacyController" target="lapr.project.model.Registers.PharmacyAdministratorRegister">
+      <point x="-53.5" y="-15.0" />
+      <point x="3540.573388971633" y="3160.0" />
+      <point x="1109.3109878086343" y="3160.0" />
+      <point x="1109.3109878086343" y="2840.0" />
+      <point x="765.399821443355" y="2840.0" />
+      <point x="-23.16666666666697" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.MapController" target="lapr.project.model.Registers.GeoLocationRegister">
+      <point x="42.85714285714312" y="-15.0" />
+      <point x="11061.102730442719" y="3430.0" />
+      <point x="11125.695587585575" y="3430.0" />
+      <point x="11125.695587585575" y="2880.0" />
+      <point x="11205.625805875956" y="2880.0" />
+      <point x="49.5" y="15.0" />
+    </edge>
+    <edge source="lapr.project.model.DomainClasses.Scooter" target="lapr.project.model.DomainClasses.Vehicle">
+      <point x="-34.0" y="-15.0" />
+      <point x="10692.462039389682" y="80.0" />
+      <point x="10553.362039389682" y="80.0" />
+      <point x="20.399999999999636" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.MakeOrderController" target="lapr.project.model.DomainClasses.Client">
+      <point x="2.75" y="-15.0" />
+      <point x="2673.3383012685854" y="4330.0" />
+      <point x="2701.8160360304564" y="4330.0" />
+      <point x="2701.8160360304564" y="1670.0" />
+      <point x="3087.3836444058406" y="1670.0" />
+      <point x="-5.875" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.RemoveScooterController" target="lapr.project.model.DomainClasses.Platform">
+      <point x="-76.66666666666652" y="-15.0" />
+      <point x="8533.622284938854" y="3080.0" />
+      <point x="5666.818931574324" y="3080.0" />
+      <point x="47.826086956521976" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.RemovePharmacyController" target="lapr.project.model.Registers.PharmacyRegister">
+      <point x="-29.75" y="-15.0" />
+      <point x="3052.0660360304564" y="3180.0" />
+      <point x="2374.8160360304564" y="3180.0" />
+      <point x="2374.8160360304564" y="2900.0" />
+      <point x="2369.1493693637904" y="2900.0" />
+      <point x="-38.66666666666606" y="15.0" />
+    </edge>
+    <edge source="lapr.project.data.StockItemsDB" target="lapr.project.model.DomainClasses.StockItems">
+      <point x="17.75" y="-15.0" />
+      <point x="1676.9410360304564" y="1640.0" />
+      <point x="1844.7535360304564" y="1640.0" />
+      <point x="-23.625" y="15.0" />
+    </edge>
+    <edge source="lapr.project.model.Registers.PharmacyAdministratorRegister" target="lapr.project.model.DomainClasses.PharmacyAdministrator">
+      <point x="104.25" y="-15.0" />
+      <point x="892.816488110022" y="2290.0" />
+      <point x="884.7086309671649" y="2290.0" />
+      <point x="884.7086309671649" y="1650.0" />
+      <point x="841.1907738243071" y="1650.0" />
+      <point x="91.71428571428532" y="15.0" />
+    </edge>
+    <edge source="lapr.project.data.ItemDB" target="lapr.project.model.DomainClasses.Item">
+      <point x="11.75" y="-15.0" />
+      <point x="7897.574197837106" y="680.0" />
+      <point x="10185.952018956124" y="680.0" />
+      <point x="-34.125" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.DistanceLandMapController" target="lapr.project.model.DomainClasses.Address">
+      <point x="61.5" y="-15.0" />
+      <point x="10791.14142091891" y="3860.0" />
+      <point x="12237.20237495345" y="3860.0" />
+      <point x="12237.20237495345" y="1620.0" />
+      <point x="12231.011198482862" y="1620.0" />
+      <point x="13.600000000000364" y="15.0" />
+    </edge>
+    <edge source="lapr.project.data.CreditsDB" target="lapr.project.model.DomainClasses.Credits">
+      <point x="14.75" y="-15.0" />
+      <point x="347.25" y="1650.0" />
+      <point x="412.56648811002196" y="1650.0" />
+      <point x="-42.5" y="15.0" />
+    </edge>
+    <edge source="lapr.project.data.PharmacyAdministratorDB" target="lapr.project.data.DataHandler">
+      <point x="86.25" y="-15.0" />
+      <point x="833.75" y="1680.0" />
+      <point x="877.9764881100218" y="1680.0" />
+      <point x="877.9764881100218" y="320.0" />
+      <point x="4719.916543718754" y="320.0" />
+      <point x="-52.26000000000022" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.DistanceLandMapController" target="lapr.project.model.DomainClasses.LandPath">
+      <point x="-102.5" y="-15.0" />
+      <point x="10627.14142091891" y="3700.0" />
+      <point x="4444.698388971632" y="3700.0" />
+      <point x="4444.698388971632" y="1680.0" />
+      <point x="5133.0342991529615" y="1680.0" />
+      <point x="16.5" y="15.0" />
+    </edge>
+    <edge source="lapr.project.model.Registers.OrderRegister" target="lapr.project.model.DomainClasses.Order">
+      <point x="42.85714285714312" y="-15.0" />
+      <point x="1248.6681306657774" y="2280.0" />
+      <point x="1325.816488110022" y="2280.0" />
+      <point x="1325.816488110022" y="1680.0" />
+      <point x="1321.899821443355" y="1680.0" />
+      <point x="-7.16666666666697" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.RegistrationController" target="lapr.project.utils">
+      <point x="0.0" y="-15.0" />
+      <point x="8686.503645329263" y="3820.0" />
+      <point x="9506.376300451919" y="3820.0" />
+      <point x="-29.777777777777374" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.AddScooterController" target="lapr.project.model.Registers.ScooterRegister">
+      <point x="68.66666666666652" y="-15.0" />
+      <point x="7882.955618272187" y="3350.0" />
+      <point x="9650.440009152202" y="3350.0" />
+      <point x="9650.440009152202" y="2640.0" />
+      <point x="9631.368580580775" y="2640.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="lapr.project.data.LandPathDB" target="lapr.project.data.DataHandler">
+      <point x="-15.75" y="-15.0" />
+      <point x="4093.823388971633" y="1530.0" />
+      <point x="3987.154477739174" y="1530.0" />
+      <point x="3987.154477739174" y="500.0" />
+      <point x="4768.156543718754" y="500.0" />
+      <point x="-4.020000000000437" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.RemoveDroneController" target="lapr.project.model.DomainClasses.Platform">
+      <point x="-71.33333333333303" y="-15.0" />
+      <point x="7034.229481908551" y="3270.0" />
+      <point x="5642.905888096064" y="3270.0" />
+      <point x="23.913043478260988" y="15.0" />
+    </edge>
+    <edge source="lapr.project.data.ScooterDB" target="lapr.project.model.DomainClasses.Scooter">
+      <point x="14.75" y="-15.0" />
+      <point x="8229.699197837106" y="450.0" />
+      <point x="10679.712039389682" y="450.0" />
+      <point x="-46.75" y="15.0" />
+    </edge>
+    <edge source="lapr.project.model.DomainClasses.DronePark" target="lapr.project.model.DomainClasses.Park">
+      <point x="-29.5" y="-15.0" />
+      <point x="6514.160973128044" y="1130.0" />
+      <point x="8134.449197837106" y="1130.0" />
+      <point x="8134.449197837106" y="80.0" />
+      <point x="8130.199197837106" y="80.0" />
+      <point x="-29.25" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.MakeOrderController" target="lapr.project.model.Registers.ReceiptRegister">
+      <point x="-52.25" y="-15.0" />
+      <point x="2618.3383012685854" y="4420.0" />
+      <point x="1081.8109878086343" y="4420.0" />
+      <point x="1081.8109878086343" y="2290.0" />
+      <point x="1107.4642857142853" y="2290.0" />
+      <point x="-71.14285714285688" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.CheckOrdersController" target="lapr.project.controller.ApplicationEM">
+      <point x="80.25" y="-15.0" />
+      <point x="2916.0660360304564" y="3390.0" />
+      <point x="7211.180116386118" y="3390.0" />
+      <point x="7211.180116386118" y="2000.0" />
+      <point x="7844.598090242171" y="2000.0" />
+      <point x="-50.0" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.ScooterNotificationsController" target="lapr.project.model.DomainClasses.Platform">
+      <point x="0.0" y="15.0" />
+      <point x="8796.560749133507" y="2160.0" />
+      <point x="7375.452843658846" y="2160.0" />
+      <point x="7375.452843658846" y="2610.0" />
+      <point x="5648.233350946915" y="2610.0" />
+      <point x="29.240506329113487" y="-15.0" />
+    </edge>
+    <edge source="lapr.project.controller.UpdateScooterController" target="lapr.project.controller.ApplicationEM">
+      <point x="0.0" y="-15.0" />
+      <point x="8053.28895160552" y="2130.0" />
+      <point x="7921.870817514897" y="2130.0" />
+      <point x="27.272727272727025" y="15.0" />
+    </edge>
+    <edge source="lapr.project.data.AerialPathDB" target="lapr.project.model.DomainClasses.AerialPath">
+      <point x="17.75" y="-15.0" />
+      <point x="3972.323388971633" y="1550.0" />
+      <point x="4876.549299152962" y="1550.0" />
+      <point x="-54.0" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.ApplicationEM" target="lapr.project.model.autorization.model">
+      <point x="28.125" y="-15.0" />
+      <point x="7922.723090242171" y="1590.0" />
+      <point x="8950.029102900398" y="1590.0" />
+      <point x="8950.029102900398" y="1290.0" />
+      <point x="10256.639518956124" y="1290.0" />
+      <point x="16.75" y="15.0" />
+    </edge>
+    <edge source="lapr.project.model.DomainClasses.LocationNet" target="lapr.project.model.MatrixGraph.EdgeAsDoubleGraphAlgorithms">
+      <point x="-55.83333333333394" y="-15.0" />
+      <point x="10914.29247254262" y="2190.0" />
+      <point x="10458.889518956124" y="2190.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="lapr.project.model.Registers.ScooterParkRegister" target="lapr.project.model.DomainClasses.ScooterPark">
+      <point x="-79.19999999999982" y="-15.0" />
+      <point x="8306.349197837108" y="670.0" />
+      <point x="8284.449197837106" y="670.0" />
+      <point x="8284.449197837106" y="440.0" />
+      <point x="8306.649197837107" y="440.0" />
+      <point x="-53.600000000000364" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.UpdateScooterController" target="lapr.project.model.Registers.ScooterRegister">
+      <point x="76.66666666666652" y="-15.0" />
+      <point x="8129.955618272187" y="3360.0" />
+      <point x="9764.106675818868" y="3360.0" />
+      <point x="9764.106675818868" y="2630.0" />
+      <point x="9655.082866295059" y="2630.0" />
+      <point x="23.714285714285325" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.CheckOrderStatusController" target="lapr.project.model.Registers.OrderRegister">
+      <point x="-84.66666666666652" y="-15.0" />
+      <point x="4497.531722304966" y="3140.0" />
+      <point x="2293.8160360304564" y="3140.0" />
+      <point x="2293.8160360304564" y="2890.0" />
+      <point x="1193.3109878086343" y="2890.0" />
+      <point x="-12.5" y="15.0" />
+    </edge>
+    <edge source="lapr.project.model.DomainClasses.Platform" target="lapr.project.model.DomainClasses.LocationNet">
+      <point x="44.55696202531635" y="-15.0" />
+      <point x="5663.549806643119" y="2810.0" />
+      <point x="10916.525805875954" y="2810.0" />
+      <point x="-53.600000000000364" y="15.0" />
+    </edge>
+    <edge source="lapr.project.data.AerialPathDB" target="lapr.project.data.DataHandler">
+      <point x="-17.75" y="-15.0" />
+      <point x="3936.823388971633" y="1610.0" />
+      <point x="3786.240055638299" y="1610.0" />
+      <point x="3786.240055638299" y="480.0" />
+      <point x="4762.796543718754" y="480.0" />
+      <point x="-9.38000000000011" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.DeliverySimulationsController" target="lapr.project.utils">
+      <point x="-82.13636363636397" y="-15.0" />
+      <point x="11025.005057282546" y="4110.0" />
+      <point x="9536.154078229696" y="4110.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.AddScooterParkController" target="lapr.project.model.DomainClasses.Platform">
+      <point x="-95.20000000000073" y="-15.0" />
+      <point x="6144.283583014427" y="3320.0" />
+      <point x="5628.558062009106" y="3320.0" />
+      <point x="9.565217391304031" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.RemoveDroneController" target="lapr.project.model.Registers.DroneRegister">
+      <point x="0.0" y="-15.0" />
+      <point x="7105.562815241884" y="3260.0" />
+      <point x="6888.935798204301" y="3260.0" />
+      <point x="6888.935798204301" y="2540.0" />
+      <point x="6876.04339314101" y="2540.0" />
+      <point x="62.5" y="15.0" />
+    </edge>
+    <edge source="lapr.project.model.DomainClasses.Platform" target="lapr.project.model.Registers.ItemRegister">
+      <point x="15.316455696202866" y="-15.0" />
+      <point x="5634.309300314006" y="2480.0" />
+      <point x="6504.79339314101" y="2480.0" />
+      <point x="6504.79339314101" y="1890.0" />
+      <point x="7435.129577583943" y="1890.0" />
+      <point x="7435.129577583943" y="1500.0" />
+      <point x="7765.593185178879" y="1500.0" />
+      <point x="17.75" y="15.0" />
+    </edge>
+    <edge source="lapr.project.model.DomainClasses.Platform" target="lapr.project.model.Registers.ItemsOfOrderRegister">
+      <point x="-33.41772151898749" y="-15.0" />
+      <point x="5585.575123098815" y="2680.0" />
+      <point x="1494.9410360304564" y="2680.0" />
+      <point x="-25.75" y="15.0" />
+    </edge>
+    <edge source="lapr.project.model.DomainClasses.Platform" target="lapr.project.model.Registers.DroneParkRegister">
+      <point x="1.392405063291335" y="-15.0" />
+      <point x="5620.385249681094" y="2370.0" />
+      <point x="5667.866648536685" y="2370.0" />
+      <point x="-68.25" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.MakeOrderController" target="lapr.project.model.Registers.ItemsOfOrderRegister">
+      <point x="-30.25" y="-15.0" />
+      <point x="2640.3383012685854" y="4380.0" />
+      <point x="1603.1910360304564" y="4380.0" />
+      <point x="1603.1910360304564" y="2900.0" />
+      <point x="1443.4410360304564" y="2900.0" />
+      <point x="-77.25" y="15.0" />
+    </edge>
+    <edge source="lapr.project.model.DomainClasses.Platform" target="lapr.project.model.Registers.ScooterRegister">
+      <point x="30.63291139240482" y="-15.0" />
+      <point x="5649.625756010208" y="2620.0" />
+      <point x="9560.225723437918" y="2620.0" />
+      <point x="-71.14285714285688" y="15.0" />
+    </edge>
+    <edge source="lapr.project.model.Registers.ChargingStationRegister" target="lapr.project.model.DomainClasses.ChargingStation">
+      <point x="28.75" y="-15.0" />
+      <point x="7732.574197837106" y="660.0" />
+      <point x="7940.304282445566" y="660.0" />
+      <point x="7940.304282445566" y="510.0" />
+      <point x="7983.074197837106" y="510.0" />
+      <point x="20.75" y="15.0" />
+    </edge>
+    <edge source="lapr.project.data.PharmacyDB" target="lapr.project.model.DomainClasses.Pharmacy">
+      <point x="15.75" y="-15.0" />
+      <point x="2247.0660360304564" y="1650.0" />
+      <point x="2302.1077026971243" y="1650.0" />
+      <point x="-45.83333333333303" y="15.0" />
+    </edge>
+    <edge source="lapr.project.data.UserDB" target="lapr.project.model.autorization.model">
+      <point x="11.75" y="-15.0" />
+      <point x="7897.593185178879" y="1250.0" />
+      <point x="10211.972852289458" y="1250.0" />
+      <point x="-27.916666666666515" y="15.0" />
+    </edge>
+    <edge source="lapr.project.model.Registers.GeoLocationRegister" target="lapr.project.model.DomainClasses.GeoLocation">
+      <point x="74.25" y="-15.0" />
+      <point x="11230.375805875956" y="2290.0" />
+      <point x="12340.23966505599" y="2290.0" />
+      <point x="12340.23966505599" y="1680.0" />
+      <point x="12335.338738589813" y="1680.0" />
+      <point x="-24.363636363636033" y="15.0" />
+    </edge>
+    <edge source="lapr.project.data.CreditsDB" target="lapr.project.data.DataHandler">
+      <point x="-44.25" y="-15.0" />
+      <point x="288.25" y="1680.0" />
+      <point x="297.5" y="1680.0" />
+      <point x="297.5" y="290.0" />
+      <point x="4711.876543718754" y="290.0" />
+      <point x="-60.30000000000018" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.EnergyLandMapController" target="lapr.project.model.DomainClasses.LandPath">
+      <point x="-102.22222222222263" y="-15.0" />
+      <point x="11906.188976260637" y="3610.0" />
+      <point x="5285.709152414405" y="3610.0" />
+      <point x="5285.709152414405" y="1680.0" />
+      <point x="5144.0342991529615" y="1680.0" />
+      <point x="27.5" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.AddPharmacyController" target="lapr.project.model.DomainClasses.Platform">
+      <point x="17.833333333333485" y="-15.0" />
+      <point x="3611.9067223049665" y="3290.0" />
+      <point x="5585.514583748238" y="3290.0" />
+      <point x="-33.47826086956502" y="15.0" />
+    </edge>
+    <edge source="lapr.project.utils" target="lapr.project.utils">
+      <point x="-59.55555555555566" y="15.0" />
+      <point x="9476.59852267414" y="3560.0" />
+      <point x="9449.154078229696" y="3560.0" />
+      <point x="9449.154078229696" y="3525.0" />
+      <point x="-67.0" y="-0.0" />
+    </edge>
+    <edge source="lapr.project.controller.EnergyLandMapController" target="lapr.project.model.DomainClasses.Scooter">
+      <point x="0.0" y="-15.0" />
+      <point x="12008.41119848286" y="160.0" />
+      <point x="10764.712039389682" y="160.0" />
+      <point x="38.25" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.CheckCatalogueController" target="lapr.project.model.DomainClasses.Catalogue">
+      <point x="-89.25" y="-15.0" />
+      <point x="4758.948388971632" y="3230.0" />
+      <point x="5528.692844617803" y="3230.0" />
+      <point x="5528.692844617803" y="2900.0" />
+      <point x="5442.2564522127395" y="2900.0" />
+      <point x="-47.19999999999982" y="15.0" />
+    </edge>
+    <edge source="lapr.project.model.Registers.ScooterParkRegister" target="lapr.project.controller.ApplicationEM">
+      <point x="49.5" y="15.0" />
+      <point x="8435.049197837106" y="1220.0" />
+      <point x="7992.591602900398" y="1220.0" />
+      <point x="7992.591602900398" y="1560.0" />
+      <point x="7866.473090242171" y="1560.0" />
+      <point x="-28.125" y="-15.0" />
+    </edge>
+    <edge source="lapr.project.controller.ApplicationEM" target="lapr.project.model.DomainClasses.Constants">
+      <point x="65.625" y="-15.0" />
+      <point x="7960.223090242171" y="1630.0" />
+      <point x="12155.91119848286" y="1630.0" />
+      <point x="12155.91119848286" y="70.0" />
+      <point x="12408.607715412229" y="70.0" />
+      <point x="-22.125" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.ApplicationEM" target="lapr.project.data.DataHandler">
+      <point x="-46.875" y="-15.0" />
+      <point x="7847.723090242171" y="1460.0" />
+      <point x="5037.354299152962" y="1460.0" />
+      <point x="5037.354299152962" y="460.0" />
+      <point x="4784.236543718755" y="460.0" />
+      <point x="12.0600000000004" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.CheckStockController" target="lapr.project.model.DomainClasses.StockItems">
+      <point x="12.875" y="-15.0" />
+      <point x="1849.8785360304564" y="3490.0" />
+      <point x="1857.2535360304564" y="3490.0" />
+      <point x="1857.2535360304564" y="1660.0" />
+      <point x="1876.2535360304564" y="1660.0" />
+      <point x="7.875" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.DistanceLandMapController" target="lapr.project.utils">
+      <point x="-61.5" y="-15.0" />
+      <point x="10668.14142091891" y="3690.0" />
+      <point x="9551.042967118585" y="3690.0" />
+      <point x="14.888888888888687" y="15.0" />
+    </edge>
+    <edge source="lapr.project.data.UserRoleDB" target="lapr.project.data.DataHandler">
+      <point x="-15.75" y="-15.0" />
+      <point x="8050.341602900398" y="970.0" />
+      <point x="7467.359197837106" y="970.0" />
+      <point x="7467.359197837106" y="390.0" />
+      <point x="4802.996543718754" y="390.0" />
+      <point x="30.81999999999971" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.DistanceLandMapController" target="lapr.project.controller.MapController">
+      <point x="-20.5" y="-15.0" />
+      <point x="10709.14142091891" y="3830.0" />
+      <point x="10951.57892091891" y="3830.0" />
+      <point x="-66.66666666666606" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.UpdateScooterController" target="lapr.project.model.DomainClasses.Platform">
+      <point x="-76.66666666666652" y="-15.0" />
+      <point x="7976.622284938854" y="3100.0" />
+      <point x="5657.25371418302" y="3100.0" />
+      <point x="38.260869565217035" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.CheckScootersBatteryController" target="lapr.project.model.Registers.ScooterRegister">
+      <point x="95.33333333333303" y="-15.0" />
+      <point x="8427.622284938854" y="3370.0" />
+      <point x="9775.106675818868" y="3370.0" />
+      <point x="9775.106675818868" y="2620.0" />
+      <point x="9678.797152009345" y="2620.0" />
+      <point x="47.42857142857156" y="15.0" />
+    </edge>
+    <edge source="lapr.project.data.PharmacyAdministratorDB" target="lapr.project.model.DomainClasses.PharmacyAdministrator">
+      <point x="-86.25" y="-15.0" />
+      <point x="661.25" y="1650.0" />
+      <point x="749.4764881100218" y="1650.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.RemovePharmacyController" target="lapr.project.controller.ApplicationEM">
+      <point x="89.25" y="-15.0" />
+      <point x="3171.0660360304564" y="3400.0" />
+      <point x="7215.725570931574" y="3400.0" />
+      <point x="7215.725570931574" y="2010.0" />
+      <point x="7849.143544787625" y="2010.0" />
+      <point x="-45.45454545454504" y="15.0" />
+    </edge>
+    <edge source="lapr.project.data.ReceiptDB" target="lapr.project.model.DomainClasses.Receipt">
+      <point x="-44.25" y="-15.0" />
+      <point x="1162.816488110022" y="1340.0" />
+      <point x="1151.191488110022" y="1340.0" />
+      <point x="31.875" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.MapController" target="lapr.project.model.Registers.AddressRegister">
+      <point x="-21.42857142857065" y="-15.0" />
+      <point x="10996.817016157005" y="2970.0" />
+      <point x="10933.912254252242" y="2970.0" />
+      <point x="10933.912254252242" y="2630.0" />
+      <point x="10296.514518956124" y="2630.0" />
+      <point x="72.625" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.RegisterCourierController" target="lapr.project.controller.RegistrationController">
+      <point x="-20.5" y="-15.0" />
+      <point x="27.75" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.RegistrationController" target="lapr.project.model.DomainClasses.Client">
+      <point x="-63.42857142857065" y="-15.0" />
+      <point x="8623.07507390069" y="3720.0" />
+      <point x="3329.573388971633" y="3720.0" />
+      <point x="3329.573388971633" y="1660.0" />
+      <point x="3134.3836444058406" y="1660.0" />
+      <point x="41.125" y="15.0" />
+    </edge>
+    <edge source="lapr.project.model.Registers.OrderRegister" target="lapr.project.model.DomainClasses.Receipt">
+      <point x="-21.42857142857156" y="-15.0" />
+      <point x="1184.3824163800628" y="2260.0" />
+      <point x="1085.1071428571422" y="2260.0" />
+      <point x="1085.1071428571422" y="1340.0" />
+      <point x="1112.941488110022" y="1340.0" />
+      <point x="-6.375" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.MakeOrderController" target="lapr.project.model.DomainClasses.PharmacyAdministrator">
+      <point x="-74.25" y="-15.0" />
+      <point x="2596.3383012685854" y="4460.0" />
+      <point x="380.4436584114419" y="4460.0" />
+      <point x="380.4436584114419" y="2900.0" />
+      <point x="600.0" y="2900.0" />
+      <point x="600.0" y="1620.0" />
+      <point x="657.7622023957365" y="1620.0" />
+      <point x="-91.71428571428532" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.AddItemsToPharmacyStockController" target="lapr.project.model.Registers.StockItemsRegister">
+      <point x="-116.25" y="-15.0" />
+      <point x="7341.970769787338" y="3130.0" />
+      <point x="2396.8160360304564" y="3130.0" />
+      <point x="2396.8160360304564" y="2880.0" />
+      <point x="2040.1702026971234" y="2880.0" />
+      <point x="-15.83333333333303" y="15.0" />
+    </edge>
+    <edge source="lapr.project.utils" target="lapr.project.model.Registers.PharmacyRegister">
+      <point x="-63.05882352941262" y="-15.0" />
+      <point x="9473.095254700283" y="3070.0" />
+      <point x="2407.8160360304564" y="3070.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.MakeOrderController" target="lapr.project.model.DomainClasses.LandPath">
+      <point x="24.75" y="-15.0" />
+      <point x="2695.3383012685854" y="4370.0" />
+      <point x="4238.698388971633" y="4370.0" />
+      <point x="4238.698388971633" y="1640.0" />
+      <point x="5089.0342991529615" y="1640.0" />
+      <point x="-27.5" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.RegisterCourierController" target="lapr.project.model.Registers.CourierRegister">
+      <point x="61.5" y="-15.0" />
+      <point x="8796.253645329263" y="4160.0" />
+      <point x="11641.41119848286" y="4160.0" />
+      <point x="11641.41119848286" y="1340.0" />
+      <point x="11105.400067479331" y="1340.0" />
+      <point x="69.16666666666697" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.CheckStockController" target="lapr.project.model.DomainClasses.Platform">
+      <point x="64.375" y="-15.0" />
+      <point x="1901.3785360304564" y="3250.0" />
+      <point x="5566.384148965628" y="3250.0" />
+      <point x="-52.60869565217399" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.RegistrationController" target="lapr.project.model.DomainClasses.Constants">
+      <point x="95.14285714285688" y="-15.0" />
+      <point x="8781.646502472118" y="3960.0" />
+      <point x="12481.20237495345" y="3960.0" />
+      <point x="12481.20237495345" y="80.0" />
+      <point x="12438.107715412229" y="80.0" />
+      <point x="7.375" y="15.0" />
+    </edge>
+    <edge source="lapr.project.data.ItemsOfOrderDB" target="lapr.project.model.DomainClasses.ItemsOfOrder">
+      <point x="-13.166666666666515" y="-15.0" />
+      <point x="1464.0243693637904" y="1680.0" />
+      <point x="1477.2243693637893" y="1680.0" />
+      <point x="-28.40000000000009" y="15.0" />
+    </edge>
+    <edge source="lapr.project.model.Registers.DroneParkRegister" target="lapr.project.data.DroneParkDB">
+      <point x="-68.25" y="-15.0" />
+      <point x="5667.866648536685" y="1830.0" />
+      <point x="5329.709152414405" y="1830.0" />
+      <point x="-33.5" y="15.0" />
+    </edge>
+    <edge source="lapr.project.model.Registers.GeoLocationRegister" target="lapr.project.data.GeoLocationDB">
+      <point x="-74.25" y="-15.0" />
+      <point x="11081.875805875956" y="2200.0" />
+      <point x="11056.375805875956" y="2200.0" />
+      <point x="-37.5" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.RemoveScooterController" target="lapr.project.controller.ApplicationEM">
+      <point x="0.0" y="-15.0" />
+      <point x="8610.28895160552" y="2100.0" />
+      <point x="7935.507181151261" y="2100.0" />
+      <point x="40.90909090909099" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.DistanceLandMapController" target="lapr.project.model.DomainClasses.GeoLocation">
+      <point x="102.5" y="-15.0" />
+      <point x="10832.14142091891" y="3910.0" />
+      <point x="12375.872017997166" y="3910.0" />
+      <point x="12375.872017997166" y="1680.0" />
+      <point x="12371.884193135269" y="1680.0" />
+      <point x="12.181818181818016" y="15.0" />
+    </edge>
+    <edge source="lapr.project.model.DomainClasses.Platform" target="lapr.project.model.Registers.StockRegister">
+      <point x="-54.30379746835388" y="-15.0" />
+      <point x="5564.689047149448" y="2830.0" />
+      <point x="232.5" y="2830.0" />
+      <point x="12.5" y="15.0" />
+    </edge>
+    <edge source="lapr.project.model.Registers.ChargingStationRegister" target="lapr.project.data.ChargingStationDB">
+      <point x="-86.25" y="-15.0" />
+      <point x="7617.574197837106" y="640.0" />
+      <point x="7793.304282445566" y="640.0" />
+      <point x="-45.5" y="15.0" />
+    </edge>
+    <edge source="lapr.project.model.DomainClasses.Platform" target="lapr.project.model.Registers.AddressRegister">
+      <point x="36.20253164556925" y="-15.0" />
+      <point x="5655.195376263371" y="2710.0" />
+      <point x="10151.264518956124" y="2710.0" />
+      <point x="-72.625" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.MakeOrderController" target="lapr.project.model.DomainClasses.Address">
+      <point x="90.75" y="-15.0" />
+      <point x="2761.3383012685854" y="4490.0" />
+      <point x="12271.20237495345" y="4490.0" />
+      <point x="12271.20237495345" y="1570.0" />
+      <point x="12265.011198482862" y="1570.0" />
+      <point x="47.600000000000364" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.MakeOrderController" target="lapr.project.utils">
+      <point x="52.25" y="-15.0" />
+      <point x="2722.8383012685854" y="4420.0" />
+      <point x="9034.521502472118" y="4420.0" />
+      <point x="9034.521502472118" y="3830.0" />
+      <point x="9521.265189340807" y="3830.0" />
+      <point x="-14.888888888888687" y="15.0" />
+    </edge>
+    <edge source="lapr.project.model.DomainClasses.Platform" target="lapr.project.model.Registers.CourierRegister">
+      <point x="40.37974683544326" y="-15.0" />
+      <point x="5659.372591453246" y="2780.0" />
+      <point x="10889.840995749371" y="2780.0" />
+      <point x="10889.840995749371" y="1330.0" />
+      <point x="11050.066734145996" y="1330.0" />
+      <point x="13.83333333333303" y="15.0" />
+    </edge>
+    <edge source="lapr.project.model.DomainClasses.AerialPath" target="lapr.project.model.DomainClasses.Path">
+      <point x="31.5" y="-15.0" />
+      <point x="4962.049299152962" y="1340.0" />
+      <point x="4940.299299152962" y="1340.0" />
+      <point x="-9.75" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.MakeOrderController" target="lapr.project.model.DomainClasses.StockItems">
+      <point x="-24.75" y="-15.0" />
+      <point x="2645.8383012685854" y="4370.0" />
+      <point x="1950.5035360304564" y="4370.0" />
+      <point x="1950.5035360304564" y="1660.0" />
+      <point x="1892.0035360304564" y="1660.0" />
+      <point x="23.625" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.MakeOrderController" target="lapr.project.controller.DeliverySimulationsController">
+      <point x="68.75" y="-15.0" />
+      <point x="2739.3383012685854" y="4450.0" />
+      <point x="11037.64142091891" y="4450.0" />
+      <point x="-69.5" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.RegistrationController" target="lapr.project.model.DomainClasses.Courier">
+      <point x="63.42857142857065" y="-15.0" />
+      <point x="8749.932216757832" y="3900.0" />
+      <point x="12282.20237495345" y="3900.0" />
+      <point x="12282.20237495345" y="510.0" />
+      <point x="12350.000805875954" y="510.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.ApplicationEM" target="lapr.project.model.DomainClasses.Platform">
+      <point x="-72.72727272727298" y="15.0" />
+      <point x="7821.870817514897" y="1950.0" />
+      <point x="6990.614595672655" y="1950.0" />
+      <point x="6990.614595672655" y="2570.0" />
+      <point x="5644.056135757042" y="2570.0" />
+      <point x="25.06329113924039" y="-15.0" />
+    </edge>
+    <edge source="lapr.project.controller.RemoveDroneController" target="lapr.project.controller.ApplicationEM">
+      <point x="71.33333333333303" y="-15.0" />
+      <point x="7176.896148575217" y="3490.0" />
+      <point x="7492.425315241884" y="3490.0" />
+      <point x="7492.425315241884" y="2090.0" />
+      <point x="7885.507181151261" y="2090.0" />
+      <point x="-9.090909090909008" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.MakeOrderController" target="lapr.project.controller.DistanceLandMapController">
+      <point x="63.25" y="-15.0" />
+      <point x="2733.8383012685854" y="4440.0" />
+      <point x="10647.64142091891" y="4440.0" />
+      <point x="-82.0" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.AddScooterParkController" target="lapr.project.controller.ApplicationEM">
+      <point x="95.20000000000073" y="-15.0" />
+      <point x="6334.683583014428" y="3460.0" />
+      <point x="7255.907389113392" y="3460.0" />
+      <point x="7255.907389113392" y="2060.0" />
+      <point x="7871.870817514897" y="2060.0" />
+      <point x="-22.727272727272975" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.MakeOrderController" target="lapr.project.model.DomainClasses.Platform">
+      <point x="30.25" y="-15.0" />
+      <point x="2700.8383012685854" y="4380.0" />
+      <point x="5115.198388971632" y="4380.0" />
+      <point x="5115.198388971632" y="3330.0" />
+      <point x="5604.645018530846" y="3330.0" />
+      <point x="-14.347826086956957" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.MakeOrderController" target="lapr.project.model.Registers.ClientRegister">
+      <point x="8.25" y="-15.0" />
+      <point x="2678.8383012685854" y="4340.0" />
+      <point x="2707.3160360304564" y="4340.0" />
+      <point x="2707.3160360304564" y="2900.0" />
+      <point x="3190.698388971633" y="2900.0" />
+      <point x="-49.375" y="15.0" />
+    </edge>
+    <edge source="lapr.project.model.Registers.CreditsRegister" target="lapr.project.data.CreditsDB">
+      <point x="-62.25" y="-15.0" />
+      <point x="444.25" y="2290.0" />
+      <point x="303.0" y="2290.0" />
+      <point x="-29.5" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.RegisterClientController" target="lapr.project.model.Registers.AddressRegister">
+      <point x="34.0" y="-15.0" />
+      <point x="6572.321839982966" y="4240.0" />
+      <point x="6603.071839982966" y="4240.0" />
+      <point x="6603.071839982966" y="3840.0" />
+      <point x="9977.67352312772" y="3840.0" />
+      <point x="9977.67352312772" y="2760.0" />
+      <point x="10255.014518956124" y="2760.0" />
+      <point x="31.125" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.ScooterNotificationsController" target="lapr.project.controller.ApplicationEM">
+      <point x="-57.19999999999982" y="15.0" />
+      <point x="8739.329102900398" y="1580.0" />
+      <point x="7903.973090242171" y="1580.0" />
+      <point x="9.375" y="-15.0" />
+    </edge>
+    <edge source="lapr.project.model.Registers.PharmacyRegister" target="lapr.project.data.PharmacyDB">
+      <point x="-65.24999999999955" y="-15.0" />
+      <point x="2342.5660360304564" y="2290.0" />
+      <point x="2199.8160360304564" y="2290.0" />
+      <point x="-31.5" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.ScooterNotificationsController" target="lapr.project.model.Registers.CourierRegister">
+      <point x="89.375" y="-15.0" />
+      <point x="8885.904102900398" y="1300.0" />
+      <point x="10967.066734145996" y="1300.0" />
+      <point x="-69.16666666666697" y="15.0" />
+    </edge>
+    <edge source="lapr.project.model.DomainClasses.Platform" target="lapr.project.model.autorization.AutorizationFacade">
+      <point x="54.30379746835479" y="-15.0" />
+      <point x="5673.296642086158" y="2900.0" />
+      <point x="11830.04247254262" y="2900.0" />
+      <point x="11830.04247254262" y="1620.0" />
+      <point x="11795.91119848286" y="1620.0" />
+      <point x="38.0" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.EnergyAerialMapController" target="lapr.project.model.DomainClasses.Address">
+      <point x="46.125" y="-15.0" />
+      <point x="11324.76642091891" y="3880.0" />
+      <point x="12250.802374953451" y="3880.0" />
+      <point x="12250.802374953451" y="1600.0" />
+      <point x="12244.61119848286" y="1600.0" />
+      <point x="27.200000000000728" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.MakeOrderController" target="lapr.project.model.DomainClasses.Courier">
+      <point x="96.25" y="-15.0" />
+      <point x="2766.8383012685854" y="4500.0" />
+      <point x="12470.20237495345" y="4500.0" />
+      <point x="12470.20237495345" y="480.0" />
+      <point x="12395.334139209288" y="480.0" />
+      <point x="45.33333333333394" y="15.0" />
+    </edge>
+    <edge source="lapr.project.model.DomainClasses.LandPath" target="lapr.project.model.DomainClasses.Path">
+      <point x="27.5" y="-15.0" />
+      <point x="5144.0342991529615" y="1320.0" />
+      <point x="4979.299299152962" y="1320.0" />
+      <point x="29.25" y="15.0" />
+    </edge>
+    <edge source="lapr.project.model.Registers.ItemsOfOrderRegister" target="lapr.project.data.ItemsOfOrderDB">
+      <point x="-77.25" y="-15.0" />
+      <point x="1443.4410360304564" y="2290.0" />
+      <point x="1437.6910360304564" y="2290.0" />
+      <point x="-39.5" y="15.0" />
+    </edge>
+    <edge source="lapr.project.data.ReceiptDB" target="lapr.project.data.DataHandler">
+      <point x="44.25" y="-15.0" />
+      <point x="1251.316488110022" y="1340.0" />
+      <point x="1332.6181547766892" y="1340.0" />
+      <point x="1332.6181547766892" y="360.0" />
+      <point x="4730.636543718754" y="360.0" />
+      <point x="-41.539999999999964" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.DeliverySimulationsController" target="lapr.project.model.DomainClasses.Drone">
+      <point x="-69.5" y="-15.0" />
+      <point x="11037.64142091891" y="4100.0" />
+      <point x="9874.606675818868" y="4100.0" />
+      <point x="9874.606675818868" y="2670.0" />
+      <point x="10079.639518956124" y="2670.0" />
+      <point x="10079.639518956124" y="1610.0" />
+      <point x="10078.472852289458" y="1610.0" />
+      <point x="21.5" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.DeliverySimulationsController" target="lapr.project.controller.DistanceAerialMapController">
+      <point x="-18.95454545454595" y="-15.0" />
+      <point x="11088.186875464364" y="4060.0" />
+      <point x="10938.14142091891" y="4060.0" />
+      <point x="-65.5" y="15.0" />
+    </edge>
+    <edge source="lapr.project.model.DomainClasses.Drone" target="lapr.project.model.DomainClasses.Vehicle">
+      <point x="-21.5" y="-15.0" />
+      <point x="10035.472852289458" y="900.0" />
+      <point x="8717.201782445567" y="900.0" />
+      <point x="8717.201782445567" y="60.0" />
+      <point x="10492.162039389681" y="60.0" />
+      <point x="-40.80000000000018" y="15.0" />
+    </edge>
+    <edge source="lapr.project.data.ItemsOfOrderDB" target="lapr.project.model.DomainClasses.StockItems">
+      <point x="39.5" y="-15.0" />
+      <point x="1516.6910360304564" y="1620.0" />
+      <point x="1813.2535360304564" y="1620.0" />
+      <point x="-55.125" y="15.0" />
+    </edge>
+    <edge source="lapr.project.model.Registers.StockRegister" target="lapr.project.model.DomainClasses.Stock">
+      <point x="18.75" y="-15.0" />
+      <point x="238.75" y="2290.0" />
+      <point x="252.0" y="2290.0" />
+      <point x="252.0" y="1680.0" />
+      <point x="171.69148811002196" y="1680.0" />
+      <point x="21.5" y="15.0" />
+    </edge>
+    <edge source="lapr.project.utils" target="lapr.project.model.Registers.AddressRegister">
+      <point x="7.882352941176578" y="-15.0" />
+      <point x="9544.036431170873" y="3410.0" />
+      <point x="9958.791170186541" y="3410.0" />
+      <point x="9958.791170186541" y="2750.0" />
+      <point x="10234.264518956124" y="2750.0" />
+      <point x="10.375" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.ScooterNotificationsController" target="lapr.project.model.Registers.ScooterParkRegister">
+      <point x="-53.625" y="-15.0" />
+      <point x="8742.904102900398" y="930.0" />
+      <point x="8468.049197837106" y="930.0" />
+      <point x="82.5" y="15.0" />
+    </edge>
+    <edge source="lapr.project.utils" target="lapr.project.model.DomainClasses.Scooter">
+      <point x="31.52941176470631" y="-15.0" />
+      <point x="9567.683489994402" y="3440.0" />
+      <point x="11874.41119848286" y="3440.0" />
+      <point x="11874.41119848286" y="180.0" />
+      <point x="10747.712039389682" y="180.0" />
+      <point x="21.25" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.AddScooterParkController" target="lapr.project.model.Registers.ScooterParkRegister">
+      <point x="47.600000000000364" y="-15.0" />
+      <point x="6287.083583014428" y="3370.0" />
+      <point x="7001.614595672655" y="3370.0" />
+      <point x="7001.614595672655" y="1940.0" />
+      <point x="7748.61059024217" y="1940.0" />
+      <point x="7748.61059024217" y="1550.0" />
+      <point x="7981.591602900398" y="1550.0" />
+      <point x="7981.591602900398" y="1210.0" />
+      <point x="8402.049197837106" y="1210.0" />
+      <point x="16.5" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.ManagePharmaciesController" target="lapr.project.model.Registers.PharmacyRegister">
+      <point x="-50.80000000000018" y="-15.0" />
+      <point x="4926.898388971633" y="3970.0" />
+      <point x="2363.8160360304564" y="3970.0" />
+      <point x="2363.8160360304564" y="2890.0" />
+      <point x="2349.8160360304564" y="2890.0" />
+      <point x="-58.0" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.AddDroneController" target="lapr.project.controller.ApplicationEM">
+      <point x="63.33333333333303" y="-15.0" />
+      <point x="6712.896148575217" y="3470.0" />
+      <point x="7260.452843658846" y="3470.0" />
+      <point x="7260.452843658846" y="2070.0" />
+      <point x="7876.416272060353" y="2070.0" />
+      <point x="-18.181818181818016" y="15.0" />
+    </edge>
+    <edge source="lapr.project.model.DomainClasses.Platform" target="lapr.project.model.Registers.GeoLocationRegister">
+      <point x="48.73417721518945" y="-15.0" />
+      <point x="5667.727021832992" y="2840.0" />
+      <point x="11073.625805875956" y="2840.0" />
+      <point x="-82.5" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.MakeOrderController" target="lapr.project.model.Registers.StockItemsRegister">
+      <point x="-19.25" y="-15.0" />
+      <point x="2651.3383012685854" y="4360.0" />
+      <point x="2130.3785360304564" y="4360.0" />
+      <point x="2130.3785360304564" y="2900.0" />
+      <point x="2008.5035360304564" y="2900.0" />
+      <point x="-47.5" y="15.0" />
+    </edge>
+    <edge source="lapr.project.data.StockDB" target="lapr.project.data.DataHandler">
+      <point x="-12.75" y="-15.0" />
+      <point x="38.25" y="1680.0" />
+      <point x="31.0" y="1680.0" />
+      <point x="31.0" y="280.0" />
+      <point x="4709.196543718755" y="280.0" />
+      <point x="-62.97999999999956" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.DeliverySimulationsController" target="lapr.project.model.DomainClasses.Platform">
+      <point x="-107.40909090909008" y="-15.0" />
+      <point x="10999.73233000982" y="4130.0" />
+      <point x="6803.799994730087" y="4130.0" />
+      <point x="6803.799994730087" y="3740.0" />
+      <point x="5274.709152414405" y="3740.0" />
+      <point x="5274.709152414405" y="3360.0" />
+      <point x="5618.992844617802" y="3360.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="lapr.project.data.UserRoleDB" target="lapr.project.model.autorization.model">
+      <point x="15.75" y="-15.0" />
+      <point x="8081.841602900398" y="1270.0" />
+      <point x="10234.30618562279" y="1270.0" />
+      <point x="-5.583333333333485" y="15.0" />
+    </edge>
+    <edge source="lapr.project.model.autorization.model" target="lapr.project.model.DomainClasses.Constants">
+      <point x="33.5" y="-15.0" />
+      <point x="10273.389518956124" y="770.0" />
+      <point x="12144.91119848286" y="770.0" />
+      <point x="12144.91119848286" y="60.0" />
+      <point x="12393.857715412229" y="60.0" />
+      <point x="-36.875" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.DeliverySimulationsController" target="lapr.project.model.DomainClasses.Address">
+      <point x="94.77272727272793" y="-15.0" />
+      <point x="11201.914148191638" y="4220.0" />
+      <point x="12264.40237495345" y="4220.0" />
+      <point x="12264.40237495345" y="1580.0" />
+      <point x="12258.211198482859" y="1580.0" />
+      <point x="40.79999999999927" y="15.0" />
+    </edge>
+    <edge source="lapr.project.data.DroneParkDB" target="lapr.project.model.DomainClasses.DronePark">
+      <point x="16.75" y="-15.0" />
+      <point x="5379.959152414405" y="1570.0" />
+      <point x="6499.410973128044" y="1570.0" />
+      <point x="-44.25" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.DeliverySimulationsController" target="lapr.project.controller.DistanceLandMapController">
+      <point x="-44.227272727272066" y="-15.0" />
+      <point x="11062.914148191638" y="4080.0" />
+      <point x="10729.64142091891" y="4080.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.CheckCatalogueController" target="lapr.project.controller.ApplicationEM">
+      <point x="89.25" y="-15.0" />
+      <point x="4937.448388971632" y="3440.0" />
+      <point x="7246.816480022482" y="3440.0" />
+      <point x="7246.816480022482" y="2040.0" />
+      <point x="7862.779908423989" y="2040.0" />
+      <point x="-31.818181818181984" y="15.0" />
+    </edge>
+    <edge source="lapr.project.model.DomainClasses.Platform" target="lapr.project.model.Registers.PharmacyRegister">
+      <point x="-25.06329113924039" y="-15.0" />
+      <point x="5593.9295534785615" y="2620.0" />
+      <point x="2446.4827026971225" y="2620.0" />
+      <point x="38.666666666666515" y="15.0" />
+    </edge>
+    <edge source="lapr.project.model.DomainClasses.Platform" target="lapr.project.model.DomainClasses.Catalogue">
+      <point x="-4.177215189873095" y="-15.0" />
+      <point x="5614.815629427929" y="2470.0" />
+      <point x="5489.456452212738" y="2470.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.AddDroneParkController" target="lapr.project.model.DomainClasses.Platform">
+      <point x="-88.80000000000018" y="-15.0" />
+      <point x="5857.1016127102375" y="3350.0" />
+      <point x="5623.775453313454" y="3350.0" />
+      <point x="4.782608695652016" y="15.0" />
+    </edge>
+    <edge source="lapr.project.model.Registers.ScooterRegister" target="lapr.project.controller.ApplicationEM">
+      <point x="-41.5" y="-15.0" />
+      <point x="9589.868580580775" y="1810.0" />
+      <point x="7953.688999333079" y="1810.0" />
+      <point x="59.09090909090901" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.DeliverySimulationsController" target="lapr.project.model.DomainClasses.LandPath">
+      <point x="-120.04545454545405" y="-15.0" />
+      <point x="10987.095966373456" y="4140.0" />
+      <point x="4433.698388971632" y="4140.0" />
+      <point x="4433.698388971632" y="1670.0" />
+      <point x="5122.0342991529615" y="1670.0" />
+      <point x="5.5" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.CheckOrdersController" target="lapr.project.model.DomainClasses.Platform">
+      <point x="26.75" y="-15.0" />
+      <point x="2862.5660360304564" y="3270.0" />
+      <point x="5575.949366356932" y="3270.0" />
+      <point x="-43.04347826086996" y="15.0" />
+    </edge>
+    <edge source="lapr.project.data.ClientDB" target="lapr.project.data.DataHandler">
+      <point x="-13.75" y="-15.0" />
+      <point x="2508.5660360304564" y="440.0" />
+      <point x="4752.076543718754" y="440.0" />
+      <point x="-20.100000000000364" y="15.0" />
+    </edge>
+    <edge source="lapr.project.model.DomainClasses.Platform" target="lapr.project.model.Registers.LandPathRegister">
+      <point x="-8.3544303797471" y="-15.0" />
+      <point x="5610.638414238056" y="2500.0" />
+      <point x="4278.198388971632" y="2500.0" />
+      <point x="-58.0" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.CheckStockController" target="lapr.project.controller.ApplicationEM">
+      <point x="90.125" y="-15.0" />
+      <point x="1927.1285360304564" y="3370.0" />
+      <point x="5731.117844617802" y="3370.0" />
+      <point x="5731.117844617802" y="2600.0" />
+      <point x="7202.08920729521" y="2600.0" />
+      <point x="7202.08920729521" y="1980.0" />
+      <point x="7835.507181151261" y="1980.0" />
+      <point x="-59.09090909090901" y="15.0" />
+    </edge>
+    <edge source="lapr.project.model.BinaryTrees.BST" target="lapr.project.model.BinaryTrees.BSTInterface">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.CheckOrdersController" target="lapr.project.model.Registers.OrderRegister">
+      <point x="-80.25" y="-15.0" />
+      <point x="2755.5660360304564" y="3210.0" />
+      <point x="1098.3109878086343" y="3210.0" />
+      <point x="1098.3109878086343" y="2900.0" />
+      <point x="1168.3109878086343" y="2900.0" />
+      <point x="-37.5" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.AddDroneController" target="lapr.project.model.DomainClasses.Platform">
+      <point x="-63.33333333333303" y="-15.0" />
+      <point x="6586.229481908551" y="3300.0" />
+      <point x="5633.340670704758" y="3300.0" />
+      <point x="14.347826086956047" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.EnergyLandMapController" target="lapr.project.model.DomainClasses.Constants">
+      <point x="102.22222222222263" y="-15.0" />
+      <point x="12110.633420705082" y="3980.0" />
+      <point x="12503.20237495345" y="3980.0" />
+      <point x="12503.20237495345" y="60.0" />
+      <point x="12467.607715412229" y="60.0" />
+      <point x="36.875" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.MakeOrderController" target="lapr.project.model.DomainClasses.Order">
+      <point x="-41.25" y="-15.0" />
+      <point x="2629.3383012685854" y="4400.0" />
+      <point x="1359.8160360304564" y="4400.0" />
+      <point x="1359.8160360304564" y="1680.0" />
+      <point x="1350.566488110022" y="1680.0" />
+      <point x="21.5" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.ManagePharmaciesController" target="lapr.project.model.DomainClasses.Platform">
+      <point x="0.0" y="-15.0" />
+      <point x="4977.698388971632" y="3320.0" />
+      <point x="5599.862409835194" y="3320.0" />
+      <point x="-19.130434782608972" y="15.0" />
+    </edge>
+    <edge source="lapr.project.data.ChargingStationDB" target="lapr.project.model.DomainClasses.ChargingStation">
+      <point x="22.75" y="-15.0" />
+      <point x="7861.554282445566" y="510.0" />
+      <point x="7900.074197837106" y="510.0" />
+      <point x="-62.25" y="15.0" />
+    </edge>
+    <edge source="lapr.project.utils" target="lapr.project.model.DomainClasses.Address">
+      <point x="47.294117647059466" y="-15.0" />
+      <point x="9583.448195876756" y="3460.0" />
+      <point x="12222.15237495345" y="3460.0" />
+      <point x="12222.15237495345" y="1640.0" />
+      <point x="12217.41119848286" y="1640.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.CheckScootersBatteryController" target="lapr.project.model.DomainClasses.Platform">
+      <point x="-95.33333333333303" y="-15.0" />
+      <point x="8236.955618272188" y="3090.0" />
+      <point x="5662.036322878672" y="3090.0" />
+      <point x="43.04347826086996" y="15.0" />
+    </edge>
+    <edge source="lapr.project.model.DomainClasses.LocationNet" target="lapr.project.model.MatrixGraph.AdjacencyMatrixGraph">
+      <point x="-11.16666666666606" y="-15.0" />
+      <point x="10958.959139209288" y="2170.0" />
+      <point x="10786.389518956123" y="2170.0" />
+      <point x="10786.389518956123" y="1610.0" />
+      <point x="10766.139518956124" y="1610.0" />
+      <point x="25.75" y="15.0" />
+    </edge>
+    <edge source="lapr.project.model.DomainClasses.Courier" target="lapr.project.model.DomainClasses.Constants">
+      <point x="0.0" y="-15.0" />
+      <point x="12350.000805875954" y="80.0" />
+      <point x="12423.357715412229" y="80.0" />
+      <point x="-7.375" y="15.0" />
+    </edge>
+    <edge source="lapr.project.model.DomainClasses.Platform" target="lapr.project.model.Registers.ScooterParkRegister">
+      <point x="16.70886075949329" y="-15.0" />
+      <point x="5635.701705377296" y="2490.0" />
+      <point x="6728.04339314101" y="2490.0" />
+      <point x="6728.04339314101" y="1910.0" />
+      <point x="7457.129577583943" y="1910.0" />
+      <point x="7457.129577583943" y="1520.0" />
+      <point x="7943.343185178879" y="1520.0" />
+      <point x="7943.343185178879" y="1180.0" />
+      <point x="8303.049197837106" y="1180.0" />
+      <point x="-82.5" y="15.0" />
+    </edge>
+    <edge source="lapr.project.model.Registers.OrderRegister" target="lapr.project.model.Registers.ReceiptRegister">
+      <point x="0.0" y="-15.0" />
+      <point x="1205.8109878086343" y="2250.0" />
+      <point x="1154.892857142856" y="2250.0" />
+      <point x="-23.71428571428578" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.DeliverySimulationsController" target="lapr.project.model.DomainClasses.GeoLocation">
+      <point x="107.40909090909008" y="-15.0" />
+      <point x="11214.550511828" y="4230.0" />
+      <point x="12419.872017997166" y="4230.0" />
+      <point x="60.90909090909008" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.CheckStockController" target="lapr.project.model.Registers.StockItemsRegister">
+      <point x="38.625" y="-15.0" />
+      <point x="1875.6285360304564" y="3240.0" />
+      <point x="1907.5660360304564" y="3240.0" />
+      <point x="1907.5660360304564" y="2900.0" />
+      <point x="1976.8368693637894" y="2900.0" />
+      <point x="-79.16666666666697" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.AddItemsToPharmacyStockController" target="lapr.project.model.DomainClasses.Platform">
+      <point x="-38.75" y="-15.0" />
+      <point x="7419.470769787338" y="3120.0" />
+      <point x="5647.688496791716" y="3120.0" />
+      <point x="28.695652173913004" y="15.0" />
+    </edge>
+    <edge source="lapr.project.model.Registers.AerialPathRegister" target="lapr.project.model.DomainClasses.AerialPath">
+      <point x="23.75" y="-15.0" />
+      <point x="4085.823388971633" y="2270.0" />
+      <point x="4036.073388971633" y="2270.0" />
+      <point x="4036.073388971633" y="1570.0" />
+      <point x="4912.549299152962" y="1570.0" />
+      <point x="-18.0" y="15.0" />
+    </edge>
+    <edge source="lapr.project.utils" target="lapr.project.model.Registers.GeoLocationRegister">
+      <point x="23.647058823529733" y="-15.0" />
+      <point x="9559.801137053226" y="3430.0" />
+      <point x="10320.352797591166" y="3430.0" />
+      <point x="10320.352797591166" y="2870.0" />
+      <point x="11172.625805875956" y="2870.0" />
+      <point x="16.5" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.RegisterClientController" target="lapr.project.controller.RegistrationController">
+      <point x="68.0" y="-15.0" />
+      <point x="6606.321839982966" y="4250.0" />
+      <point x="8603.253645329263" y="4250.0" />
+      <point x="-83.25" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.CheckStockController" target="lapr.project.model.Registers.PharmacyAdministratorRegister">
+      <point x="-12.875" y="-15.0" />
+      <point x="1824.1285360304564" y="3460.0" />
+      <point x="801.066488110022" y="3460.0" />
+      <point x="801.066488110022" y="2900.0" />
+      <point x="672.7331547766889" y="2900.0" />
+      <point x="-115.83333333333303" y="15.0" />
+    </edge>
+    <edge source="lapr.project.model.DomainClasses.Platform" target="lapr.project.model.Registers.ParkSlotRegister">
+      <point x="5.56962025316443" y="-15.0" />
+      <point x="5624.562464870967" y="2410.0" />
+      <point x="5848.616648536685" y="2410.0" />
+      <point x="5848.616648536685" y="1020.0" />
+      <point x="7326.359197837106" y="1020.0" />
+      <point x="-43.5" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.EnergyAerialMapController" target="lapr.project.model.DomainClasses.Drone">
+      <point x="-46.125" y="-15.0" />
+      <point x="11232.51642091891" y="3640.0" />
+      <point x="9885.606675818868" y="3640.0" />
+      <point x="9885.606675818868" y="2680.0" />
+      <point x="10090.639518956124" y="2680.0" />
+      <point x="10090.639518956124" y="1610.0" />
+      <point x="10092.80618562279" y="1610.0" />
+      <point x="35.83333333333303" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.MakeOrderController" target="lapr.project.model.DomainClasses.Receipt">
+      <point x="-68.75" y="-15.0" />
+      <point x="2601.8383012685854" y="4450.0" />
+      <point x="938.066488110022" y="4450.0" />
+      <point x="938.066488110022" y="1310.0" />
+      <point x="1074.691488110022" y="1310.0" />
+      <point x="-44.625" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.AddScooterParkController" target="lapr.project.model.Registers.ChargingStationRegister">
+      <point x="0.0" y="-15.0" />
+      <point x="6239.4835830144275" y="1100.0" />
+      <point x="7761.324197837106" y="1100.0" />
+      <point x="57.5" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.DeliverySimulationsController" target="lapr.project.controller.EnergyLandMapController">
+      <point x="69.5" y="-15.0" />
+      <point x="11176.64142091891" y="4190.0" />
+      <point x="11931.744531816195" y="4190.0" />
+      <point x="-76.66666666666606" y="15.0" />
+    </edge>
+    <edge source="lapr.project.model.Registers.ScooterParkRegister" target="lapr.project.data.ScooterParkDB">
+      <point x="-39.600000000000364" y="-15.0" />
+      <point x="8345.949197837106" y="670.0" />
+      <point x="8332.449197837106" y="670.0" />
+      <point x="-37.5" y="15.0" />
+    </edge>
+    <edge source="lapr.project.model.Registers.ParkSlotRegister" target="lapr.project.data.ParkSlotDB">
+      <point x="-65.25" y="-15.0" />
+      <point x="7304.609197837106" y="600.0" />
+      <point x="7610.304282445566" y="600.0" />
+      <point x="-31.5" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.ScooterNotificationsController" target="lapr.project.model.Registers.ChargingStationRegister">
+      <point x="-89.375" y="-15.0" />
+      <point x="8707.154102900398" y="940.0" />
+      <point x="7799.65753117044" y="940.0" />
+      <point x="95.83333333333303" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.DistanceAerialMapController" target="lapr.project.model.DomainClasses.Address">
+      <point x="65.5" y="-15.0" />
+      <point x="11069.14142091891" y="3870.0" />
+      <point x="12244.002374953448" y="3870.0" />
+      <point x="12244.002374953448" y="1610.0" />
+      <point x="12237.811198482861" y="1610.0" />
+      <point x="20.399999999999636" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.MakeOrderController" target="lapr.project.model.DomainClasses.ItemsOfOrder">
+      <point x="-35.75" y="-15.0" />
+      <point x="2634.8383012685854" y="4390.0" />
+      <point x="1365.3160360304564" y="4390.0" />
+      <point x="1365.3160360304564" y="2900.0" />
+      <point x="1387.3160360304564" y="2900.0" />
+      <point x="1387.3160360304564" y="1680.0" />
+      <point x="1448.8243693637896" y="1680.0" />
+      <point x="-56.80000000000018" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.MakeOrderController" target="lapr.project.model.Registers.StockRegister">
+      <point x="-90.75" y="-15.0" />
+      <point x="2579.8383012685854" y="4490.0" />
+      <point x="118.0" y="4490.0" />
+      <point x="118.0" y="2870.0" />
+      <point x="157.5" y="2870.0" />
+      <point x="-62.5" y="15.0" />
+    </edge>
+    <edge source="lapr.project.data.StockDB" target="lapr.project.model.DomainClasses.Stock">
+      <point x="12.75" y="-15.0" />
+      <point x="63.75" y="1650.0" />
+      <point x="114.35815477668893" y="1650.0" />
+      <point x="-35.833333333333485" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.EnergyAerialMapController" target="lapr.project.model.DomainClasses.GeoLocation">
+      <point x="76.875" y="-15.0" />
+      <point x="11355.51642091891" y="3930.0" />
+      <point x="12397.872017997166" y="3930.0" />
+      <point x="12397.872017997166" y="1680.0" />
+      <point x="12396.247829498905" y="1680.0" />
+      <point x="36.54545454545405" y="15.0" />
+    </edge>
+    <edge source="lapr.project.model.Registers.LandPathRegister" target="lapr.project.model.DomainClasses.LandPath">
+      <point x="65.25" y="-15.0" />
+      <point x="4401.448388971632" y="2290.0" />
+      <point x="4412.073388971632" y="2290.0" />
+      <point x="4412.073388971632" y="1660.0" />
+      <point x="5111.0342991529615" y="1660.0" />
+      <point x="-5.5" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.RemovePharmacyController" target="lapr.project.model.Registers.PharmacyAdministratorRegister">
+      <point x="-89.25" y="-15.0" />
+      <point x="2992.5660360304564" y="3190.0" />
+      <point x="823.066488110022" y="3190.0" />
+      <point x="823.066488110022" y="2850.0" />
+      <point x="719.066488110022" y="2850.0" />
+      <point x="-69.5" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.CheckCatalogueController" target="lapr.project.model.DomainClasses.Platform">
+      <point x="29.75" y="-15.0" />
+      <point x="4877.948388971632" y="3310.0" />
+      <point x="5595.079801139542" y="3310.0" />
+      <point x="-23.913043478260988" y="15.0" />
+    </edge>
+    <edge source="lapr.project.data.PharmacyDB" target="lapr.project.data.DataHandler">
+      <point x="-15.75" y="-15.0" />
+      <point x="2215.5660360304564" y="420.0" />
+      <point x="4746.716543718754" y="420.0" />
+      <point x="-25.460000000000036" y="15.0" />
+    </edge>
+    <edge source="lapr.project.model.Registers.ParkSlotRegister" target="lapr.project.model.DomainClasses.ParkSlot">
+      <point x="21.75" y="-15.0" />
+      <point x="7391.609197837106" y="620.0" />
+      <point x="7726.304282445566" y="620.0" />
+      <point x="7726.304282445566" y="500.0" />
+      <point x="7750.449197837106" y="500.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="lapr.project.data.GeoLocationDB" target="lapr.project.data.DataHandler">
+      <point x="-18.75" y="-15.0" />
+      <point x="11075.125805875956" y="1410.0" />
+      <point x="8467.821687508858" y="1410.0" />
+      <point x="8467.821687508858" y="960.0" />
+      <point x="8051.929282445566" y="960.0" />
+      <point x="8051.929282445566" y="320.0" />
+      <point x="4821.756543718754" y="320.0" />
+      <point x="49.57999999999993" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.DeliverySimulationsController" target="lapr.project.model.DomainClasses.Constants">
+      <point x="132.68181818181802" y="-15.0" />
+      <point x="11239.823239100728" y="4260.0" />
+      <point x="12514.20237495345" y="4260.0" />
+      <point x="12514.20237495345" y="50.0" />
+      <point x="12482.357715412229" y="50.0" />
+      <point x="51.625" y="15.0" />
+    </edge>
+    <edge source="lapr.project.model.DomainClasses.Platform" target="lapr.project.model.Registers.DroneRegister">
+      <point x="18.101265822784626" y="-15.0" />
+      <point x="5637.0941104405865" y="2500.0" />
+      <point x="6751.04339314101" y="2500.0" />
+      <point x="-62.5" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.RegisterClientController" target="lapr.project.model.DomainClasses.Platform">
+      <point x="-34.0" y="-15.0" />
+      <point x="6504.321839982966" y="4240.0" />
+      <point x="5183.057084623806" y="4240.0" />
+      <point x="5183.057084623806" y="3340.0" />
+      <point x="5609.427627226498" y="3340.0" />
+      <point x="-9.565217391304031" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.EnergyLandMapController" target="lapr.project.model.DomainClasses.GeoLocation">
+      <point x="51.11111111111131" y="-15.0" />
+      <point x="12059.522309593973" y="3940.0" />
+      <point x="12408.872017997166" y="3940.0" />
+      <point x="48.727272727272066" y="15.0" />
+    </edge>
+    <edge source="lapr.project.data.ScooterParkDB" target="lapr.project.model.DomainClasses.Scooter">
+      <point x="37.5" y="-15.0" />
+      <point x="8407.449197837106" y="470.0" />
+      <point x="10696.712039389682" y="470.0" />
+      <point x="-29.75" y="15.0" />
+    </edge>
+    <edge source="lapr.project.data.ChargingStationDB" target="lapr.project.data.DataHandler">
+      <point x="-22.75" y="-15.0" />
+      <point x="7816.054282445566" y="330.0" />
+      <point x="4819.076543718755" y="330.0" />
+      <point x="46.900000000000546" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.UpdateDroneController" target="lapr.project.model.Registers.DroneRegister">
+      <point x="0.0" y="-15.0" />
+      <point x="6871.562815241884" y="3280.0" />
+      <point x="6766.435798204301" y="3280.0" />
+      <point x="6766.435798204301" y="2540.0" />
+      <point x="6851.04339314101" y="2540.0" />
+      <point x="37.5" y="15.0" />
+    </edge>
+    <edge source="lapr.project.data.OrderDB" target="lapr.project.data.DataHandler">
+      <point x="-12.75" y="-15.0" />
+      <point x="1010.8571428571422" y="1670.0" />
+      <point x="927.066488110022" y="1670.0" />
+      <point x="927.066488110022" y="340.0" />
+      <point x="4725.2765437187545" y="340.0" />
+      <point x="-46.899999999999636" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.CheckStockController" target="lapr.project.model.Registers.StockRegister">
+      <point x="-64.375" y="-15.0" />
+      <point x="1772.6285360304564" y="3480.0" />
+      <point x="363.9436584114419" y="3480.0" />
+      <point x="363.9436584114419" y="2870.0" />
+      <point x="182.5" y="2870.0" />
+      <point x="-37.5" y="15.0" />
+    </edge>
+    <edge source="lapr.project.model.MatrixGraph.AdjacencyMatrixGraph" target="lapr.project.model.MatrixGraph.BasicGraph">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.MakeOrderController" target="lapr.project.model.DomainClasses.Pharmacy">
+      <point x="-8.25" y="-15.0" />
+      <point x="2662.3383012685854" y="4340.0" />
+      <point x="2310.3160360304564" y="4340.0" />
+      <point x="2310.3160360304564" y="1680.0" />
+      <point x="2357.1077026971243" y="1680.0" />
+      <point x="9.16666666666697" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.AddPharmacyController" target="lapr.project.model.Registers.PharmacyRegister">
+      <point x="-17.833333333333485" y="-15.0" />
+      <point x="3576.2400556382995" y="3150.0" />
+      <point x="2385.8160360304564" y="3150.0" />
+      <point x="2385.8160360304564" y="2900.0" />
+      <point x="2388.4827026971225" y="2900.0" />
+      <point x="-19.33333333333394" y="15.0" />
+    </edge>
+    <edge source="lapr.project.utils" target="lapr.project.controller.ApplicationEM">
+      <point x="-7.882352941176578" y="-15.0" />
+      <point x="9528.27172528852" y="3000.0" />
+      <point x="9291.441957017574" y="3000.0" />
+      <point x="9291.441957017574" y="1840.0" />
+      <point x="7944.598090242171" y="1840.0" />
+      <point x="50.0" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.DeliverySimulationsController" target="lapr.project.controller.ApplicationEM">
+      <point x="-94.77272727272793" y="-15.0" />
+      <point x="11012.368693646182" y="4120.0" />
+      <point x="9286.896502472118" y="4120.0" />
+      <point x="9286.896502472118" y="1850.0" />
+      <point x="7940.052635696715" y="1850.0" />
+      <point x="45.45454545454504" y="15.0" />
+    </edge>
+    <edge source="lapr.project.model.autorization.model" target="lapr.project.model.autorization.model">
+      <point x="-39.083333333333485" y="15.0" />
+      <point x="10200.80618562279" y="880.0" />
+      <point x="10132.889518956124" y="880.0" />
+      <point x="10132.889518956124" y="815.0" />
+      <point x="-67.0" y="-10.0" />
+    </edge>
+    <edge source="lapr.project.data.DataHandler" target="lapr.project.data.ScriptRunner">
+      <point x="-33.5" y="-15.0" />
+      <point x="4738.676543718754" y="80.0" />
+      <point x="4736.676543718754" y="80.0" />
+      <point x="-35.5" y="15.0" />
+    </edge>
+    <edge source="lapr.project.data.LandPathDB" target="lapr.project.model.DomainClasses.LandPath">
+      <point x="15.75" y="-15.0" />
+      <point x="4125.323388971633" y="1620.0" />
+      <point x="5067.0342991529615" y="1620.0" />
+      <point x="-49.5" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.CheckCreditsController" target="lapr.project.model.DomainClasses.Platform">
+      <point x="55.5" y="-15.0" />
+      <point x="2635.8160360304564" y="3260.0" />
+      <point x="5571.16675766128" y="3260.0" />
+      <point x="-47.826086956521976" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.RegisterClientController" target="lapr.project.controller.ApplicationEM">
+      <point x="0.0" y="-15.0" />
+      <point x="6538.321839982966" y="3770.0" />
+      <point x="7628.266224332794" y="3770.0" />
+      <point x="7628.266224332794" y="2120.0" />
+      <point x="7899.143544787625" y="2120.0" />
+      <point x="4.545454545454959" y="15.0" />
+    </edge>
+    <edge source="lapr.project.data.ScooterParkDB" target="lapr.project.data.DataHandler">
+      <point x="-37.5" y="-15.0" />
+      <point x="8332.449197837106" y="270.0" />
+      <point x="4832.476543718754" y="270.0" />
+      <point x="60.30000000000018" y="15.0" />
+    </edge>
+    <edge source="lapr.project.data.ItemsOfOrderDB" target="lapr.project.data.DataHandler">
+      <point x="-65.83333333333394" y="-15.0" />
+      <point x="1411.3577026971225" y="1670.0" />
+      <point x="1413.1243693637898" y="1670.0" />
+      <point x="1413.1243693637898" y="370.0" />
+      <point x="4733.3165437187545" y="370.0" />
+      <point x="-38.85999999999967" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.CheckCreditsController" target="lapr.project.model.Registers.ClientRegister">
+      <point x="18.5" y="-15.0" />
+      <point x="2598.8160360304564" y="2890.0" />
+      <point x="3170.948388971633" y="2890.0" />
+      <point x="-69.125" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.AddScooterParkController" target="lapr.project.model.Registers.ParkSlotRegister">
+      <point x="-47.600000000000364" y="-15.0" />
+      <point x="6191.883583014427" y="3310.0" />
+      <point x="5969.683583014427" y="3310.0" />
+      <point x="5969.683583014427" y="1050.0" />
+      <point x="7413.359197837106" y="1050.0" />
+      <point x="43.5" y="15.0" />
+    </edge>
+    <edge source="lapr.project.model.DomainClasses.Platform" target="lapr.project.model.Registers.ReceiptRegister">
+      <point x="-34.81012658227792" y="-15.0" />
+      <point x="5584.182718035525" y="2690.0" />
+      <point x="1294.095797935218" y="2690.0" />
+      <point x="1294.095797935218" y="2210.0" />
+      <point x="1249.749999999999" y="2210.0" />
+      <point x="71.14285714285688" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.EnergyAerialMapController" target="lapr.project.model.DomainClasses.Constants">
+      <point x="107.625" y="-15.0" />
+      <point x="11386.26642091891" y="3970.0" />
+      <point x="12492.20237495345" y="3970.0" />
+      <point x="12492.20237495345" y="70.0" />
+      <point x="12452.857715412229" y="70.0" />
+      <point x="22.125" y="15.0" />
+    </edge>
+    <edge source="lapr.project.data.UserDB" target="lapr.project.data.DataHandler">
+      <point x="-35.25" y="-15.0" />
+      <point x="7850.593185178879" y="1000.0" />
+      <point x="7125.218185178878" y="1000.0" />
+      <point x="7125.218185178878" y="420.0" />
+      <point x="4794.956543718754" y="420.0" />
+      <point x="22.779999999999745" y="15.0" />
+    </edge>
+    <edge source="lapr.project.model.DomainClasses.Scooter" target="lapr.project.model.DomainClasses.Constants">
+      <point x="34.0" y="-15.0" />
+      <point x="10760.462039389682" y="50.0" />
+      <point x="12379.107715412229" y="50.0" />
+      <point x="-51.625" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.ScooterNotificationsController" target="lapr.project.model.DomainClasses.Scooter">
+      <point x="53.625" y="-15.0" />
+      <point x="8850.154102900398" y="1240.0" />
+      <point x="8823.279670471275" y="1240.0" />
+      <point x="8823.279670471275" y="760.0" />
+      <point x="10618.389518956124" y="760.0" />
+      <point x="10618.389518956124" y="500.0" />
+      <point x="10722.212039389682" y="500.0" />
+      <point x="-4.25" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.EnergyAerialMapController" target="lapr.project.model.DomainClasses.AerialPath">
+      <point x="-107.625" y="-15.0" />
+      <point x="11171.01642091891" y="3660.0" />
+      <point x="4227.698388971633" y="3660.0" />
+      <point x="4227.698388971633" y="1610.0" />
+      <point x="4984.549299152962" y="1610.0" />
+      <point x="54.0" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.RemoveScooterController" target="lapr.project.model.Registers.ScooterRegister">
+      <point x="76.66666666666652" y="-15.0" />
+      <point x="8686.955618272186" y="3380.0" />
+      <point x="9786.106675818868" y="3380.0" />
+      <point x="9786.106675818868" y="2610.0" />
+      <point x="9702.511437723631" y="2610.0" />
+      <point x="71.14285714285688" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.MakeOrderController" target="lapr.project.controller.EnergyLandMapController">
+      <point x="79.75" y="-15.0" />
+      <point x="2750.3383012685854" y="4470.0" />
+      <point x="11913.195587585575" y="4470.0" />
+      <point x="11913.195587585575" y="4210.0" />
+      <point x="12085.077865149527" y="4210.0" />
+      <point x="76.66666666666606" y="15.0" />
+    </edge>
+    <edge source="lapr.project.model.Registers.OrderRegister" target="lapr.project.data.OrderDB">
+      <point x="-64.28571428571422" y="-15.0" />
+      <point x="1141.5252735229196" y="2280.0" />
+      <point x="998.1071428571422" y="2280.0" />
+      <point x="-25.5" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.DeliverySimulationsController" target="lapr.project.model.DomainClasses.AerialPath">
+      <point x="-132.68181818181802" y="-15.0" />
+      <point x="10974.459602737092" y="4150.0" />
+      <point x="4205.698388971633" y="4150.0" />
+      <point x="4205.698388971633" y="1590.0" />
+      <point x="4948.549299152962" y="1590.0" />
+      <point x="18.0" y="15.0" />
+    </edge>
+    <edge source="lapr.project.data.AddressDB" target="lapr.project.data.DataHandler">
+      <point x="-44.25" y="-15.0" />
+      <point x="8005.348090242171" y="1440.0" />
+      <point x="5040.0342991529615" y="1440.0" />
+      <point x="5040.0342991529615" y="450.0" />
+      <point x="4786.916543718754" y="450.0" />
+      <point x="14.739999999999782" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.RegistrationController" target="lapr.project.controller.ApplicationEM">
+      <point x="-31.714285714286234" y="-15.0" />
+      <point x="8654.789359614977" y="3710.0" />
+      <point x="8178.78895160552" y="3710.0" />
+      <point x="8178.78895160552" y="2120.0" />
+      <point x="7926.416272060353" y="2120.0" />
+      <point x="31.818181818181984" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.AddDroneParkController" target="lapr.project.controller.ApplicationEM">
+      <point x="88.80000000000018" y="-15.0" />
+      <point x="6034.701612710238" y="3450.0" />
+      <point x="7251.361934567938" y="3450.0" />
+      <point x="7251.361934567938" y="2050.0" />
+      <point x="7867.325362969443" y="2050.0" />
+      <point x="-27.272727272727025" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.ScooterNotificationsController" target="lapr.project.model.DomainClasses.ScooterPark">
+      <point x="17.875" y="-15.0" />
+      <point x="8814.404102900398" y="910.0" />
+      <point x="8508.199197837106" y="910.0" />
+      <point x="8508.199197837106" y="220.0" />
+      <point x="8413.849197837108" y="220.0" />
+      <point x="53.600000000000364" y="15.0" />
+    </edge>
+    <edge source="lapr.project.model.Registers.DroneRegister" target="lapr.project.data.DroneDB">
+      <point x="-56.25" y="-15.0" />
+      <point x="6757.29339314101" y="1830.0" />
+      <point x="6016.683583014427" y="1830.0" />
+      <point x="-25.5" y="15.0" />
+    </edge>
+    <edge source="lapr.project.model.Registers.DroneRegister" target="lapr.project.model.DomainClasses.Drone">
+      <point x="18.75" y="-15.0" />
+      <point x="6832.29339314101" y="2170.0" />
+      <point x="10056.472852289458" y="2170.0" />
+      <point x="10056.472852289458" y="1610.0" />
+      <point x="10049.80618562279" y="1610.0" />
+      <point x="-7.16666666666697" y="15.0" />
+    </edge>
+    <edge source="lapr.project.model.MatrixGraph.GraphAlgorithms" target="lapr.project.model.MatrixGraph.AdjacencyMatrixGraph">
+      <point x="0.0" y="-15.0" />
+      <point x="10692.889518956124" y="1610.0" />
+      <point x="10714.639518956124" y="1610.0" />
+      <point x="-25.75" y="15.0" />
+    </edge>
+    <edge source="lapr.project.model.Registers.LandPathRegister" target="lapr.project.data.LandPathDB">
+      <point x="-65.25" y="-15.0" />
+      <point x="4270.948388971632" y="2260.0" />
+      <point x="4078.073388971633" y="2260.0" />
+      <point x="-31.5" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.RegisterCourierController" target="lapr.project.controller.ApplicationEM">
+      <point x="-61.5" y="-15.0" />
+      <point x="8673.253645329263" y="4220.0" />
+      <point x="6792.799994730087" y="4220.0" />
+      <point x="6792.799994730087" y="3800.0" />
+      <point x="7927.78895160552" y="3800.0" />
+      <point x="7927.78895160552" y="2140.0" />
+      <point x="7917.325362969443" y="2140.0" />
+      <point x="22.727272727272975" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.RemovePharmacyController" target="lapr.project.model.DomainClasses.Platform">
+      <point x="29.75" y="-15.0" />
+      <point x="3111.5660360304564" y="3280.0" />
+      <point x="5580.731975052586" y="3280.0" />
+      <point x="-38.260869565217035" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.MakeOrderController" target="lapr.project.model.Registers.ItemRegister">
+      <point x="35.75" y="-15.0" />
+      <point x="2706.3383012685854" y="4390.0" />
+      <point x="5120.698388971632" y="4390.0" />
+      <point x="5120.698388971632" y="3750.0" />
+      <point x="6515.79339314101" y="3750.0" />
+      <point x="6515.79339314101" y="1900.0" />
+      <point x="7446.129577583943" y="1900.0" />
+      <point x="7446.129577583943" y="1510.0" />
+      <point x="7801.093185178879" y="1510.0" />
+      <point x="53.25" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.DistanceAerialMapController" target="lapr.project.model.DomainClasses.AerialPath">
+      <point x="-109.16666666666606" y="-15.0" />
+      <point x="10894.474754252244" y="3680.0" />
+      <point x="4216.698388971633" y="3680.0" />
+      <point x="4216.698388971633" y="1600.0" />
+      <point x="4966.549299152962" y="1600.0" />
+      <point x="36.0" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.MakeOrderController" target="lapr.project.controller.ApplicationEM">
+      <point x="41.25" y="-15.0" />
+      <point x="2711.8383012685854" y="4400.0" />
+      <point x="6667.821839982966" y="4400.0" />
+      <point x="6667.821839982966" y="3780.0" />
+      <point x="7695.28895160552" y="3780.0" />
+      <point x="7695.28895160552" y="2130.0" />
+      <point x="7903.688999333079" y="2130.0" />
+      <point x="9.090909090909008" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.ManagePharmaciesController" target="lapr.project.controller.ApplicationEM">
+      <point x="50.80000000000018" y="-15.0" />
+      <point x="5028.498388971633" y="3760.0" />
+      <point x="7623.720769787338" y="3760.0" />
+      <point x="7623.720769787338" y="2110.0" />
+      <point x="7894.598090242171" y="2110.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="lapr.project.model.Registers.StockRegister" target="lapr.project.data.StockDB">
+      <point x="-56.25" y="-15.0" />
+      <point x="163.75" y="2290.0" />
+      <point x="25.5" y="2290.0" />
+      <point x="-25.5" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.CheckStockController" target="lapr.project.model.DomainClasses.Stock">
+      <point x="-90.125" y="-15.0" />
+      <point x="1746.8785360304564" y="3490.0" />
+      <point x="134.5" y="3490.0" />
+      <point x="134.5" y="1680.0" />
+      <point x="157.35815477668893" y="1680.0" />
+      <point x="7.16666666666697" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.CheckOrderStatusController" target="lapr.project.model.DomainClasses.Platform">
+      <point x="0.0" y="-15.0" />
+      <point x="4582.198388971632" y="3300.0" />
+      <point x="5590.29719244389" y="3300.0" />
+      <point x="-28.695652173913004" y="15.0" />
+    </edge>
+    <edge source="lapr.project.model.Registers.StockItemsRegister" target="lapr.project.data.StockItemsDB">
+      <point x="-71.25" y="-15.0" />
+      <point x="1984.7535360304564" y="2290.0" />
+      <point x="1623.6910360304564" y="2290.0" />
+      <point x="-35.5" y="15.0" />
+    </edge>
+    <edge source="lapr.project.model.DomainClasses.LocationNet" target="lapr.project.model.DomainClasses.Address">
+      <point x="33.5" y="-15.0" />
+      <point x="11003.625805875956" y="2260.0" />
+      <point x="12196.470022012272" y="2260.0" />
+      <point x="-20.399999999999636" y="15.0" />
+    </edge>
+    <edge source="lapr.project.data.DroneParkDB" target="lapr.project.data.DataHandler">
+      <point x="-16.75" y="-15.0" />
+      <point x="5346.459152414405" y="1530.0" />
+      <point x="4777.676543718754" y="1530.0" />
+      <point x="4777.676543718754" y="500.0" />
+      <point x="4773.516543718754" y="500.0" />
+      <point x="1.3400000000001455" y="15.0" />
+    </edge>
+    <edge source="lapr.project.model.Registers.AerialPathRegister" target="lapr.project.data.AerialPathDB">
+      <point x="-71.25" y="-15.0" />
+      <point x="3990.823388971633" y="2290.0" />
+      <point x="3919.073388971633" y="2290.0" />
+      <point x="-35.5" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.AddPharmacyController" target="lapr.project.model.Registers.AddressRegister">
+      <point x="89.16666666666652" y="-15.0" />
+      <point x="3683.2400556382995" y="3430.0" />
+      <point x="7235.816480022482" y="3430.0" />
+      <point x="7235.816480022482" y="2740.0" />
+      <point x="10213.514518956124" y="2740.0" />
+      <point x="-10.375" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.RegistrationController" target="lapr.project.model.DomainClasses.PharmacyAdministrator">
+      <point x="-95.14285714285688" y="-15.0" />
+      <point x="8591.360788186405" y="3730.0" />
+      <point x="611.0" y="3730.0" />
+      <point x="611.0" y="1630.0" />
+      <point x="688.333630967164" y="1630.0" />
+      <point x="-61.14285714285779" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.DistanceAerialMapController" target="lapr.project.model.DomainClasses.GeoLocation">
+      <point x="109.16666666666606" y="-15.0" />
+      <point x="11112.808087585576" y="3920.0" />
+      <point x="12386.872017997166" y="3920.0" />
+      <point x="12386.872017997166" y="1680.0" />
+      <point x="12384.066011317085" y="1680.0" />
+      <point x="24.363636363636033" y="15.0" />
+    </edge>
+    <edge source="lapr.project.data.ItemDB" target="lapr.project.data.DataHandler">
+      <point x="-11.75" y="-15.0" />
+      <point x="7874.074197837106" y="580.0" />
+      <point x="7715.304282445566" y="580.0" />
+      <point x="7715.304282445566" y="350.0" />
+      <point x="4813.716543718754" y="350.0" />
+      <point x="41.539999999999964" y="15.0" />
+    </edge>
+    <edge source="lapr.project.model.DomainClasses.Platform" target="lapr.project.model.Registers.PharmacyAdministratorRegister">
+      <point x="-45.94936708860769" y="-15.0" />
+      <point x="5573.043477529194" y="2770.0" />
+      <point x="811.7331547766889" y="2770.0" />
+      <point x="23.166666666666515" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.CheckCreditsController" target="lapr.project.model.DomainClasses.Credits">
+      <point x="-92.5" y="-15.0" />
+      <point x="2487.8160360304564" y="3230.0" />
+      <point x="413.0" y="3230.0" />
+      <point x="413.0" y="1680.0" />
+      <point x="463.56648811002196" y="1680.0" />
+      <point x="8.5" y="15.0" />
+    </edge>
+    <edge source="lapr.project.data.ParkSlotDB" target="lapr.project.model.DomainClasses.ParkSlot">
+      <point x="15.75" y="-15.0" />
+      <point x="7657.554282445566" y="480.0" />
+      <point x="7706.449197837106" y="480.0" />
+      <point x="-44.0" y="15.0" />
+    </edge>
+    <edge source="lapr.project.data.ClientDB" target="lapr.project.model.DomainClasses.Client">
+      <point x="13.75" y="-15.0" />
+      <point x="2536.0660360304564" y="1640.0" />
+      <point x="3052.1336444058406" y="1640.0" />
+      <point x="-41.125" y="15.0" />
+    </edge>
+    <edge source="lapr.project.model.MatrixGraph.EdgeAsDoubleGraphAlgorithms" target="lapr.project.model.MatrixGraph.AdjacencyMatrixGraph">
+      <point x="0.0" y="-15.0" />
+      <point x="10458.889518956124" y="1610.0" />
+      <point x="10663.139518956124" y="1610.0" />
+      <point x="-77.25" y="15.0" />
+    </edge>
+    <edge source="lapr.project.model.Registers.CourierRegister" target="lapr.project.data.CourierDB">
+      <point x="-62.25" y="-15.0" />
+      <point x="10973.983400812664" y="760.0" />
+      <point x="10956.483400812664" y="760.0" />
+      <point x="-29.5" y="15.0" />
+    </edge>
+    <edge source="lapr.project.data.DeliveryDB" target="lapr.project.model.DomainClasses.Delivery">
+      <point x="15.75" y="-15.0" />
+      <point x="3418.823388971633" y="1630.0" />
+      <point x="3813.406722304966" y="1630.0" />
+      <point x="-45.83333333333303" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.ScooterNotificationsController" target="lapr.project.model.Registers.ScooterRegister">
+      <point x="57.19999999999982" y="15.0" />
+      <point x="8853.729102900397" y="1580.0" />
+      <point x="9645.201913914107" y="1580.0" />
+      <point x="13.83333333333303" y="-15.0" />
+    </edge>
+    <edge source="lapr.project.controller.MakeOrderController" target="lapr.project.model.DomainClasses.Credits">
+      <point x="-85.25" y="-15.0" />
+      <point x="2585.3383012685854" y="4480.0" />
+      <point x="123.5" y="4480.0" />
+      <point x="123.5" y="2880.0" />
+      <point x="402.0" y="2880.0" />
+      <point x="402.0" y="1670.0" />
+      <point x="446.56648811002196" y="1670.0" />
+      <point x="-8.5" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.EnergyLandMapController" target="lapr.project.model.DomainClasses.Address">
+      <point x="25.555555555554747" y="-15.0" />
+      <point x="12033.966754038414" y="3890.0" />
+      <point x="12257.60237495345" y="3890.0" />
+      <point x="12257.60237495345" y="1590.0" />
+      <point x="12251.41119848286" y="1590.0" />
+      <point x="34.0" y="15.0" />
+    </edge>
+    <edge source="lapr.project.data.ScooterParkDB" target="lapr.project.model.DomainClasses.ScooterPark">
+      <point x="-12.5" y="-15.0" />
+      <point x="8357.449197837106" y="260.0" />
+      <point x="8333.449197837106" y="260.0" />
+      <point x="-26.800000000000182" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.AddItemsToPharmacyStockController" target="lapr.project.model.DomainClasses.Item">
+      <point x="116.25" y="-15.0" />
+      <point x="7574.470769787338" y="3400.0" />
+      <point x="9902.106675818868" y="3400.0" />
+      <point x="9902.106675818868" y="2690.0" />
+      <point x="10112.639518956124" y="2690.0" />
+      <point x="10112.639518956124" y="730.0" />
+      <point x="10234.702018956124" y="730.0" />
+      <point x="14.625" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.UpdateDroneController" target="lapr.project.model.DomainClasses.Platform">
+      <point x="-71.33333333333303" y="-15.0" />
+      <point x="6800.229481908551" y="3290.0" />
+      <point x="5638.123279400412" y="3290.0" />
+      <point x="19.130434782608972" y="15.0" />
+    </edge>
+    <edge source="lapr.project.model.Registers.AddressRegister" target="lapr.project.data.AddressDB">
+      <point x="-62.25" y="-15.0" />
+      <point x="10161.639518956124" y="1760.0" />
+      <point x="8020.098090242171" y="1760.0" />
+      <point x="-29.5" y="15.0" />
+    </edge>
+    <edge source="lapr.project.model.DomainClasses.Platform" target="lapr.project.model.Registers.CreditsRegister">
+      <point x="-50.12658227848078" y="-15.0" />
+      <point x="5568.866262339321" y="2800.0" />
+      <point x="506.5" y="2800.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="lapr.project.data.CourierDB" target="lapr.project.model.DomainClasses.Courier">
+      <point x="14.75" y="-15.0" />
+      <point x="11000.733400812664" y="470.0" />
+      <point x="12304.66747254262" y="470.0" />
+      <point x="-45.33333333333394" y="15.0" />
+    </edge>
+    <edge source="lapr.project.model.Registers.ItemRegister" target="lapr.project.data.ItemDB">
+      <point x="-53.25" y="-15.0" />
+      <point x="7694.593185178879" y="1110.0" />
+      <point x="7862.324197837106" y="1110.0" />
+      <point x="-23.5" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.DistanceAerialMapController" target="lapr.project.controller.MapController">
+      <point x="21.83333333333394" y="-15.0" />
+      <point x="11025.474754252244" y="3840.0" />
+      <point x="11001.57892091891" y="3840.0" />
+      <point x="-16.66666666666606" y="15.0" />
+    </edge>
+    <edge source="lapr.project.model.Registers.DroneParkRegister" target="lapr.project.model.DomainClasses.DronePark">
+      <point x="22.75" y="-15.0" />
+      <point x="5758.866648536685" y="1850.0" />
+      <point x="6538.160973128044" y="1850.0" />
+      <point x="6538.160973128044" y="1570.0" />
+      <point x="6558.410973128044" y="1570.0" />
+      <point x="14.75" y="15.0" />
+    </edge>
+    <edge source="lapr.project.model.DomainClasses.LocationNet" target="lapr.project.model.MatrixGraph.GraphAlgorithms">
+      <point x="-33.5" y="-15.0" />
+      <point x="10936.625805875956" y="2180.0" />
+      <point x="10692.889518956124" y="2180.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="lapr.project.model.Registers.ClientRegister" target="lapr.project.model.DomainClasses.Client">
+      <point x="59.25" y="-15.0" />
+      <point x="3299.323388971633" y="2290.0" />
+      <point x="3308.948388971633" y="2290.0" />
+      <point x="3308.948388971633" y="1670.0" />
+      <point x="3122.6336444058406" y="1670.0" />
+      <point x="29.375" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.DeliverySimulationsController" target="lapr.project.model.Registers.GeoLocationRegister">
+      <point x="44.227272727272066" y="-15.0" />
+      <point x="11151.368693646182" y="4170.0" />
+      <point x="11791.149382078896" y="4170.0" />
+      <point x="11791.149382078896" y="2880.0" />
+      <point x="11238.625805875956" y="2880.0" />
+      <point x="82.5" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.CheckStockController" target="lapr.project.model.DomainClasses.PharmacyAdministrator">
+      <point x="-38.625" y="-15.0" />
+      <point x="1798.3785360304564" y="3470.0" />
+      <point x="622.0" y="3470.0" />
+      <point x="622.0" y="1640.0" />
+      <point x="718.9050595385934" y="1640.0" />
+      <point x="-30.57142857142844" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.AddDroneParkController" target="lapr.project.model.Registers.DroneParkRegister">
+      <point x="-44.399999999999636" y="-15.0" />
+      <point x="5901.501612710239" y="3340.0" />
+      <point x="5742.117844617802" y="3340.0" />
+      <point x="5742.117844617802" y="2400.0" />
+      <point x="5804.366648536685" y="2400.0" />
+      <point x="68.25" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.DistanceAerialMapController" target="lapr.project.utils">
+      <point x="-65.5" y="-15.0" />
+      <point x="10938.14142091891" y="3670.0" />
+      <point x="9565.931856007473" y="3670.0" />
+      <point x="29.777777777777374" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.CheckOrderStatusController" target="lapr.project.controller.ApplicationEM">
+      <point x="84.66666666666674" y="-15.0" />
+      <point x="4666.865055638299" y="3420.0" />
+      <point x="7224.816480022482" y="3420.0" />
+      <point x="7224.816480022482" y="2030.0" />
+      <point x="7858.234453878535" y="2030.0" />
+      <point x="-36.36363636363603" y="15.0" />
+    </edge>
+    <edge source="lapr.project.utils" target="lapr.project.model.DomainClasses.GeoLocation">
+      <point x="55.17647058823604" y="-15.0" />
+      <point x="9591.330548817932" y="3480.0" />
+      <point x="12351.23966505599" y="3480.0" />
+      <point x="12351.23966505599" y="1680.0" />
+      <point x="12347.520556771633" y="1680.0" />
+      <point x="-12.181818181818016" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.ScooterNotificationsController" target="lapr.project.model.Registers.ParkSlotRegister">
+      <point x="-125.125" y="-15.0" />
+      <point x="8671.404102900398" y="950.0" />
+      <point x="7442.359197837106" y="950.0" />
+      <point x="72.5" y="15.0" />
+    </edge>
+    <edge source="lapr.project.data.ParkSlotDB" target="lapr.project.data.DataHandler">
+      <point x="-15.75" y="-15.0" />
+      <point x="7626.054282445566" y="360.0" />
+      <point x="4811.036543718754" y="360.0" />
+      <point x="38.85999999999967" y="15.0" />
+    </edge>
+    <edge source="lapr.project.data.DroneDB" target="lapr.project.data.DataHandler">
+      <point x="-38.25" y="-15.0" />
+      <point x="6003.933583014427" y="1510.0" />
+      <point x="5012.674299152962" y="1510.0" />
+      <point x="5012.674299152962" y="490.0" />
+      <point x="4776.196543718755" y="490.0" />
+      <point x="4.020000000000437" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.DeliverySimulationsController" target="lapr.project.controller.EnergyAerialMapController">
+      <point x="18.95454545454595" y="-15.0" />
+      <point x="11126.095966373456" y="4140.0" />
+      <point x="11217.14142091891" y="4140.0" />
+      <point x="-61.5" y="15.0" />
+    </edge>
+    <edge source="lapr.project.model.Registers.ScooterRegister" target="lapr.project.data.ScooterDB">
+      <point x="-13.83333333333303" y="-15.0" />
+      <point x="9617.53524724744" y="1800.0" />
+      <point x="7980.098090242171" y="1800.0" />
+      <point x="7980.098090242171" y="1450.0" />
+      <point x="7539.218185178879" y="1450.0" />
+      <point x="7539.218185178879" y="1170.0" />
+      <point x="8196.449197837106" y="1170.0" />
+      <point x="8196.449197837106" y="670.0" />
+      <point x="8244.449197837106" y="670.0" />
+      <point x="29.5" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.LoginController" target="lapr.project.model.autorization.model">
+      <point x="55.33333333333303" y="-15.0" />
+      <point x="9954.089518956123" y="2230.0" />
+      <point x="11863.41119848286" y="2230.0" />
+      <point x="11863.41119848286" y="1260.0" />
+      <point x="10301.30618562279" y="1260.0" />
+      <point x="61.416666666666515" y="15.0" />
+    </edge>
+    <edge source="lapr.project.model.DomainClasses.Platform" target="lapr.project.model.Registers.OrderRegister">
+      <point x="-41.77215189873368" y="-15.0" />
+      <point x="5577.220692719069" y="2740.0" />
+      <point x="1218.3109878086343" y="2740.0" />
+      <point x="12.5" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.MakeOrderController" target="lapr.project.model.DomainClasses.Scooter">
+      <point x="85.25" y="-15.0" />
+      <point x="2755.8383012685854" y="4480.0" />
+      <point x="12133.91119848286" y="4480.0" />
+      <point x="12133.91119848286" y="150.0" />
+      <point x="10773.212039389682" y="150.0" />
+      <point x="46.75" y="15.0" />
+    </edge>
+    <edge source="lapr.project.model.Registers.ItemRegister" target="lapr.project.model.DomainClasses.Item">
+      <point x="17.75" y="-15.0" />
+      <point x="7765.593185178879" y="1230.0" />
+      <point x="8728.201782445567" y="1230.0" />
+      <point x="8728.201782445567" y="710.0" />
+      <point x="10215.202018956124" y="710.0" />
+      <point x="-4.875" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.AddDroneController" target="lapr.project.model.Registers.DroneRegister">
+      <point x="0.0" y="-15.0" />
+      <point x="6649.562815241884" y="3360.0" />
+      <point x="6623.04339314101" y="3360.0" />
+      <point x="6623.04339314101" y="2530.0" />
+      <point x="6826.04339314101" y="2530.0" />
+      <point x="12.5" y="15.0" />
+    </edge>
+    <edge source="lapr.project.model.Registers.ScooterParkRegister" target="lapr.project.model.DomainClasses.Scooter">
+      <point x="79.19999999999982" y="-15.0" />
+      <point x="8464.749197837107" y="670.0" />
+      <point x="8466.449197837106" y="670.0" />
+      <point x="8466.449197837106" y="490.0" />
+      <point x="10713.712039389682" y="490.0" />
+      <point x="-12.75" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.DeliverySimulationsController" target="lapr.project.model.Registers.AddressRegister">
+      <point x="-56.86363636363603" y="-15.0" />
+      <point x="11050.277784555274" y="4090.0" />
+      <point x="10331.352797591166" y="4090.0" />
+      <point x="10331.352797591166" y="2760.0" />
+      <point x="10275.764518956124" y="2760.0" />
+      <point x="51.875" y="15.0" />
+    </edge>
+    <edge source="lapr.project.data.AddressDB" target="lapr.project.model.DomainClasses.Address">
+      <point x="14.75" y="-15.0" />
+      <point x="8064.348090242171" y="1640.0" />
+      <point x="12169.811198482861" y="1640.0" />
+      <point x="-47.600000000000364" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.CheckCreditsController" target="lapr.project.model.DomainClasses.Client">
+      <point x="-18.5" y="-15.0" />
+      <point x="2561.8160360304564" y="3240.0" />
+      <point x="2587.8160360304564" y="3240.0" />
+      <point x="2587.8160360304564" y="1660.0" />
+      <point x="3075.6336444058406" y="1660.0" />
+      <point x="-17.625" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.EnergyLandMapController" target="lapr.project.model.DomainClasses.Courier">
+      <point x="76.66666666666606" y="-15.0" />
+      <point x="12085.077865149527" y="3950.0" />
+      <point x="12437.20237495345" y="3950.0" />
+      <point x="12437.20237495345" y="510.0" />
+      <point x="12361.334139209288" y="510.0" />
+      <point x="11.33333333333394" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.EnergyLandMapController" target="lapr.project.utils">
+      <point x="-76.66666666666606" y="-15.0" />
+      <point x="11931.744531816195" y="3600.0" />
+      <point x="9595.70963378525" y="3600.0" />
+      <point x="59.55555555555475" y="15.0" />
+    </edge>
+    <edge source="lapr.project.model.DomainClasses.Platform" target="lapr.project.model.Registers.ChargingStationRegister">
+      <point x="9.746835443038435" y="-15.0" />
+      <point x="5628.73968006084" y="2440.0" />
+      <point x="5980.683583014427" y="2440.0" />
+      <point x="5980.683583014427" y="1070.0" />
+      <point x="7646.324197837106" y="1070.0" />
+      <point x="-57.5" y="15.0" />
+    </edge>
+    <edge source="lapr.project.model.Registers.ReceiptRegister" target="lapr.project.model.DomainClasses.Receipt">
+      <point x="-62.25" y="-15.0" />
+      <point x="1116.3571428571422" y="1660.0" />
+      <point x="1126.566488110022" y="1660.0" />
+      <point x="6.375" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.EnergyLandMapController" target="lapr.project.controller.MapController">
+      <point x="-25.555555555554747" y="-15.0" />
+      <point x="11982.855642927305" y="3580.0" />
+      <point x="11084.912254252242" y="3580.0" />
+      <point x="66.66666666666606" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.AddDroneParkController" target="lapr.project.model.Registers.ParkSlotRegister">
+      <point x="0.0" y="-15.0" />
+      <point x="5945.901612710239" y="3330.0" />
+      <point x="5861.009053599975" y="3330.0" />
+      <point x="5861.009053599975" y="1040.0" />
+      <point x="7384.359197837106" y="1040.0" />
+      <point x="14.5" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.AddItemsToPharmacyStockController" target="lapr.project.controller.ApplicationEM">
+      <point x="38.75" y="-15.0" />
+      <point x="7496.970769787338" y="2100.0" />
+      <point x="7890.052635696715" y="2100.0" />
+      <point x="-4.545454545454959" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.RegisterCourierController" target="lapr.project.model.DomainClasses.Courier">
+      <point x="102.5" y="-15.0" />
+      <point x="8837.253645329263" y="4240.0" />
+      <point x="12448.20237495345" y="4240.0" />
+      <point x="12448.20237495345" y="500.0" />
+      <point x="12372.66747254262" y="500.0" />
+      <point x="22.66666666666606" y="15.0" />
+    </edge>
+    <edge source="lapr.project.model.DomainClasses.Platform" target="lapr.project.model.Registers.ClientRegister">
+      <point x="-20.886075949367296" y="-15.0" />
+      <point x="5598.106768668435" y="2590.0" />
+      <point x="3269.698388971633" y="2590.0" />
+      <point x="29.625" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.RegisterCourierController" target="lapr.project.model.DomainClasses.Platform">
+      <point x="-102.5" y="-15.0" />
+      <point x="8632.253645329263" y="4230.0" />
+      <point x="5187.839693319458" y="4230.0" />
+      <point x="5187.839693319458" y="3350.0" />
+      <point x="5614.21023592215" y="3350.0" />
+      <point x="-4.782608695652016" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.MakeOrderController" target="lapr.project.model.DomainClasses.Item">
+      <point x="57.75" y="-15.0" />
+      <point x="2728.3383012685854" y="4430.0" />
+      <point x="9574.904078229696" y="4430.0" />
+      <point x="9574.904078229696" y="3830.0" />
+      <point x="9911.856675818868" y="3830.0" />
+      <point x="9911.856675818868" y="2700.0" />
+      <point x="10122.389518956124" y="2700.0" />
+      <point x="10122.389518956124" y="740.0" />
+      <point x="10244.452018956124" y="740.0" />
+      <point x="24.375" y="15.0" />
+    </edge>
+    <edge source="lapr.project.model.Registers.DeliveryRegister" target="lapr.project.model.DomainClasses.Delivery">
+      <point x="65.25" y="-15.0" />
+      <point x="3874.323388971633" y="2290.0" />
+      <point x="3873.073388971633" y="2290.0" />
+      <point x="3873.073388971633" y="1680.0" />
+      <point x="3905.073388971632" y="1680.0" />
+      <point x="45.83333333333303" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.ApplicationEM" target="lapr.project.model.autorization.AutorizationFacade">
+      <point x="46.875" y="-15.0" />
+      <point x="7941.473090242171" y="1620.0" />
+      <point x="11681.91119848286" y="1620.0" />
+      <point x="-76.0" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.ScooterNotificationsController" target="lapr.project.utils">
+      <point x="114.39999999999964" y="15.0" />
+      <point x="8910.929102900398" y="1570.0" />
+      <point x="10003.256185622791" y="1570.0" />
+      <point x="10003.256185622791" y="2660.0" />
+      <point x="9797.106675818868" y="2660.0" />
+      <point x="9797.106675818868" y="3390.0" />
+      <point x="9536.154078229696" y="3390.0" />
+      <point x="0.0" y="-15.0" />
+    </edge>
+    <edge source="lapr.project.utils" target="lapr.project.model.DomainClasses.Platform">
+      <point x="-31.52941176470631" y="-15.0" />
+      <point x="9504.62466646499" y="3030.0" />
+      <point x="5671.601540269976" y="3030.0" />
+      <point x="52.60869565217399" y="15.0" />
+    </edge>
+    <edge source="lapr.project.model.DomainClasses.ScooterPark" target="lapr.project.model.DomainClasses.Park">
+      <point x="-33.5" y="-15.0" />
+      <point x="8326.749197837107" y="80.0" />
+      <point x="8169.199197837106" y="80.0" />
+      <point x="9.75" y="15.0" />
+    </edge>
+    <edge source="lapr.project.model.DomainClasses.Platform" target="lapr.project.model.Registers.AerialPathRegister">
+      <point x="-12.531645569620196" y="-15.0" />
+      <point x="5606.461199048183" y="2530.0" />
+      <point x="3998.7400556383" y="2530.0" />
+      <point x="-63.33333333333303" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.CheckScootersBatteryController" target="lapr.project.controller.ApplicationEM">
+      <point x="0.0" y="-15.0" />
+      <point x="8332.28895160552" y="2110.0" />
+      <point x="7930.961726605807" y="2110.0" />
+      <point x="36.36363636363603" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.MapController" target="lapr.project.model.DomainClasses.Address">
+      <point x="64.28571428571377" y="-15.0" />
+      <point x="11082.53130187129" y="3470.0" />
+      <point x="12230.40237495345" y="3470.0" />
+      <point x="12230.40237495345" y="1630.0" />
+      <point x="12224.211198482859" y="1630.0" />
+      <point x="6.799999999999272" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.AddPharmacyController" target="lapr.project.controller.ApplicationEM">
+      <point x="53.5" y="-15.0" />
+      <point x="3647.573388971633" y="3410.0" />
+      <point x="7220.271025477028" y="3410.0" />
+      <point x="7220.271025477028" y="2020.0" />
+      <point x="7853.688999333079" y="2020.0" />
+      <point x="-40.90909090909099" y="15.0" />
+    </edge>
+    <edge source="lapr.project.model.DomainClasses.Platform" target="lapr.project.model.Registers.DeliveryRegister">
+      <point x="-16.70886075949329" y="-15.0" />
+      <point x="5602.2839838583095" y="2560.0" />
+      <point x="3751.073388971633" y="2560.0" />
+      <point x="-58.0" y="15.0" />
+    </edge>
+    <edge source="lapr.project.model.autorization.model" target="lapr.project.model.DomainClasses.Item">
+      <point x="-33.5" y="-15.0" />
+      <point x="10206.389518956124" y="750.0" />
+      <point x="10254.202018956124" y="750.0" />
+      <point x="34.125" y="15.0" />
+    </edge>
+    <edge source="lapr.project.utils" target="lapr.project.model.DomainClasses.Vehicle">
+      <point x="15.764705882353155" y="-15.0" />
+      <point x="9551.91878411205" y="3420.0" />
+      <point x="9966.67352312772" y="3420.0" />
+      <point x="9966.67352312772" y="2770.0" />
+      <point x="10317.389518956124" y="2770.0" />
+      <point x="10317.389518956124" y="80.0" />
+      <point x="10532.962039389682" y="80.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.MakeOrderController" target="lapr.project.model.DomainClasses.Delivery">
+      <point x="13.75" y="-15.0" />
+      <point x="2684.3383012685854" y="4350.0" />
+      <point x="3476.573388971633" y="4350.0" />
+      <point x="3476.573388971633" y="1650.0" />
+      <point x="3850.073388971632" y="1650.0" />
+      <point x="-9.16666666666697" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.MakeOrderController" target="lapr.project.model.Registers.PharmacyRegister">
+      <point x="-2.75" y="-15.0" />
+      <point x="2667.8383012685854" y="4330.0" />
+      <point x="2352.8160360304564" y="4330.0" />
+      <point x="2352.8160360304564" y="2900.0" />
+      <point x="2330.4827026971225" y="2900.0" />
+      <point x="-77.33333333333394" y="15.0" />
+    </edge>
+    <edge source="lapr.project.data.CourierDB" target="lapr.project.data.DataHandler">
+      <point x="-14.75" y="-15.0" />
+      <point x="10971.233400812664" y="200.0" />
+      <point x="4837.836543718754" y="200.0" />
+      <point x="65.65999999999985" y="15.0" />
+    </edge>
+    <edge source="lapr.project.model.Registers.ClientRegister" target="lapr.project.data.ClientDB">
+      <point x="-59.25" y="-15.0" />
+      <point x="3180.823388971633" y="2290.0" />
+      <point x="2494.8160360304564" y="2290.0" />
+      <point x="-27.5" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.CheckCreditsController" target="lapr.project.controller.ApplicationEM">
+      <point x="92.5" y="-15.0" />
+      <point x="2672.8160360304564" y="3380.0" />
+      <point x="7206.634661840664" y="3380.0" />
+      <point x="7206.634661840664" y="1990.0" />
+      <point x="7840.052635696715" y="1990.0" />
+      <point x="-54.54545454545496" y="15.0" />
+    </edge>
+    <edge source="lapr.project.model.autorization.AutorizationFacade" target="lapr.project.model.autorization.model">
+      <point x="-63.33333333333303" y="-15.0" />
+      <point x="11694.577865149527" y="1290.0" />
+      <point x="10267.80618562279" y="1290.0" />
+      <point x="27.916666666666515" y="15.0" />
+    </edge>
+    <edge source="lapr.project.data.ScooterDB" target="lapr.project.data.DataHandler">
+      <point x="-44.25" y="-15.0" />
+      <point x="8170.699197837106" y="300.0" />
+      <point x="4824.436543718754" y="300.0" />
+      <point x="52.26000000000022" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.RegisterClientController" target="lapr.project.model.Registers.ClientRegister">
+      <point x="-68.0" y="-15.0" />
+      <point x="6470.321839982966" y="4250.0" />
+      <point x="3211.3160360304564" y="4250.0" />
+      <point x="-29.625" y="15.0" />
+    </edge>
+    <edge source="lapr.project.model.Registers.AddressRegister" target="lapr.project.model.DomainClasses.Address">
+      <point x="62.25" y="-15.0" />
+      <point x="10286.139518956124" y="2250.0" />
+      <point x="12189.670022012273" y="2250.0" />
+      <point x="-27.200000000000728" y="15.0" />
+    </edge>
+    <edge source="lapr.project.utils" target="lapr.project.model.DomainClasses.LandPath">
+      <point x="-23.647058823529733" y="-15.0" />
+      <point x="9512.507019406166" y="3020.0" />
+      <point x="5837.616648536685" y="3020.0" />
+      <point x="5837.616648536685" y="1520.0" />
+      <point x="5155.0342991529615" y="1520.0" />
+      <point x="38.5" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.MakeOrderController" target="lapr.project.model.DomainClasses.Stock">
+      <point x="-96.25" y="-15.0" />
+      <point x="2574.3383012685854" y="4500.0" />
+      <point x="112.5" y="4500.0" />
+      <point x="112.5" y="1670.0" />
+      <point x="143.024821443355" y="1670.0" />
+      <point x="-7.16666666666697" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.DeliverySimulationsController" target="lapr.project.model.DomainClasses.Scooter">
+      <point x="56.86363636363603" y="-15.0" />
+      <point x="11164.005057282546" y="4180.0" />
+      <point x="11882.91119848286" y="4180.0" />
+      <point x="11882.91119848286" y="170.0" />
+      <point x="10756.212039389682" y="170.0" />
+      <point x="29.75" y="15.0" />
+    </edge>
+    <edge source="lapr.project.controller.UpdateDroneController" target="lapr.project.controller.ApplicationEM">
+      <point x="71.33333333333303" y="-15.0" />
+      <point x="6942.896148575217" y="3480.0" />
+      <point x="7386.452843658846" y="3480.0" />
+      <point x="7386.452843658846" y="2080.0" />
+      <point x="7880.961726605807" y="2080.0" />
+      <point x="-13.636363636363967" y="15.0" />
+    </edge>
+    <edge source="lapr.project.model.DomainClasses.Platform" target="lapr.project.model.Registers.StockItemsRegister">
+      <point x="-29.240506329113487" y="-15.0" />
+      <point x="5589.752338288688" y="2650.0" />
+      <point x="2071.8368693637894" y="2650.0" />
+      <point x="15.833333333333258" y="15.0" />
+    </edge>
+    <edge source="lapr.project.model.Registers.CreditsRegister" target="lapr.project.model.DomainClasses.Credits">
+      <point x="20.75" y="-15.0" />
+      <point x="527.25" y="2290.0" />
+      <point x="542.5" y="2290.0" />
+      <point x="542.5" y="1680.0" />
+      <point x="480.56648811002196" y="1680.0" />
+      <point x="25.5" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.30000000000000004" x="4538.499999999999" y="4014.999999999998" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

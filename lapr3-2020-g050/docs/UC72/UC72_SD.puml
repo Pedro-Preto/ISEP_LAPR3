@@ -1,0 +1,80 @@
+@startuml
+autonumber
+
+actor "Administrator" as Admin
+participant ":Register\nCourierUI" as UI
+participant ":RegisterCourier\nController" as CTRL
+participant ":ApplicationEM" as APP
+participant "app:ApplicationEM" as AP
+participant ":System" as PLAT
+participant "cr:CourierRegister" as CR
+participant ":Courier" as _COU
+participant "cou:Courier" as COU
+participant "passowordGenerator:\nPasswordGeneratorAlgorythm" as PG
+
+
+activate Admin
+Admin -> UI : starts the register of a \nCourier in the system.
+activate UI
+UI --> Admin : asks the required data ().
+deactivate UI
+
+Admin -> UI : introduces the required data\n (name, nif, email, cellphone)
+activate UI
+
+UI -> CTRL : newCourier(name, nif, email, cellphone)
+activate CTRL
+
+CTRL -> APP : app = getInstance()
+activate APP
+deactivate APP
+
+CTRL -> AP : plat = getPlatform()
+activate AP
+deactivate AP
+
+CTRL -> PLAT: cr = getCourierRegister()
+activate PLAT
+deactivate PLAT
+
+CTRL -> CR: courier = createCourier(name, nif, email, cellphone).
+activate CR
+
+CR --> COU ** : create(name, nif, email, cellphone)
+deactivate CR
+
+'CTRL -> CR : courierValidation(courier, pwd)
+'activate CR
+'deactivate CR
+
+deactivate CTRL
+UI --> Admin : presents the data and asks for \nconfirmation.
+deactivate UI
+
+Admin -> UI : confirms
+activate UI
+
+UI -> CTRL: registerCourier()
+activate CTRL
+CTRL -> CR: registerCourier(courier)
+activate CR
+
+CR -> CR: validateCourier(courier)
+CR -> CR: addCourier(courier)
+deactivate CR
+
+
+activate PG
+CTRL -> PG: pwdGen(name, email)
+
+deactivate CTRL
+deactivate PG
+
+
+deactivate PLAT
+deactivate CTRL
+UI --> Admin :  registers the courier on the system and\n reports to the Administrator the\n success of the operation
+deactivate UI
+
+deactivate Admin
+@enduml

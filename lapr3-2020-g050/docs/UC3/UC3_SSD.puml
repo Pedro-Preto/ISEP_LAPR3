@@ -1,0 +1,19 @@
+@startuml
+autonumber
+actor "Client" as Pharmacy
+participant ":Application" as STM
+activate Pharmacy
+
+Pharmacy-> STM :Access the orders previus made
+activate STM
+STM --> Pharmacy :Shows the orders
+deactivate STM
+
+Pharmacy-> STM :Choose one
+activate STM
+STM --> Pharmacy :presents the status and the succes of the operation
+deactivate STM
+
+
+deactivate Pharmacy
+@enduml

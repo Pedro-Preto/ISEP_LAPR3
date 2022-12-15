@@ -1,0 +1,18 @@
+@startuml
+autonumber
+actor "Courier" as Courier
+participant ":System" as STM
+activate Courier
+
+Courier-> STM :Acess his personal area
+activate STM
+STM --> Courier :Shows the shortest distance to the destiny
+deactivate STM
+
+Courier -> STM : Confirms
+activate STM
+STM --> Courier : Reports to the Courier of the sucess of the operation
+deactivate STM
+
+deactivate Courier
+@enduml

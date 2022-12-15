@@ -1,0 +1,20 @@
+@startuml
+autonumber
+actor "Admin" as ADM
+participant ":System" as STM
+activate ADM
+ADM-> STM :starts adding a Drone
+activate STM
+STM --> ADM :requests the information regarding the Drone \n(id, batterySize, batteryConsumption, currentBattery,payload)
+deactivate STM
+ADM -> STM : introduces the required data
+activate STM
+STM --> ADM :presents the data and asks for confirmation
+deactivate STM
+ADM -> STM : confirms
+activate STM
+STM --> ADM : notifies the Admin that the Drone has been created and registered
+deactivate STM
+
+deactivate ADM
+@enduml

@@ -1,0 +1,24 @@
+@startuml
+autonumber
+actor "Pharmacy" as Pharmacy
+participant ":System" as STM
+activate Pharmacy
+
+Pharmacy-> STM :Access the orders made by the clients
+activate STM
+STM --> Pharmacy :Shows the orders
+deactivate STM
+
+Pharmacy-> STM :Assigns the orders to each Courier according to his payload
+activate STM
+STM --> Pharmacy :presents the data and asks for confirmation
+deactivate STM
+
+Pharmacy-> STM :Confirms
+activate STM
+STM --> Pharmacy :Presents the success of the operation
+deactivate STM
+
+
+deactivate Pharmacy
+@enduml

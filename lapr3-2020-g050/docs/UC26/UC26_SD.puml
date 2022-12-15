@@ -1,0 +1,61 @@
+@startuml
+autonumber
+
+actor "Courier" as Client
+participant ":ShortestPathUI" as UI
+participant ":ShortestPathController" as CTRL
+participant ":Application" as SYS
+participant "app:Application" as SYST
+participant "user:User" as USER
+participant "client:Client" as CLI
+participant "Pharmacy" as PHAR
+participant "Address" as ADD
+participant "Geographical_location" as GEO
+
+
+activate Client
+Client -> UI : Acess his personal area
+activate UI
+UI -> CTRL :checkShortestPath()
+activate CTRL
+
+CTRL -> SYST :user = getUser()
+activate SYST
+deactivate SYST
+CTRL -> USER :courier = getCourier(user)
+activate USER
+deactivate USER
+CTRL -> PHAR:getPharmacyAdress()
+activate PHAR
+PHAR ->ADD:getAddress()
+deactivate PHAR
+activate ADD
+
+CTRL -> CLI :getClientAddress()
+deactivate ADD
+activate CLI
+
+CLI -> ADD:getAddress()
+deactivate CLI
+activate ADD
+
+CTRL ->ADD:getBestRout()
+
+
+deactivate CTRL
+
+UI --> Client :Shows the shortest distance to the destiny
+deactivate ADD
+
+deactivate GEO
+
+
+deactivate UI
+
+Client -> UI :Confirms
+activate UI
+UI --> Client :Reports to the Courier of the sucess of the operation
+deactivate UI
+
+deactivate Client
+@enduml

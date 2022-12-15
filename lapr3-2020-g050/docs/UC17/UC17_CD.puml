@@ -1,0 +1,29 @@
+@startuml
+
+left to right direction
+
+class CheckOrdersUI {
+}
+
+class CheckOrdersController {
+    +checkOrders()
+}
+
+class Application {
+    +getUser()
+}
+
+class User {
+    +getClient(User user)
+}
+
+class Client {
+    +getOrders()
+}
+
+CheckOrdersUI ..> CheckOrdersController
+CheckOrdersController ..> Application
+CheckOrdersController ..> User
+CheckOrdersController ..> Client
+
+@enduml

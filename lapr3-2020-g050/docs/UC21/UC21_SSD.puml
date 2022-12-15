@@ -1,0 +1,20 @@
+@startuml
+autonumber
+actor "Pharmacy" as Pharmacy
+participant ":System" as STM
+activate Pharmacy
+
+Pharmacy-> STM :Access the ScooterParkDB
+activate STM
+STM --> Pharmacy :Shows the scooters
+deactivate STM
+
+Pharmacy-> STM :Choose the scooter in order to know her battery
+activate STM
+STM --> Pharmacy :presents the scooter battery
+deactivate STM
+deactivate Pharmacy
+@enduml
+
+
+

@@ -1,0 +1,45 @@
+@startuml
+
+left to right direction
+
+class AddScooterUI {
+}
+
+class AddScooterController {
+  getSCooterDB()
+  addScooter(pharmacyId, id, qrCode, batterySize, \nbatteryConsumption,currentBattery)
+  saveScooter(scooter)
+  getPharmacy(id)
+}
+
+class System {
+  getSCooterDB()
+}
+
+class Scooter {
+  newScooter(id, qrCode, batterySize, \nbatteryConsumption,currentBattery)
+  getDetails()
+}
+
+class ScooterDB {
+  saveScooter(scooter)
+}
+
+class Pharmacy {
+  addScooterToList(scooter)
+}
+
+class PharmacyDB {
+  getPharmacy(id)
+}
+
+
+AddScooterUI ..> AddScooterController
+AddScooterController ..> System
+System "1" --> "1" ScooterDB: has
+System "1" --> "1" PharmacyDB: has
+ScooterDB "1" --> "*" Scooter: has registered
+PharmacyDB "1" --> "*" Pharmacy: has registered
+Pharmacy "1" --> "*" Scooter: has
+
+@enduml

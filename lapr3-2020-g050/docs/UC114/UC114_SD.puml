@@ -1,0 +1,62 @@
+@startuml
+autonumber
+
+actor "Admin" as ADM
+participant ":AddDroneUI" as UI
+participant ":AddDroneController" as CTRL
+participant ":Application" as SYS
+participant ":Drone" as SCO
+participant ":DroneRegister" as SCOR
+participant ":DroneDB" as SCDB
+
+activate ADM
+ADM -> UI : starts the addition of a new Drone
+activate UI
+
+UI -> CTRL : getDroneDB()
+activate CTRL
+
+CTRL -> SYS : getDroneDB()
+activate SYS
+deactivate SYS
+
+deactivate CTRL
+
+UI --> ADM : requests the details about the Drone, \nand the id of the Pharmacy
+deactivate UI
+
+ADM -> UI : inserts the required information
+activate UI
+
+UI -> CTRL : addDrone(id, batterySize, batteryConsumption,\n batteryEfficiency, currentBattery, weight,\n frontalArea, motorPower, pharmacyNif, payload)
+activate CTRL
+
+CTRL -> SCOR : addDrone(id, batterySize, batteryConsumption,\n batteryEfficiency, currentBattery, weight,\n frontalArea, motorPower, pharmacyNif, payload)
+activate SCOR
+
+SCOR -> SCDB : addDrone(drone)
+deactivate SCOR
+activate SCDB
+
+
+deactivate CTRL
+
+UI ->ADM:Presents de drone information
+deactivate SCDB
+deactivate UI
+
+ADM -> UI : confirms
+activate UI
+UI-->CTRL:addDrone(drone)
+activate CTRL
+CTRL-->SCDB:addDrone(drone)
+activate SCDB
+deactivate SCDB
+deactivate CTRL
+
+
+UI --> ADM : notifies the Admin about the addition \nof the new Drone
+deactivate UI
+
+deactivate ADM
+@enduml

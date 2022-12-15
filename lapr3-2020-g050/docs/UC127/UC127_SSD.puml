@@ -1,0 +1,11 @@
+@startuml
+autonumber
+actor "Courier" as CLI
+participant ":System" as STM
+activate CLI
+CLI-> STM :parks a scooter on a charging station slot
+activate STM
+STM --> CLI :sends a notification to all the last couriers \nthat used a scooter parked on a charging \nstation of that ScooterPark with the new \ntime of full charge, since the power got \nredistributed
+deactivate STM
+deactivate CLI
+@enduml

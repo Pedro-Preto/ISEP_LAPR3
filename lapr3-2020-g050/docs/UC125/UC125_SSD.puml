@@ -1,0 +1,11 @@
+@startuml
+autonumber
+actor ":System" as STM
+participant "Pharmacy" as PHA
+activate STM
+STM -> PHA :sent a note with request items from other pharmacy
+activate PHA
+PHA --> STM :sent the items and a note with the items sent
+deactivate PHA
+deactivate STM
+@enduml

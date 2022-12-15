@@ -1,0 +1,28 @@
+@startuml
+hide methods
+left to right direction
+
+class Client {
+
+}
+class System {
+
+}
+class User {
+
+}
+class Credits {
+
+}
+
+class Order {
+
+}
+
+Client "1" -- "0..*" Credits: has >
+Client "1" -- "1..*" Order: finished >
+System "1" -- "1" User: has >
+Client "1" -- "1" User: acts as >
+Order "1" -- "0..*" Credits: result in >
+
+@enduml

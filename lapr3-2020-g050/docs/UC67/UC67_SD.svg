@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="558px" preserveAspectRatio="none" style="width:807px;height:558px;" version="1.1" viewBox="0 0 807 558" width="807px" zoomAndPan="magnify">
+    <defs>
+        <filter height="300%" id="fhqd5b4a3vw7i" width="300%" x="-1" y="-1">
+            <feGaussianBlur result="blurOut" stdDeviation="2.0" />
+            <feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0" />
+            <feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3" />
+            <feBlend in="SourceGraphic" in2="blurOut3" mode="normal" />
+        </filter>
+    </defs>
+    <g>
+        <rect fill="#FFFFFF" filter="url(#fhqd5b4a3vw7i)" height="355.1641" style="stroke:#A80036;stroke-width:1.0;" width="10" x="21" y="99.6094" />
+        <rect fill="#FFFFFF" filter="url(#fhqd5b4a3vw7i)" height="272.1094" style="stroke:#A80036;stroke-width:1.0;" width="10" x="276" y="121.9609" />
+        <rect fill="#FFFFFF" filter="url(#fhqd5b4a3vw7i)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="276" y="424.4219" />
+        <rect fill="#FFFFFF" filter="url(#fhqd5b4a3vw7i)" height="211.4063" style="stroke:#A80036;stroke-width:1.0;" width="10" x="400" y="152.3125" />
+        <rect fill="#FFFFFF" filter="url(#fhqd5b4a3vw7i)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="524" y="182.6641" />
+        <rect fill="#FFFFFF" filter="url(#fhqd5b4a3vw7i)" height="60.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="611.5" y="243.0156" />
+        <rect fill="#FFFFFF" filter="url(#fhqd5b4a3vw7i)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="611.5" y="333.7188" />
+        <rect fill="#FFFFFF" filter="url(#fhqd5b4a3vw7i)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="758.5" y="273.3672" />
+        <line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="26" x2="26" y1="89.6094" y2="472.7734" />
+        <line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="280.5" x2="280.5" y1="89.6094" y2="472.7734" />
+        <line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="405" x2="405" y1="89.6094" y2="472.7734" />
+        <line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="529" x2="529" y1="89.6094" y2="472.7734" />
+        <line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="616" x2="616" y1="89.6094" y2="472.7734" />
+        <line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="763" x2="763" y1="89.6094" y2="472.7734" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="36" x="5" y="86.5332">Client</text>
+        <ellipse cx="26" cy="15" fill="#FEFECE" filter="url(#fhqd5b4a3vw7i)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;" />
+        <path d="M26,23 L26,50 M13,31 L39,31 M26,50 L13,65 M26,50 L39,65 " fill="none" filter="url(#fhqd5b4a3vw7i)" style="stroke:#A80036;stroke-width:2.0;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="36" x="5" y="486.3066">Client</text>
+        <ellipse cx="26" cy="499.3828" fill="#FEFECE" filter="url(#fhqd5b4a3vw7i)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;" />
+        <path d="M26,507.3828 L26,534.3828 M13,515.3828 L39,515.3828 M26,534.3828 L13,549.3828 M26,534.3828 L39,549.3828 " fill="none" filter="url(#fhqd5b4a3vw7i)" style="stroke:#A80036;stroke-width:2.0;" />
+        <rect fill="#FEFECE" filter="url(#fhqd5b4a3vw7i)" height="49.2188" style="stroke:#A80036;stroke-width:1.5;" width="91" x="233.5" y="35.3906" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="33" x="262.5" y="56.9238">:View</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="77" x="240.5" y="74.5332">CatalogueUI</text>
+        <rect fill="#FEFECE" filter="url(#fhqd5b4a3vw7i)" height="49.2188" style="stroke:#A80036;stroke-width:1.5;" width="91" x="233.5" y="471.7734" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="33" x="262.5" y="493.3066">:View</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="77" x="240.5" y="510.916">CatalogueUI</text>
+        <rect fill="#FEFECE" filter="url(#fhqd5b4a3vw7i)" height="49.2188" style="stroke:#A80036;stroke-width:1.5;" width="112" x="347" y="35.3906" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="98" x="354" y="56.9238">:ViewCatalogue</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="62" x="372" y="74.5332">Controller</text>
+        <rect fill="#FEFECE" filter="url(#fhqd5b4a3vw7i)" height="49.2188" style="stroke:#A80036;stroke-width:1.5;" width="112" x="347" y="471.7734" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="98" x="354" y="493.3066">:ViewCatalogue</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="62" x="372" y="510.916">Controller</text>
+        <rect fill="#FEFECE" filter="url(#fhqd5b4a3vw7i)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="64" x="495" y="53" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="50" x="502" y="74.5332">:System</text>
+        <rect fill="#FEFECE" filter="url(#fhqd5b4a3vw7i)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="64" x="495" y="471.7734" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="50" x="502" y="493.3066">:System</text>
+        <rect fill="#FEFECE" filter="url(#fhqd5b4a3vw7i)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="83" x="573" y="53" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="69" x="580" y="74.5332">:Catalogue</text>
+        <rect fill="#FEFECE" filter="url(#fhqd5b4a3vw7i)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="83" x="573" y="471.7734" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="69" x="580" y="493.3066">:Catalogue</text>
+        <rect fill="#FEFECE" filter="url(#fhqd5b4a3vw7i)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="63" x="730" y="53" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="49" x="737" y="74.5332">:ItemDB</text>
+        <rect fill="#FEFECE" filter="url(#fhqd5b4a3vw7i)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="63" x="730" y="471.7734" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="49" x="737" y="493.3066">:ItemDB</text>
+        <rect fill="#FFFFFF" filter="url(#fhqd5b4a3vw7i)" height="355.1641" style="stroke:#A80036;stroke-width:1.0;" width="10" x="21" y="99.6094" />
+        <rect fill="#FFFFFF" filter="url(#fhqd5b4a3vw7i)" height="272.1094" style="stroke:#A80036;stroke-width:1.0;" width="10" x="276" y="121.9609" />
+        <rect fill="#FFFFFF" filter="url(#fhqd5b4a3vw7i)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="276" y="424.4219" />
+        <rect fill="#FFFFFF" filter="url(#fhqd5b4a3vw7i)" height="211.4063" style="stroke:#A80036;stroke-width:1.0;" width="10" x="400" y="152.3125" />
+        <rect fill="#FFFFFF" filter="url(#fhqd5b4a3vw7i)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="524" y="182.6641" />
+        <rect fill="#FFFFFF" filter="url(#fhqd5b4a3vw7i)" height="60.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="611.5" y="243.0156" />
+        <rect fill="#FFFFFF" filter="url(#fhqd5b4a3vw7i)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="611.5" y="333.7188" />
+        <rect fill="#FFFFFF" filter="url(#fhqd5b4a3vw7i)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="758.5" y="273.3672" />
+        <polygon fill="#A80036" points="264,117.9609,274,121.9609,264,125.9609,268,121.9609" style="stroke:#A80036;stroke-width:1.0;" />
+        <line style="stroke:#A80036;stroke-width:1.0;" x1="31" x2="270" y1="121.9609" y2="121.9609" /><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="7" x="38" y="117.1045">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="208" x="49" y="117.1045">selects the option to view Catalogue</text>
+        <polygon fill="#A80036" points="388,148.3125,398,152.3125,388,156.3125,392,152.3125" style="stroke:#A80036;stroke-width:1.0;" />
+        <line style="stroke:#A80036;stroke-width:1.0;" x1="286" x2="394" y1="152.3125" y2="152.3125" /><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="7" x="293" y="147.4561">2</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="84" x="304" y="147.4561">getCatalogue()</text>
+        <polygon fill="#A80036" points="512,178.6641,522,182.6641,512,186.6641,516,182.6641" style="stroke:#A80036;stroke-width:1.0;" />
+        <line style="stroke:#A80036;stroke-width:1.0;" x1="410" x2="518" y1="182.6641" y2="182.6641" /><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="7" x="417" y="177.8076">3</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="84" x="428" y="177.8076">getCatalogue()</text>
+        <polygon fill="#A80036" points="599.5,239.0156,609.5,243.0156,599.5,247.0156,603.5,243.0156" style="stroke:#A80036;stroke-width:1.0;" />
+        <line style="stroke:#A80036;stroke-width:1.0;" x1="410" x2="605.5" y1="243.0156" y2="243.0156" /><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="7" x="417" y="238.1592">4</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="135" x="428" y="238.1592">getItemsForCatalogue()</text>
+        <polygon fill="#A80036" points="746.5,269.3672,756.5,273.3672,746.5,277.3672,750.5,273.3672" style="stroke:#A80036;stroke-width:1.0;" />
+        <line style="stroke:#A80036;stroke-width:1.0;" x1="621.5" x2="752.5" y1="273.3672" y2="273.3672" /><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="7" x="628.5" y="268.5107">5</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="107" x="639.5" y="268.5107">getAllItemNames()</text>
+        <polygon fill="#A80036" points="599.5,329.7188,609.5,333.7188,599.5,337.7188,603.5,333.7188" style="stroke:#A80036;stroke-width:1.0;" />
+        <line style="stroke:#A80036;stroke-width:1.0;" x1="410" x2="605.5" y1="333.7188" y2="333.7188" /><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="7" x="417" y="328.8623">6</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="91" x="428" y="328.8623">printCatalogue()</text>
+        <polygon fill="#A80036" points="42,390.0703,32,394.0703,42,398.0703,38,394.0703" style="stroke:#A80036;stroke-width:1.0;" />
+        <line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="36" x2="280" y1="394.0703" y2="394.0703" /><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="7" x="48" y="389.2139">7</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="210" x="59" y="389.2139">shows all the Items in the Catalogue</text>
+        <polygon fill="#A80036" points="264,420.4219,274,424.4219,264,428.4219,268,424.4219" style="stroke:#A80036;stroke-width:1.0;" />
+        <line style="stroke:#A80036;stroke-width:1.0;" x1="31" x2="270" y1="424.4219" y2="424.4219" /><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="7" x="38" y="419.5654">8</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="49" x="49" y="419.5654">confirms</text>
+        <polygon fill="#A80036" points="37,450.7734,27,454.7734,37,458.7734,33,454.7734" style="stroke:#A80036;stroke-width:1.0;" />
+        <line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="31" x2="280" y1="454.7734" y2="454.7734" /><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="7" x="43" y="449.917">9</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="122" x="54" y="449.917">closes the Catalogue</text>
+        <!--MD5=[41b4ddf3d483246bda30f6cf346e6cf9]
+@startuml
+autonumber
+
+actor "Client" as CLI
+participant ":View\nCatalogueUI" as UI
+participant ":ViewCatalogue\nController" as CTRL
+participant ":System" as SYS
+participant ":Catalogue" as CAT
+participant ":ItemDB" as ITDB
+
+activate CLI
+CLI -> UI : selects the option to view Catalogue
+activate UI
+
+UI -> CTRL : getCatalogue()
+activate CTRL
+
+CTRL -> SYS : getCatalogue()
+activate SYS
+deactivate SYS
+
+CTRL -> CAT : getItemsForCatalogue()
+activate CAT
+
+CAT -> ITDB : getAllItemNames()
+activate ITDB
+deactivate ITDB
+deactivate CAT
+
+CTRL -> CAT : printCatalogue()
+activate CAT
+deactivate CAT
+
+deactivate CTRL
+
+UI - -> CLI : shows all the Items in the Catalogue
+deactivate UI
+
+CLI -> UI : confirms
+activate UI
+
+UI - -> CLI : closes the Catalogue
+deactivate UI
+
+deactivate CLI
+@enduml
+
+PlantUML version 1.2020.26(Mon Dec 21 17:45:07 GMT 2020)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+-->
+    </g>
+</svg>

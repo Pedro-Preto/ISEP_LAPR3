@@ -1,0 +1,27 @@
+@startuml
+
+left to right direction
+
+class InvoiceUI {
+}
+
+class InvoiceController {
+    +getCatalogue()
+}
+
+class Application {
+    +getCatalogue()
+}
+
+class Receipt {
+    +sendInvoice()
+}
+class Client {
+}
+
+InvoiceUI ..> InvoiceController
+InvoiceController ..> Application
+InvoiceController ..> Receipt
+Receipt..>Client
+
+@enduml

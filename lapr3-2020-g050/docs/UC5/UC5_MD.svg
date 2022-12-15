@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="216px" preserveAspectRatio="none" style="width:447px;height:216px;" version="1.1" viewBox="0 0 447 216" width="447px" zoomAndPan="magnify">
+    <defs>
+        <filter height="300%" id="fjf7fjteuhay0" width="300%" x="-1" y="-1">
+            <feGaussianBlur result="blurOut" stdDeviation="2.0" />
+            <feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0" />
+            <feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3" />
+            <feBlend in="SourceGraphic" in2="blurOut3" mode="normal" />
+        </filter>
+    </defs>
+    <g>
+        <!--MD5=[ed6624c6556d5e7b1bd23032162d20b7]
+class Client-->
+        <rect codeLine="4" fill="#FEFECE" filter="url(#fjf7fjteuhay0)" height="40" id="Client" style="stroke:#A80036;stroke-width:1.5;" width="64" x="11.5" y="46.3564" />
+        <ellipse cx="26.5" cy="62.3564" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;" />
+        <path d="M29.2656,58.2314 Q29.4219,58.0127 29.6094,57.9033 Q29.7969,57.7939 30.0156,57.7939 Q30.3906,57.7939 30.625,58.0518 Q30.8594,58.3096 30.8594,58.9189 L30.8594,60.3721 Q30.8594,60.9814 30.625,61.2471 Q30.3906,61.5127 30.0156,61.5127 Q29.6719,61.5127 29.4688,61.3096 Q29.2656,61.1221 29.1563,60.6064 Q29.1094,60.2471 28.9219,60.0596 Q28.5938,59.6846 27.9844,59.4658 Q27.375,59.2471 26.75,59.2471 Q25.9844,59.2471 25.3516,59.5752 Q24.7188,59.9033 24.2266,60.6533 Q23.7344,61.4033 23.7344,62.4346 L23.7344,63.5283 Q23.7344,64.7627 24.625,65.583 Q25.5156,66.4033 27.1094,66.4033 Q28.0469,66.4033 28.7031,66.1533 Q29.0938,65.9971 29.5156,65.5596 Q29.7813,65.2939 29.9297,65.2158 Q30.0781,65.1377 30.2813,65.1377 Q30.6094,65.1377 30.8672,65.3955 Q31.125,65.6533 31.125,65.9971 Q31.125,66.3408 30.7813,66.7471 Q30.2813,67.3252 29.4844,67.6533 Q28.4063,68.1064 27.1094,68.1064 Q25.5938,68.1064 24.3906,67.4814 Q23.4063,66.9814 22.7188,65.9111 Q22.0313,64.8408 22.0313,63.5596 L22.0313,62.4033 Q22.0313,61.0752 22.6484,59.9268 Q23.2656,58.7783 24.3594,58.1611 Q25.4531,57.5439 26.6875,57.5439 Q27.4219,57.5439 28.0703,57.708 Q28.7188,57.8721 29.2656,58.2314 Z " fill="#000000" /><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="32" x="40.5" y="67.2666">Client</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="12.5" x2="74.5" y1="78.3564" y2="78.3564" />
+        <!--MD5=[fff5db4abcb6eec6574b9ea9c3ee0eae]
+class Delivery-->
+        <rect codeLine="8" fill="#FEFECE" filter="url(#fjf7fjteuhay0)" height="40" id="Delivery" style="stroke:#A80036;stroke-width:1.5;" width="75" x="358" y="12.3564" />
+        <ellipse cx="373" cy="28.3564" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;" />
+        <path d="M375.7656,24.2314 Q375.9219,24.0127 376.1094,23.9033 Q376.2969,23.7939 376.5156,23.7939 Q376.8906,23.7939 377.125,24.0518 Q377.3594,24.3096 377.3594,24.9189 L377.3594,26.3721 Q377.3594,26.9814 377.125,27.2471 Q376.8906,27.5127 376.5156,27.5127 Q376.1719,27.5127 375.9688,27.3096 Q375.7656,27.1221 375.6563,26.6064 Q375.6094,26.2471 375.4219,26.0596 Q375.0938,25.6846 374.4844,25.4658 Q373.875,25.2471 373.25,25.2471 Q372.4844,25.2471 371.8516,25.5752 Q371.2188,25.9033 370.7266,26.6533 Q370.2344,27.4033 370.2344,28.4346 L370.2344,29.5283 Q370.2344,30.7627 371.125,31.583 Q372.0156,32.4033 373.6094,32.4033 Q374.5469,32.4033 375.2031,32.1533 Q375.5938,31.9971 376.0156,31.5596 Q376.2813,31.2939 376.4297,31.2158 Q376.5781,31.1377 376.7813,31.1377 Q377.1094,31.1377 377.3672,31.3955 Q377.625,31.6533 377.625,31.9971 Q377.625,32.3408 377.2813,32.7471 Q376.7813,33.3252 375.9844,33.6533 Q374.9063,34.1064 373.6094,34.1064 Q372.0938,34.1064 370.8906,33.4814 Q369.9063,32.9814 369.2188,31.9111 Q368.5313,30.8408 368.5313,29.5596 L368.5313,28.4033 Q368.5313,27.0752 369.1484,25.9268 Q369.7656,24.7783 370.8594,24.1611 Q371.9531,23.5439 373.1875,23.5439 Q373.9219,23.5439 374.5703,23.708 Q375.2188,23.8721 375.7656,24.2314 Z " fill="#000000" /><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="43" x="387" y="33.2666">Delivery</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="359" x2="432" y1="44.3564" y2="44.3564" />
+        <!--MD5=[cf4d6237fcae255cd2e1656cf84a30e2]
+class Order-->
+        <rect codeLine="12" fill="#FEFECE" filter="url(#fjf7fjteuhay0)" height="40" id="Order" style="stroke:#A80036;stroke-width:1.5;" width="63" x="198.5" y="57.3564" />
+        <ellipse cx="213.5" cy="73.3564" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;" />
+        <path d="M216.2656,69.2314 Q216.4219,69.0127 216.6094,68.9033 Q216.7969,68.7939 217.0156,68.7939 Q217.3906,68.7939 217.625,69.0518 Q217.8594,69.3096 217.8594,69.9189 L217.8594,71.3721 Q217.8594,71.9814 217.625,72.2471 Q217.3906,72.5127 217.0156,72.5127 Q216.6719,72.5127 216.4688,72.3096 Q216.2656,72.1221 216.1563,71.6064 Q216.1094,71.2471 215.9219,71.0596 Q215.5938,70.6846 214.9844,70.4658 Q214.375,70.2471 213.75,70.2471 Q212.9844,70.2471 212.3516,70.5752 Q211.7188,70.9033 211.2266,71.6533 Q210.7344,72.4033 210.7344,73.4346 L210.7344,74.5283 Q210.7344,75.7627 211.625,76.583 Q212.5156,77.4033 214.1094,77.4033 Q215.0469,77.4033 215.7031,77.1533 Q216.0938,76.9971 216.5156,76.5596 Q216.7813,76.2939 216.9297,76.2158 Q217.0781,76.1377 217.2813,76.1377 Q217.6094,76.1377 217.8672,76.3955 Q218.125,76.6533 218.125,76.9971 Q218.125,77.3408 217.7813,77.7471 Q217.2813,78.3252 216.4844,78.6533 Q215.4063,79.1064 214.1094,79.1064 Q212.5938,79.1064 211.3906,78.4814 Q210.4063,77.9814 209.7188,76.9111 Q209.0313,75.8408 209.0313,74.5596 L209.0313,73.4033 Q209.0313,72.0752 209.6484,70.9268 Q210.2656,69.7783 211.3594,69.1611 Q212.4531,68.5439 213.6875,68.5439 Q214.4219,68.5439 215.0703,68.708 Q215.7188,68.8721 216.2656,69.2314 Z " fill="#000000" /><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="31" x="227.5" y="78.2666">Order</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="199.5" x2="260.5" y1="89.3564" y2="89.3564" />
+        <!--MD5=[f8e092794d52bf9a252466252ae7bd1c]
+class System-->
+        <rect codeLine="16" fill="#FEFECE" filter="url(#fjf7fjteuhay0)" height="40" id="System" style="stroke:#A80036;stroke-width:1.5;" width="73" x="7" y="162.3564" />
+        <ellipse cx="22" cy="178.3564" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;" />
+        <path d="M24.7656,174.2314 Q24.9219,174.0127 25.1094,173.9033 Q25.2969,173.7939 25.5156,173.7939 Q25.8906,173.7939 26.125,174.0518 Q26.3594,174.3096 26.3594,174.9189 L26.3594,176.3721 Q26.3594,176.9814 26.125,177.2471 Q25.8906,177.5127 25.5156,177.5127 Q25.1719,177.5127 24.9688,177.3096 Q24.7656,177.1221 24.6563,176.6064 Q24.6094,176.2471 24.4219,176.0596 Q24.0938,175.6846 23.4844,175.4658 Q22.875,175.2471 22.25,175.2471 Q21.4844,175.2471 20.8516,175.5752 Q20.2188,175.9033 19.7266,176.6533 Q19.2344,177.4033 19.2344,178.4346 L19.2344,179.5283 Q19.2344,180.7627 20.125,181.583 Q21.0156,182.4033 22.6094,182.4033 Q23.5469,182.4033 24.2031,182.1533 Q24.5938,181.9971 25.0156,181.5596 Q25.2813,181.2939 25.4297,181.2158 Q25.5781,181.1377 25.7813,181.1377 Q26.1094,181.1377 26.3672,181.3955 Q26.625,181.6533 26.625,181.9971 Q26.625,182.3408 26.2813,182.7471 Q25.7813,183.3252 24.9844,183.6533 Q23.9063,184.1064 22.6094,184.1064 Q21.0938,184.1064 19.8906,183.4814 Q18.9063,182.9814 18.2188,181.9111 Q17.5313,180.8408 17.5313,179.5596 L17.5313,178.4033 Q17.5313,177.0752 18.1484,175.9268 Q18.7656,174.7783 19.8594,174.1611 Q20.9531,173.5439 22.1875,173.5439 Q22.9219,173.5439 23.5703,173.708 Q24.2188,173.8721 24.7656,174.2314 Z " fill="#000000" /><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="41" x="36" y="183.2666">System</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="8" x2="79" y1="194.3564" y2="194.3564" />
+        <!--MD5=[3fd616f346a44cd59a91eb10b19e157c]
+class User-->
+        <rect codeLine="20" fill="#FEFECE" filter="url(#fjf7fjteuhay0)" height="40" id="User" style="stroke:#A80036;stroke-width:1.5;" width="59" x="200.5" y="142.3564" />
+        <ellipse cx="215.5" cy="158.3564" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;" />
+        <path d="M218.2656,154.2314 Q218.4219,154.0127 218.6094,153.9033 Q218.7969,153.7939 219.0156,153.7939 Q219.3906,153.7939 219.625,154.0518 Q219.8594,154.3096 219.8594,154.9189 L219.8594,156.3721 Q219.8594,156.9814 219.625,157.2471 Q219.3906,157.5127 219.0156,157.5127 Q218.6719,157.5127 218.4688,157.3096 Q218.2656,157.1221 218.1563,156.6064 Q218.1094,156.2471 217.9219,156.0596 Q217.5938,155.6846 216.9844,155.4658 Q216.375,155.2471 215.75,155.2471 Q214.9844,155.2471 214.3516,155.5752 Q213.7188,155.9033 213.2266,156.6533 Q212.7344,157.4033 212.7344,158.4346 L212.7344,159.5283 Q212.7344,160.7627 213.625,161.583 Q214.5156,162.4033 216.1094,162.4033 Q217.0469,162.4033 217.7031,162.1533 Q218.0938,161.9971 218.5156,161.5596 Q218.7813,161.2939 218.9297,161.2158 Q219.0781,161.1377 219.2813,161.1377 Q219.6094,161.1377 219.8672,161.3955 Q220.125,161.6533 220.125,161.9971 Q220.125,162.3408 219.7813,162.7471 Q219.2813,163.3252 218.4844,163.6533 Q217.4063,164.1064 216.1094,164.1064 Q214.5938,164.1064 213.3906,163.4814 Q212.4063,162.9814 211.7188,161.9111 Q211.0313,160.8408 211.0313,159.5596 L211.0313,158.4033 Q211.0313,157.0752 211.6484,155.9268 Q212.2656,154.7783 213.3594,154.1611 Q214.4531,153.5439 215.6875,153.5439 Q216.4219,153.5439 217.0703,153.708 Q217.7188,153.8721 218.2656,154.2314 Z " fill="#000000" /><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="27" x="229.5" y="163.2666">User</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="201.5" x2="258.5" y1="174.3564" y2="174.3564" />
+        <!--MD5=[879bec428a80d843af24dc47845bf14c]
+link Client to Order-->
+        <path codeLine="26" d="M75.8,68.2164 C110.03,70.2664 164.54,73.5064 198.47,75.5364 " fill="none" id="Client-Order" style="stroke:#A80036;stroke-width:1.0;" />
+        <polygon fill="#000000" points="119.9911,62.8301,111.1372,59.3576,110.787,65.225,119.9911,62.8301" style="stroke:#000000;stroke-width:1.0;" /><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="43" x="124" y="67.8516">creates</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="7" x="83.6313" y="83.9069">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="20" x="170.5533" y="90.2431">0..*</text>
+        <!--MD5=[9a8dc34b38f85b9f3fcdb440f4bffc6a]
+link Client to User-->
+        <path codeLine="27" d="M75.8,82.6364 C110.65,100.7764 166.51,129.8364 200.28,147.4164 " fill="none" id="Client-User" style="stroke:#A80036;stroke-width:1.0;" />
+        <polygon fill="#000000" points="119.4353,96.8404,112.7684,90.0578,110.055,95.2719,119.4353,96.8404" style="stroke:#000000;stroke-width:1.0;" /><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="43" x="124" y="99.8516">acts as</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="7" x="83.6313" y="101.4813">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="7" x="185.5979" y="159.3473">1</text>
+        <!--MD5=[708fc3f4650a2ae1237917fe048fe522]
+link Client to Delivery-->
+        <path codeLine="28" d="M75.8,54.9064 C86.52,51.3664 98.67,47.7664 110,45.3564 C205.16,25.0864 230.84,20.2564 328,25.3564 C337.74,25.8664 348.25,26.7964 357.97,27.8164 " fill="none" id="Client-Delivery" style="stroke:#A80036;stroke-width:1.0;" />
+        <polygon fill="#000000" points="207.9771,15.0544,198.6926,12.9933,199.2543,18.8443,207.9771,15.0544" style="stroke:#000000;stroke-width:1.0;" /><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="49" x="212" y="20.8516">confirms</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="7" x="83.6313" y="67.6853">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="5" x="345.0891" y="22.8774">*</text>
+        <!--MD5=[e851f94bc71457f9038687d54ae4bfa1]
+link Order to Delivery-->
+        <path codeLine="30" d="M261.75,68.8864 C289.04,61.3764 328.95,50.3964 357.88,42.4364 " fill="none" id="Order-Delivery" style="stroke:#A80036;stroke-width:1.0;" />
+        <polygon fill="#000000" points="301.8208,41.2058,292.3202,40.7717,293.8795,46.439,301.8208,41.2058" style="stroke:#000000;stroke-width:1.0;" /><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="21" x="306" y="47.8516">has</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="20" x="269.4477" y="82.3273">1..*</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="7" x="343.0415" y="59.4116">1</text>
+        <!--MD5=[4ad6cf97acca416edaf696371dce2f13]
+link System to User-->
+        <path codeLine="32" d="M80.2,187.0364 C105.03,189.3664 138.78,190.6764 168,185.3564 C178.91,183.3664 190.41,179.5264 200.44,175.5464 " fill="none" id="System-User" style="stroke:#A80036;stroke-width:1.0;" />
+        <polygon fill="#000000" points="130.9773,176.0566,121.6937,173.9914,122.2528,179.8426,130.9773,176.0566" style="stroke:#000000;stroke-width:1.0;" /><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="21" x="135" y="181.8516">has</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="7" x="88.1144" y="203.0625">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="20" x="172.2807" y="193.4483">1..*</text>
+        <!--MD5=[be51ff3f23e48ca6324001e3b9acefd8]
+@startuml
+hide methods
+left to right direction
+
+class Client {
+
+}
+
+class Delivery {
+
+}
+
+class Order {
+
+}
+
+class System {
+
+}
+
+class User {
+
+}
+
+
+
+Client "1" - - "0..*" Order: creates >
+Client "1" - - "1" User: acts as >
+Client "1" - - "*" Delivery: confirms >
+
+Order "1..*" - - "1" Delivery: has >
+
+System "1" - - "1..*" User: has >
+
+@enduml
+
+PlantUML version 1.2020.26(Mon Dec 21 17:45:07 GMT 2020)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+-->
+    </g>
+</svg>

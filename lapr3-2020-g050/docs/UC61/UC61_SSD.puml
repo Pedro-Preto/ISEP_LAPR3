@@ -1,0 +1,20 @@
+@startuml
+autonumber
+actor "Admin" as ADM
+participant ":System" as STM
+activate ADM
+ADM-> STM :starts removing a Scooter
+activate STM
+STM --> ADM :shows the list of all Scooters
+deactivate STM
+ADM -> STM : introduces the id of the Scooter he wants to remove
+activate STM
+STM --> ADM :asks for confirmation
+deactivate STM
+ADM -> STM : confirms
+activate STM
+STM --> ADM : notifies the Admin that the Scooter has been removed
+deactivate STM
+
+deactivate ADM
+@enduml

@@ -1,0 +1,65 @@
+@startuml
+autonumber
+
+actor "Courier" as Admin
+participant ":EnergyConsuptionUI" as UI
+participant ":EnergyConsuptionController" as CTRL
+participant ":Application" as SYST
+participant "user:User" as USER
+
+participant ":Scooter" as SCOOT
+participant ":ScooterDB" as SCOOTDB
+
+
+activate Admin
+Admin -> UI : Start the process to obtain the consuption of energy for each run
+activate UI
+UI -> CTRL:CheckEnergyConsuption()
+activate CTRL
+CTRL -> SYST :user = getUser()
+activate SYST
+deactivate SYST
+CTRL -> USER :courier = getCourier(user)
+activate USER
+deactivate USER
+CTRL->SCOOT:getId()
+activate SCOOT
+SCOOT ->SCOOTDB:getScooter()
+activate SCOOTDB
+deactivate SCOOTDB
+deactivate SCOOT
+
+CTRL->SCOOT:getbatterySize()
+activate SCOOT
+deactivate SCOOT
+CTRL->SCOOT:getbatteryConsumption()
+activate SCOOT
+deactivate SCOOT
+CTRL->SCOOT:getcurrentBattery()
+activate SCOOT
+deactivate SCOOT
+CTRL->SCOOT:getEnergyConsuption()
+activate SCOOT
+deactivate SCOOT
+
+
+deactivate CTRL
+
+UI --> Admin : calculates and returns the energy consumption
+deactivate UI
+
+Admin -> UI : Confirms
+activate UI
+
+
+UI --> Admin : Returns the energy consumption
+deactivate UI
+
+
+
+
+deactivate CTRL
+deactivate UI
+
+deactivate Admin
+@enduml

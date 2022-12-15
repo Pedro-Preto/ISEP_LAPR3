@@ -1,0 +1,43 @@
+@startuml
+
+left to right direction
+
+class ConfirmDeliveryUI {
+}
+
+class ConfirmDeliveryController {
+  getOrders(user)
+  getOrder(order)
+}
+
+class System {
+  getOrderDatabase()
+  getOrder(order)
+}
+
+class Order {
+  getDetails()
+  markAsReceived()
+  getOrderStatus()
+  getDelivery()
+}
+
+class OrderDatabase {
+  getOrders(userId)
+  getOrder(orderId)
+}
+
+class Delivery {
+  getStatus()
+  completeDelivery()
+}
+
+
+ConfirmDeliveryUI ..> ConfirmDeliveryController
+ConfirmDeliveryController ..> System
+ConfirmDeliveryController ..> OrderDatabase
+System "1" --> "1" OrderDatabase: has
+OrderDatabase "1" --> "*" Order: has registered
+Order "1..*" --> "1" Delivery: has
+
+@enduml

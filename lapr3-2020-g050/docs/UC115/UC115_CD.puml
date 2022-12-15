@@ -1,0 +1,30 @@
+@startuml
+
+class RemoveDroneUI {
+}
+
+class RemoveDroneController {
+  +getDroneDB()
+  +getDrone(id)
+ +removeDrone(drone)
+}
+
+class Application {
+  +getDroneDB()
+}
+
+class DroneRegister {
++removeDrone(drone)}
+
+class DroneDB {
+  +getDrone(id)
+  +removeDrone(drone)
+}
+
+
+RemoveDroneUI ..> RemoveDroneController
+RemoveDroneController ..> Application
+RemoveDroneController ..> DroneRegister
+Application "1" --> "1" DroneDB: has
+DroneRegister..>DroneDB
+@enduml

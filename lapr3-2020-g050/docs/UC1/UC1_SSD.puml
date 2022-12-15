@@ -1,0 +1,22 @@
+@startuml
+autonumber
+actor "Unregistered User" as USR
+participant ":System" as STM
+activate USR
+USR-> STM :starts the register of a client to the system
+activate STM
+STM --> USR :asks for the information regarding the client \n(name, nif, address, email, cellphone, credit card information(optional) )
+deactivate STM
+
+USR -> STM : introduces the required data.
+activate STM
+STM --> USR :presents the data and asks for confirmation
+deactivate STM
+
+USR -> STM : confirms
+activate STM
+STM --> USR : registers the Client
+deactivate STM
+
+deactivate USR
+@enduml

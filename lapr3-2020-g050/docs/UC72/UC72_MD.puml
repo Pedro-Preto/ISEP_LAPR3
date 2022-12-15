@@ -1,0 +1,33 @@
+@startuml
+hide methods
+left to right direction
+
+
+class System {
+
+}
+
+class User {
+    -name String
+    -emailAddress String
+    -password String
+}
+
+class Courier {
+    -name String
+    -nif String
+    -emailn String
+    -cellphone String
+}
+
+class Administrator {
+
+}
+
+
+
+System "1" -- "1..*" Administrator: has >
+Administrator"1" -- "0..*" Courier: registers >
+Courier "1" -- "1" User: acts as >
+
+@enduml

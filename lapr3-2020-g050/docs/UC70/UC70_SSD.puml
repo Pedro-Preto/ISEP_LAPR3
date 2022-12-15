@@ -1,0 +1,13 @@
+@startuml
+autonumber
+actor "Courier" as C
+participant ":System" as S
+activate C
+
+C -> S : Asks to open is requests
+activate S
+S --> C : Returns a list with the courier's requests
+deactivate S
+
+deactivate C
+@enduml

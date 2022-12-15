@@ -1,0 +1,18 @@
+@startuml
+autonumber
+actor "Pharmacy Administrator" as P
+participant ":System" as S
+activate P
+
+P-> S : Chooses items to be added to the stock
+activate S
+S --> P : Presents the items chosen and asks for confirmation
+deactivate S
+P-> S :Confirms
+activate S
+S --> P : Declares the success of the operation and adds \n the items to the stock and the catalogue
+deactivate S
+
+
+deactivate P
+@enduml

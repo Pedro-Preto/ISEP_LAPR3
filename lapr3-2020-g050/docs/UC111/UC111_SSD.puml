@@ -1,0 +1,13 @@
+@startuml
+autonumber
+actor "Client" as Client
+participant ":System" as STM
+activate Client
+
+activate STM
+Client -->STM:Makes a new order
+STM --> Client : Returns an invoice\ receipt
+deactivate STM
+
+deactivate Client
+@enduml

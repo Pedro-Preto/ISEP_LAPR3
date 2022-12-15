@@ -1,0 +1,46 @@
+@startuml
+
+left to right direction
+
+class RemoveScooterUI {
+}
+
+class RemoveScooterController {
+  getSCooterDB()
+  getScooter(id)
+  removeScooter(scooter)
+  getPharmacyOfScooter(scooter)
+}
+
+class System {
+  getSCooterDB()
+}
+
+class Scooter {
+  getDetails()
+}
+
+class ScooterDB {
+  printScooterList()
+  getScooter(id)
+  removeScooter(scooter)
+}
+
+class Pharmacy {
+  removeScooterFromList(scooter)
+}
+
+class PharmacyDB {
+  getPharmacyOfScooter(scooter)
+}
+
+
+RemoveScooterUI ..> RemoveScooterController
+RemoveScooterController ..> System
+System "1" --> "1" ScooterDB: has
+System "1" --> "1" PharmacyDB: has
+ScooterDB "1" --> "*" Scooter: has registered
+PharmacyDB "1" --> "*" Pharmacy: has registered
+Pharmacy "1" --> "*" Scooter: has
+
+@enduml

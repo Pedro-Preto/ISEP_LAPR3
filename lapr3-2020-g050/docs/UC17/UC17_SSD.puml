@@ -1,0 +1,11 @@
+@startuml
+autonumber
+actor "Client" as CLI
+participant ":System" as STM
+activate CLI
+CLI-> STM :Access the orders that have been made option
+activate STM
+STM --> CLI :Shows a list of the Orders made by the Client
+deactivate STM
+deactivate CLI
+@enduml

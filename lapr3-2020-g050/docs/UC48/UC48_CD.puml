@@ -1,0 +1,46 @@
+@startuml
+
+left to right direction
+
+class EnergyConsuptionUI {
+
+}
+
+class EnergyConsuptionController {
+    +CheckEnergyConsuption()
+
+}
+
+class Application {
+    +getUser()
+}
+Class User{
+    +getCourier(user)
+}
+
+
+
+
+class Scooter {
+  +getbatterySize()
+    +getbatteryConsumption()
+    +getcurrentBattery()
+    +getEnergyConsuption()
+
+}
+
+class ScooterDB {
+    +getScooter()
+
+
+}
+
+
+
+EnergyConsuptionUI ..> EnergyConsuptionController
+EnergyConsuptionController ..> Scooter
+EnergyConsuptionController ..> User
+EnergyConsuptionController ..> Application
+Scooter..> ScooterDB
+
+@enduml

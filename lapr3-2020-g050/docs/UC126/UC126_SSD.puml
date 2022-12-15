@@ -1,0 +1,11 @@
+@startuml
+autonumber
+actor "System" as CLI
+participant ":System" as STM
+activate CLI
+CLI-> STM :notices that a scooter or drone have parked on a charging station
+activate STM
+STM --> CLI :calculates and redistributes the total power of the Park into the \noccupied charging stations, equaly
+deactivate STM
+deactivate CLI
+@enduml

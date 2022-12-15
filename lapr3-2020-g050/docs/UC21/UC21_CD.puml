@@ -1,0 +1,42 @@
+@startuml
+
+
+class CheckScooterBateryUI {
+}
+
+class CheckScooterBateryController {
++getScooterParkDB()
++checkScootersParkedBatterys(scooterId, pharNIF)
+}
+
+
+class Application {
++getScooterParkDB()
+}
+
+
+class ScooterParkRegister {
+
+}
+
+class ScooterRegister {
++checkScootersParkedBatterys(scooterId, pharNIF)
+
+}
+
+class ScooterParkRegister {
++getScootertParkedOnPharmacy(pharNIF)
+}
+
+class ScooterParkDB {
++getScootertParkedOnPharmacy(pharNIF)
+}
+
+CheckScooterBateryUI ..> CheckScooterBateryController
+CheckScooterBateryController ..> Application
+CheckScooterBateryController ..> ScooterRegister
+ScooterRegister ..>ScooterParkRegister
+ScooterParkRegister ..> ScooterParkDB
+
+
+@enduml

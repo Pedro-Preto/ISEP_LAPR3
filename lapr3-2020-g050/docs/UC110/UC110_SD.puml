@@ -1,0 +1,39 @@
+@startuml
+autonumber
+
+actor "Pharmacy" as Pharmacy
+participant ":OrderInvoiceUI" as UI
+participant ":OrderInvoiceController" as CTRL
+participant ":Application" as SYS
+participant "app:Application" as SYST
+participant "Receipt" as IN
+
+
+
+
+activate Pharmacy
+Pharmacy -> UI : Receive an order.
+activate UI
+
+UI -> CTRL : checkOrder()
+activate CTRL
+CTRL -> SYST : order = getOrder()
+activate SYST
+SYST->IN:sendInvoice()
+activate IN
+
+deactivate SYST
+
+deactivate IN
+
+
+
+UI -->Pharmacy: Returns an invoice\ receipt for order receipt
+
+
+deactivate CTRL
+
+deactivate UI
+
+deactivate Pharmacy
+@enduml

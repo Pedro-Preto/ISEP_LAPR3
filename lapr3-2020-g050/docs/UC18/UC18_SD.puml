@@ -1,0 +1,29 @@
+@startuml
+autonumber
+
+actor "Pharmacy" as Pharmacy
+participant ":CheckStockUI" as UI
+participant ":ChekStockController" as CTRL
+participant "System" as SYS
+participant "phar:Pharmacy" as PHA
+participant "stock:Stock" as STO
+participant "Item" as ITEM
+
+
+activate Pharmacy
+Pharmacy -> UI : choose the stock option.
+activate UI
+UI -> CTRL : checkStock()
+activate CTRL
+CTRL -> PHA : stock = getStock()
+activate PHA
+deactivate PHA
+CTRL -> STO : items = getItemsOfStock()
+activate STO
+deactivate STO
+
+UI --> Pharmacy : shows a list  with the quantity of each item
+deactivate UI
+
+deactivate Pharmacy
+@enduml

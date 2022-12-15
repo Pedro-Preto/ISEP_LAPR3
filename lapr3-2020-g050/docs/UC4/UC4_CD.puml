@@ -1,0 +1,29 @@
+@startuml
+
+left to right direction
+
+class CheckCreditsUI {
+}
+
+class CheckCreditsController {
+    +checkCredits()
+}
+
+class System {
+    +getUser()
+}
+
+class User {
+    +getClient(User user)
+}
+
+class Client {
+    +getCredits()
+}
+
+CheckCreditsUI ..> CheckCreditsController
+CheckCreditsController ..> System
+CheckCreditsController ..> User
+CheckCreditsController ..> Client
+
+@enduml

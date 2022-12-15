@@ -1,0 +1,13 @@
+@startuml
+autonumber
+actor "Courier" as Courier
+participant ":System" as STM
+activate Courier
+
+Courier-> STM :Locks the vehicle on the parking slot
+activate STM
+STM --> Courier :Sends an email with the estimated charging time\n and confirms that vehicle is correctly locked
+deactivate STM
+
+deactivate Courier
+@enduml

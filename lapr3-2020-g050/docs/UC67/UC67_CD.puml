@@ -1,0 +1,30 @@
+@startuml
+
+left to right direction
+
+class ViewCatalogueUI {
+}
+
+class ViewCatalogueController {
+  getCatalogue()
+}
+
+class System {
+  getCatalogue()
+}
+
+class Catalogue {
+  getItemsForCatalogue()
+  printCatalogue()
+}
+
+class ItemdDB {
+  getAllItemNames()
+}
+
+ViewCatalogueUI ..> ViewCatalogueController
+ViewCatalogueController ..> System
+System "1" --> "1" ItemdDB: has
+System "1" --> "1" Catalogue: has
+
+@enduml

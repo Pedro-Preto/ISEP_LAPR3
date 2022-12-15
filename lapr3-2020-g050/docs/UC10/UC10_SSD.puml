@@ -1,0 +1,12 @@
+@startuml
+autonumber
+actor "Administrator" as ADM
+participant ":System" as STM
+activate ADM
+ADM-> STM :introduces the required data (email and password)
+activate STM
+STM --> ADM : give access to the platform
+deactivate STM
+
+deactivate ADM
+@enduml

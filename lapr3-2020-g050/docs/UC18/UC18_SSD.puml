@@ -1,0 +1,12 @@
+@startuml
+autonumber
+actor "Pharmacy" as Pharmacy
+participant ":System" as STM
+activate Pharmacy
+Pharmacy-> STM :access the stock option
+activate STM
+STM --> Pharmacy : shows a list with the quantity of each item
+deactivate STM
+
+deactivate Pharmacy
+@enduml

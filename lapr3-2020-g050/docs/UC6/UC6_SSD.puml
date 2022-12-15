@@ -1,0 +1,12 @@
+@startuml
+autonumber
+actor "Courier" as COU
+participant ":System" as STM
+activate COU
+COU-> STM :introduces the required data (email and password)
+activate STM
+STM --> COU : give access to the platform
+deactivate STM
+
+deactivate COU
+@enduml

@@ -1,0 +1,27 @@
+@startuml
+
+left to right direction
+
+class OrderInvoiceUI {
+}
+
+class OrderInvoiceController {
+    +checkOrder()
+}
+
+class Application {
+    +getOrder()
+}
+
+class Receipt {
+    +sendInvoice()
+}
+class Pharmacy {
+}
+
+OrderInvoiceUI ..> OrderInvoiceController
+OrderInvoiceController ..> Application
+OrderInvoiceController ..> Receipt
+Receipt..>Pharmacy
+
+@enduml

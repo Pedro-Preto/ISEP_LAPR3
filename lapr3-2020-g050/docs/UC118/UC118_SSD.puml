@@ -1,0 +1,12 @@
+@startuml
+autonumber
+actor "Client" as CLI
+participant ":System" as STM
+activate CLI
+CLI -> STM :make an order
+activate STM
+STM --> CLI :process the order and notify the Client when the delivery starts
+deactivate STM
+
+deactivate CLI
+@enduml

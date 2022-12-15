@@ -1,0 +1,89 @@
+@startuml
+autonumber
+
+actor "Client" as CLI
+participant ":Confirm\nDeliveryUI" as UI
+participant ":ConfirmDelivery\nController" as CTRL
+participant ":OrderDatabase" as ORDDB
+participant ":Orders" as ORD
+participant ":Delivery" as DEL
+
+activate CLI
+CLI -> UI : opens the list of his Orders
+activate UI
+
+UI -> CTRL : getOrders(user)
+activate CTRL
+
+CTRL -> ORDDB : getOrders(userId)
+activate ORDDB
+deactivate ORDDB
+
+deactivate CTRL
+
+UI --> CLI : shows all the orders of the client
+deactivate UI
+
+CLI -> UI : opens the details of an Order
+activate UI
+
+UI -> CTRL : getOrder(order)
+activate CTRL
+
+CTRL -> ORDDB : getOrder(orderId)
+activate ORDDB
+deactivate ORDDB
+
+CTRL -> ORD : getDetails()
+activate ORD
+deactivate ORD
+
+CTRL -> ORD : getDelivery()
+activate ORD
+deactivate ORD
+
+CTRL -> ORD : getOrderStatus()
+activate ORD
+ORD -> DEL : getStatus()
+activate DEL
+deactivate DEL
+deactivate ORD
+
+deactivate CTRL
+
+UI --> CLI : shows the details of the Order and \nan option to mark it as received if order \nwas marked as delivered
+deactivate UI
+
+CLI -> UI : marks the Order as received
+activate UI
+UI --> CLI : asks for confirmation
+deactivate UI
+
+CLI -> UI : confirms
+activate UI
+
+UI -> CTRL : getOrder(order)
+activate CTRL
+
+CTRL -> ORDDB : getOrder(orderId)
+activate ORDDB
+deactivate ORDDB
+
+CTRL -> ORD : getDelivery()
+activate ORD
+deactivate ORD
+
+CTRL -> ORD : getOrderStatus()
+activate ORD
+ORD -> DEL : completeDelivery()
+activate DEL
+deactivate DEL
+deactivate ORD
+
+deactivate CTRL
+
+UI --> CLI : notifies the Client about the change \nof the state of his Order
+deactivate UI
+
+deactivate CLI
+@enduml

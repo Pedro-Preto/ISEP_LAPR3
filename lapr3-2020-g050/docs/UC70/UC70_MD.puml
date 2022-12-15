@@ -1,0 +1,38 @@
+@startuml
+hide methods
+left to right direction
+
+
+class User {
+    -Integer id
+    -String name
+    -String emailAddress
+    -String password
+}
+
+class Order {
+    -Integer id
+}
+
+class Courier {
+    -Integer id
+    -String name
+    -String emailAddress
+    -String password
+    -String iban
+    -Integer nif
+}
+
+class Item {
+    -Integer id
+    -String name
+    -Double price
+}
+
+Courier "1" -- "1" User: acts as >
+Courier "1" -- "0..*" Order: has >
+
+Order "1" -- "1..*" Item: has >
+
+
+@enduml

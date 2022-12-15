@@ -1,0 +1,70 @@
+@startuml
+
+left to right direction
+
+class GetNearestPharmacyUI {
+}
+
+class MakeOrderControllerController {
+    +getNearestPharmacy()
+}
+
+class Platform {
+    +getPharmacyRegister()
+    +getLandPathRegister()
+    +getAddressRegister()
+
+}
+
+class PharmacyRegister {
+    +getPharmacyRegister()
+}
+
+class PharmacyDB {
+    +getAllPharmacies()
+}
+
+class LandPathRegister {
+    +getLandPathRegister()
+}
+
+
+class LandPathDB {
+    +getAllPathsBetweenClientsAndPharmacies()
+}
+
+class DeliverySimulationsController {
+    +getDistanceLandMap(pathsBetweenClientsAndPharmacies)
+}
+
+class DistanceLandMapController {
+    +getDistanceLandMap(pathsBetweenClientsAndPharmacies)
+    +getShortestRoute(pharmacyAddress, platform.getAddressRegister().getAddressByID(client.getAddressId()), new LinkedList<>())
+}
+
+
+class AddressRegister {
+    +getAddressRegister()
+}
+
+class AddressDB {
+    +getAddressByID(pharmacy.addressId)
+}
+
+
+
+GetNearestPharmacyUI ..> MakeOrderControllerController
+MakeOrderControllerController ..> Platform
+MakeOrderControllerController ..>DeliverySimulationsController
+DeliverySimulationsController..>DistanceLandMapController
+
+Platform "1" --> "1" PharmacyRegister: has
+PharmacyRegister "1" --> "1" PharmacyDB: has
+
+Platform "1" --> "1" LandPathRegister: has
+LandPathRegister "1" --> "1" LandPathDB: has
+
+Platform "1" --> "1" AddressRegister: has
+AddressRegister "1" --> "1" AddressDB: has
+
+@enduml

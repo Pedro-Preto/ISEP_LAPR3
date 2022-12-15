@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="255px" preserveAspectRatio="none" style="width:475px;height:255px;" version="1.1" viewBox="0 0 475 255" width="475px" zoomAndPan="magnify"><defs><filter height="300%" id="fmz0korglde1y" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><rect fill="#FFFFFF" filter="url(#fmz0korglde1y)" height="52.7031" style="stroke:#A80036;stroke-width:1.0;" width="10" x="21" y="99.6094"/><rect fill="#FFFFFF" filter="url(#fmz0korglde1y)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="426" y="121.9609"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="26" x2="26" y1="89.6094" y2="170.3125"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="431" x2="431" y1="89.6094" y2="170.3125"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="36" x="5" y="86.5332">Client</text><ellipse cx="26" cy="15" fill="#FEFECE" filter="url(#fmz0korglde1y)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M26,23 L26,50 M13,31 L39,31 M26,50 L13,65 M26,50 L39,65 " fill="none" filter="url(#fmz0korglde1y)" style="stroke:#A80036;stroke-width:2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="36" x="5" y="183.8457">Client</text><ellipse cx="26" cy="196.9219" fill="#FEFECE" filter="url(#fmz0korglde1y)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M26,204.9219 L26,231.9219 M13,212.9219 L39,212.9219 M26,231.9219 L13,246.9219 M26,231.9219 L39,246.9219 " fill="none" filter="url(#fmz0korglde1y)" style="stroke:#A80036;stroke-width:2.0;"/><rect fill="#FEFECE" filter="url(#fmz0korglde1y)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="64" x="397" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="50" x="404" y="74.5332">:System</text><rect fill="#FEFECE" filter="url(#fmz0korglde1y)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="64" x="397" y="169.3125"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="50" x="404" y="190.8457">:System</text><rect fill="#FFFFFF" filter="url(#fmz0korglde1y)" height="52.7031" style="stroke:#A80036;stroke-width:1.0;" width="10" x="21" y="99.6094"/><rect fill="#FFFFFF" filter="url(#fmz0korglde1y)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="426" y="121.9609"/><polygon fill="#A80036" points="414,117.9609,424,121.9609,414,125.9609,418,121.9609" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="31" x2="420" y1="121.9609" y2="121.9609"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="38" y="117.1045">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="83" x="49" y="117.1045">make an order</text><polygon fill="#A80036" points="37,148.3125,27,152.3125,37,156.3125,33,152.3125" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="31" x2="430" y1="152.3125" y2="152.3125"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="43" y="147.4561">2</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="360" x="54" y="147.4561">process the order and notify the Client when the delivery starts</text><!--MD5=[bcc97303227b29ed2d6931dba1390a22]
+@startuml
+autonumber
+actor "Client" as CLI
+participant ":System" as STM
+activate CLI
+CLI -> STM :make an order
+activate STM
+STM - -> CLI :process the order and notify the Client when the delivery starts
+deactivate STM
+
+deactivate CLI
+@enduml
+
+PlantUML version 1.2021.00(Sun Jan 10 10:25:05 GMT 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: en
+Country: US
+--></g></svg>

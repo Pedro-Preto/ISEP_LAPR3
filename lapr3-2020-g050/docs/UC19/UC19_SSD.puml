@@ -1,0 +1,15 @@
+@startuml
+autonumber
+actor "Client" as Client
+participant ":System" as STM
+activate Client
+Client-> STM : log in into the platform
+activate STM
+STM --> Client : asks for email and password
+deactivate STM
+Client-> STM : introduces email and password
+activate STM
+STM --> Client : informs the client the login was a sucess and shows menu
+deactivate STM
+deactivate Client
+@enduml

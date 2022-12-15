@@ -1,0 +1,34 @@
+@startuml
+autonumber
+
+actor "Client" as Client
+participant ":CheckOrdersUI" as UI
+participant ":CheckCreditsOrders" as CTRL
+participant ":Application" as SYS
+participant "app:Application" as SYST
+participant "user:USER" as USER
+participant "client:CLIENT" as CLI
+participant "Orders" as CRE
+
+
+activate Client
+Client -> UI :Access the orders that have been made option
+activate UI
+
+UI -> CTRL : checkOrders()
+activate CTRL
+CTRL -> SYST : user = getUser()
+activate SYST
+deactivate SYST
+CTRL -> USER : client = getClient(user)
+activate USER
+deactivate USER
+CTRL -> CLI : orders=getorders()
+activate CLI
+deactivate CLI
+
+UI --> Client : Shows a list of the Orders made by the Client
+deactivate UI
+
+deactivate Client
+@enduml

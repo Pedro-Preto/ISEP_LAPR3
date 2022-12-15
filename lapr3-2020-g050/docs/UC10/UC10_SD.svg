@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="424px" preserveAspectRatio="none" style="width:804px;height:424px;" version="1.1" viewBox="0 0 804 424" width="804px" zoomAndPan="magnify">
+    <defs>
+        <filter height="300%" id="f1k7mgwzjlc66n" width="300%" x="-1" y="-1">
+            <feGaussianBlur result="blurOut" stdDeviation="2.0" />
+            <feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0" />
+            <feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3" />
+            <feBlend in="SourceGraphic" in2="blurOut3" mode="normal" />
+        </filter>
+    </defs>
+    <g>
+        <rect fill="#FFFFFF" filter="url(#f1k7mgwzjlc66n)" height="220.1094" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="47.5" y="97.6094" />
+        <rect fill="#FFFFFF" filter="url(#f1k7mgwzjlc66n)" height="181.4063" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="248.5" y="136.3125" />
+        <rect fill="#FFFFFF" filter="url(#f1k7mgwzjlc66n)" height="120.7031" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="439.5" y="166.6641" />
+        <rect fill="#FFFFFF" filter="url(#f1k7mgwzjlc66n)" height="30" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="591.5" y="197.0156" />
+        <rect fill="#FFFFFF" filter="url(#f1k7mgwzjlc66n)" height="30" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="724.5" y="257.3672" />
+        <line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="52" x2="52" y1="87.6094" y2="335.7188" />
+        <line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="253" x2="253" y1="87.6094" y2="335.7188" />
+        <line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="444" x2="444" y1="87.6094" y2="335.7188" />
+        <line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="596" x2="596" y1="87.6094" y2="335.7188" />
+        <line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="729" x2="729" y1="87.6094" y2="335.7188" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="83" x="8" y="84.5332">Administrator</text>
+        <ellipse cx="52.5" cy="13" fill="#FEFECE" filter="url(#f1k7mgwzjlc66n)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;" />
+        <path d="M52.5,21 L52.5,48 M39.5,29 L65.5,29 M52.5,48 L39.5,63 M52.5,48 L65.5,63 " fill="none" filter="url(#f1k7mgwzjlc66n)" style="stroke: #A80036; stroke-width: 2.0;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="83" x="8" y="349.252">Administrator</text>
+        <ellipse cx="52.5" cy="362.3281" fill="#FEFECE" filter="url(#f1k7mgwzjlc66n)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;" />
+        <path d="M52.5,370.3281 L52.5,397.3281 M39.5,378.3281 L65.5,378.3281 M52.5,397.3281 L39.5,412.3281 M52.5,397.3281 L65.5,412.3281 " fill="none" filter="url(#f1k7mgwzjlc66n)" style="stroke: #A80036; stroke-width: 2.0;" />
+        <rect fill="#FEFECE" filter="url(#f1k7mgwzjlc66n)" height="49.2188" style="stroke: #A80036; stroke-width: 1.5;" width="109" x="197" y="33.3906" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="55" x="224" y="54.9238">:LoginAs</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="95" x="204" y="72.5332">AdministratorUI</text>
+        <rect fill="#FEFECE" filter="url(#f1k7mgwzjlc66n)" height="49.2188" style="stroke: #A80036; stroke-width: 1.5;" width="109" x="197" y="334.7188" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="55" x="224" y="356.252">:LoginAs</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="95" x="204" y="373.8613">AdministratorUI</text>
+        <rect fill="#FEFECE" filter="url(#f1k7mgwzjlc66n)" height="49.2188" style="stroke: #A80036; stroke-width: 1.5;" width="97" x="394" y="33.3906" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="55" x="415" y="54.9238">:LoginAs</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="83" x="401" y="72.5332">Administrator</text>
+        <rect fill="#FEFECE" filter="url(#f1k7mgwzjlc66n)" height="49.2188" style="stroke: #A80036; stroke-width: 1.5;" width="97" x="394" y="334.7188" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="55" x="415" y="356.252">:LoginAs</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="83" x="401" y="373.8613">Administrator</text>
+        <rect fill="#FEFECE" filter="url(#f1k7mgwzjlc66n)" height="31.6094" style="stroke: #A80036; stroke-width: 1.5;" width="107" x="541" y="51" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="93" x="548" y="72.5332">:ApplicationEM</text>
+        <rect fill="#FEFECE" filter="url(#f1k7mgwzjlc66n)" height="31.6094" style="stroke: #A80036; stroke-width: 1.5;" width="107" x="541" y="334.7188" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="93" x="548" y="356.252">:ApplicationEM</text>
+        <rect fill="#FEFECE" filter="url(#f1k7mgwzjlc66n)" height="31.6094" style="stroke: #A80036; stroke-width: 1.5;" width="131" x="662" y="51" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="117" x="669" y="72.5332">app:ApplicationEM</text>
+        <rect fill="#FEFECE" filter="url(#f1k7mgwzjlc66n)" height="31.6094" style="stroke: #A80036; stroke-width: 1.5;" width="131" x="662" y="334.7188" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="117" x="669" y="356.252">app:ApplicationEM</text>
+        <rect fill="#FFFFFF" filter="url(#f1k7mgwzjlc66n)" height="220.1094" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="47.5" y="97.6094" />
+        <rect fill="#FFFFFF" filter="url(#f1k7mgwzjlc66n)" height="181.4063" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="248.5" y="136.3125" />
+        <rect fill="#FFFFFF" filter="url(#f1k7mgwzjlc66n)" height="120.7031" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="439.5" y="166.6641" />
+        <rect fill="#FFFFFF" filter="url(#f1k7mgwzjlc66n)" height="30" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="591.5" y="197.0156" />
+        <rect fill="#FFFFFF" filter="url(#f1k7mgwzjlc66n)" height="30" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="724.5" y="257.3672" />
+        <polygon fill="#A80036" points="236.5,132.3125,246.5,136.3125,236.5,140.3125,240.5,136.3125" style="stroke: #A80036; stroke-width: 1.0;" />
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="57.5" x2="242.5" y1="136.3125" y2="136.3125" /><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="7" x="64.5" y="123.2803">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="161" x="75.5" y="115.1045">introduces the required data</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="123" x="79.5" y="131.4561">(email and password)</text>
+        <polygon fill="#A80036" points="427.5,162.6641,437.5,166.6641,427.5,170.6641,431.5,166.6641" style="stroke: #A80036; stroke-width: 1.0;" />
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="258.5" x2="433.5" y1="166.6641" y2="166.6641" /><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="7" x="265.5" y="161.8076">2</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="151" x="276.5" y="161.8076">doLogin (email, password)</text>
+        <polygon fill="#A80036" points="579.5,193.0156,589.5,197.0156,579.5,201.0156,583.5,197.0156" style="stroke: #A80036; stroke-width: 1.0;" />
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="449.5" x2="585.5" y1="197.0156" y2="197.0156" /><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="7" x="456.5" y="192.1592">3</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="112" x="467.5" y="192.1592">app = getInstance()</text>
+        <polygon fill="#A80036" points="712.5,253.3672,722.5,257.3672,712.5,261.3672,716.5,257.3672" style="stroke: #A80036; stroke-width: 1.0;" />
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="449.5" x2="718.5" y1="257.3672" y2="257.3672" /><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="7" x="456.5" y="252.5107">4</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="190" x="467.5" y="252.5107">login = doLogin(email, password)</text>
+        <polygon fill="#A80036" points="63.5,313.7188,53.5,317.7188,63.5,321.7188,59.5,317.7188" style="stroke: #A80036; stroke-width: 1.0;" />
+        <line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 2.0,2.0;" x1="57.5" x2="252.5" y1="317.7188" y2="317.7188" /><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="7" x="69.5" y="312.8623">5</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="155" x="80.5" y="312.8623">give access to the platform</text>
+        <!--
+@startuml
+autonumber
+
+actor "Administrator" as ADM
+participant ":LoginAs\nAdministratorUI" as UI
+participant ":LoginAs\nAdministrator" as CTRL
+participant ":ApplicationEM" as APP
+participant "app:ApplicationEM" as AP
+
+
+
+activate ADM
+ADM -> UI : introduces the required data\n (email and password)
+activate UI
+
+UI -> CTRL : doLogin (email, password)
+activate CTRL
+
+CTRL -> APP : app = getInstance()
+activate APP
+deactivate APP
+
+CTRL -> AP : login = doLogin(email, password)
+activate AP
+deactivate AP
+
+deactivate CTRL
+UI - -> ADM :  give access to the platform
+deactivate UI
+
+deactivate ADM
+@enduml
+
+PlantUML version 1.2018.14(Fri Dec 21 16:33:16 GMT 2018)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Java Version: 1.8.0_271-b09
+Operating System: Windows 10
+OS Version: 10.0
+Default Encoding: Cp1252
+Language: en
+Country: US
+-->
+    </g>
+</svg>

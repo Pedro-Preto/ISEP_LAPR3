@@ -1,0 +1,15 @@
+@startuml
+autonumber
+actor "Pharmacy" as PHA
+participant ":System" as STM
+activate PHA
+PHA -> STM :request the items out of stock
+activate STM
+STM --> PHA :find the nearest pharmcy with the item in stock
+deactivate STM
+PHA -> STM :send a note with the request items to the other pharmacy
+activate STM
+STM --> PHA :saves the note and show it
+deactivate STM
+deactivate PHA
+@enduml

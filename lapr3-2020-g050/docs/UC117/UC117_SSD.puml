@@ -1,0 +1,19 @@
+@startuml
+autonumber
+actor "Admin" as CLI
+participant ":System" as STM
+activate CLI
+CLI-> STM :inserts the id of the DronePark, when requested, while adding a pharmacy
+activate STM
+STM --> CLI :requests to add parkSlots, and, optionally, charging stations
+deactivate STM
+CLI -> STM : inserts the infrmation required (the number of parkSlots and \nwhich of these have charging stations)
+activate STM
+STM --> CLI :presents the parkSlots and requests confirmation
+deactivate STM
+CLI -> STM : confirms
+activate STM
+STM --> CLI : confirms to the admin that the parkSlots and charging stations \nwere added to the DronePark of the pharmacy
+
+deactivate CLI
+@enduml

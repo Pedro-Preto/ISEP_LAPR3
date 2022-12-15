@@ -1,0 +1,93 @@
+@startuml
+autonumber
+
+actor "Administrator" as Admin
+participant ":AddPharmacyUI" as UI
+participant ":AddPharmacy\nController" as CTRL
+participant ":ApplicationEM" as APP
+participant "app:ApplicationEM" as AP
+participant ":Platform" as PLAT
+participant "pb:PharmacyDB" as PB
+participant ":Pharmacy" as _PHA
+participant "phaAdm:PharmacyAdministrator" as PHA_ADM
+participant "add:Address" as ADD
+participant "pha:Pharmacy" as PHA
+participant "passowordGenerator:\nPasswordGeneratorAlgorythm" as PG
+
+activate Admin
+Admin-> UI :starts the creation of a Pharmacy on the system
+activate UI
+UI --> Admin :asks for the information regarding the pharmacy \n(Designation, Address, pharmacyAdministrator)
+deactivate UI
+
+Admin -> UI : introduces the required data.
+activate UI
+
+UI -> CTRL : newPharmacy(designation,\naddress,pharmacyAdministrator)
+activate CTRL
+
+CTRL -> APP : app = getInstance()
+activate APP
+deactivate APP
+
+CTRL -> AP : plat = getPlatform()
+activate AP
+deactivate AP
+
+CTRL -> PLAT: pb = getPharmacyDB()
+activate PLAT
+deactivate PLAT
+
+CTRL -> PB: pha = createPharmacy(designation, nif, nameM, emailAddressM, nameC, emailAddressC).
+activate PB
+
+PB -> _PHA: phaAdm = createPharmacyAdministrator(nameA,emailAddressA)
+
+activate _PHA
+_PHA --> PHA_ADM ** : create(nameA, emailAddressA)
+deactivate _PHA
+
+PB -> _PHA: add = createAddress(street, doorNumber, city, country)
+
+activate _PHA
+_PHA --> ADD ** : create(designation, address, phaAdm)
+deactivate _PHA
+
+PB -> _PHA: phaAdm = createPharmacy(designation, address, phaAdm)
+
+activate _PHA
+_PHA --> PHA ** : create(designation, address, phaAdm)
+deactivate _PHA
+
+deactivate PB
+deactivate CTRL
+
+
+UI --> Admin :presents the data and asks for confirmation
+deactivate UI
+
+Admin -> UI : confirms
+activate UI
+
+UI -> CTRL: registerPharmacy()
+activate CTRL
+CTRL -> PB: registerPharmacy(pha)
+activate PB
+
+PB -> PB: validatePharmacy(pha)
+PB -> PB: savePharmacy(pha)
+deactivate PB
+
+
+activate PG
+CTRL -> PG: pwdGen(nameA, emailAddressA)
+deactivate PG
+
+deactivate CTRL
+
+
+UI --> Admin : registers the Pharmacy
+deactivate UI
+
+deactivate Admin
+@enduml

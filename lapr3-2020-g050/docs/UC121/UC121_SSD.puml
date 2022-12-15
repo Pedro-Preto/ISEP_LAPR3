@@ -1,0 +1,12 @@
+@startuml
+autonumber
+actor "Administrator" as ADM
+participant ":System" as STM
+activate ADM
+ADM-> STM :Starts the process to identify the nearest pharmacy to the client
+activate STM
+STM --> ADM :returns the nearest pharmacy
+deactivate STM
+
+deactivate ADM
+@enduml

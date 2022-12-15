@@ -1,0 +1,12 @@
+@startuml
+autonumber
+actor "Client" as Client
+participant ":System" as STM
+activate Client
+Client-> STM :finished an order
+activate STM
+STM --> Client : calculate the number of credits and update them
+deactivate STM
+
+deactivate Client
+@enduml

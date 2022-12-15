@@ -1,0 +1,42 @@
+@startuml
+hide methods
+left to right direction
+
+class Pharmacy {
+    -designation String
+}
+
+class Order {
+    -id Integer
+}
+
+class Delivery {
+    -id Integer
+}
+
+class Courier {
+    -name String
+    -nif Integer
+    -email String
+    -cellphone Integer
+    -iban Strin
+}
+
+class User {
+    -name String
+    -email String
+    -passsword String
+}
+
+class System {
+
+}
+
+System "1" -- "1..*" Pharmacy: has >
+Pharmacy "1" -- "0..*" Order: has >
+Order "1" -- "1" Delivery: has >
+Delivery "1" -- "1" Courier: has >
+Courier "1" -- "1" User: acts as >
+Order "1" -- "1" Courier: has >
+
+@enduml

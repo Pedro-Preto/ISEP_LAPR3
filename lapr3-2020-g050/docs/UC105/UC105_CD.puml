@@ -1,0 +1,30 @@
+@startuml
+
+left to right direction
+
+class UpdateCreditsUI {
+}
+
+class UpdateCreditsController {
+    +updateCredits()
+}
+
+class Client {
+    +getCredits()
+    +updateCredits(credits)
+}
+
+class Credits {
+    +calculateNumberOfCredits(order,client)
+}
+
+class Order {
+    +getClient()
+}
+
+UpdateCreditsUI ..> UpdateCreditsController
+UpdateCreditsController ..> Order
+UpdateCreditsController ..> Credits
+UpdateCreditsController ..> Client
+
+@enduml

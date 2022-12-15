@@ -1,0 +1,48 @@
+@startuml
+
+left to right direction
+
+class ShortestPathUI {
+
+}
+
+class ShortestPathController {
+    +checkShortestPath()
+
+}
+
+class Application {
+     +getUser()
+}
+
+class User {
+
+    +getCourier(user)
+}
+
+class Client{
+    +getClientAddress()
+}
+
+class Pharmacy {
+    +getPharmacyAdress()
+
+}
+
+class Address {
+    +getAddress()
+}
+
+class Geographical_location {
+    +getBestRout()()
+}
+
+ShortestPathUI ..> ShortestPathController
+ShortestPathController ..> Application
+ShortestPathController ..> User
+ShortestPathController ..> Client
+ShortestPathController "1" ..> "*" Pharmacy
+ShortestPathController "1" ..> "*" Geographical_location
+Client "1" --> "1"Address
+Pharmacy"1" --> "1"Address
+@enduml

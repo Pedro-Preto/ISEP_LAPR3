@@ -1,0 +1,12 @@
+@startuml
+autonumber
+actor "System" as STM
+participant ":Client" as CLI
+activate STM
+STM-> CLI :sends a notification to the Client \ninforming him that all the Items \nnot available in stock were removed \nfrom his cart
+activate CLI
+CLI --> STM :confirms
+deactivate CLI
+
+deactivate STM
+@enduml

@@ -1,0 +1,19 @@
+@startuml
+autonumber
+actor "Client" as CLI
+participant ":System" as STM
+activate CLI
+CLI-> STM :starts a new Order
+activate STM
+STM --> CLI :shows a list of all the Items in the Catalogue
+deactivate STM
+CLI -> STM :picks the desired Items from the list
+activate STM
+STM --> CLI :presents the Order's details (all selected items) \nand asks for confirmation
+deactivate STM
+CLI -> STM : confirms
+activate STM
+STM --> CLI : notifies the Client that his Order has been created
+
+deactivate CLI
+@enduml

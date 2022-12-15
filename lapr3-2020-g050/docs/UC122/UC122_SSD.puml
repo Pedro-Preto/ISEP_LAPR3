@@ -1,0 +1,23 @@
+@startuml
+autonumber
+actor "Pharmacy Administrator" as P
+participant ":System" as STM
+activate P
+
+P-> STM :Requests stock from other pharmacy
+activate STM
+STM --> P :Shows the catalogue and asks to choose the items
+deactivate STM
+
+P-> STM :Selects the items to order
+activate STM
+STM --> P :Shows the nearest pharmacies with the items in stock\n and asks to select one
+deactivate STM
+
+P-> STM :Selects one pharmacy
+activate STM
+STM --> P :Requests the items and notifies the success of the operation
+deactivate STM
+
+deactivate P
+@enduml

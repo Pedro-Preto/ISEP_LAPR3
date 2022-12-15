@@ -1,0 +1,23 @@
+@startuml
+autonumber
+actor "Pharmacy Administrator" as P
+participant ":System" as S
+activate P
+
+P-> S : Starts the process by opening the pharmacy's stock
+activate S
+S --> P :Shows the pharmacy's stock
+deactivate S
+
+P-> S : Removes items from the stock
+activate S
+S --> P : Presents the items chosen and asks for confirmation
+deactivate S
+P-> S :Confirms
+activate S
+S --> P : Declares the success of the operation and removes \n the items from the stock
+deactivate S
+
+
+deactivate P
+@enduml

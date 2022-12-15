@@ -1,0 +1,66 @@
+@startuml
+autonumber
+
+actor "Client" as CLI
+participant ":AssignOrdersUI" as UI
+participant ":AssignOrdersController" as CTRL
+participant ":Orders" as ORD
+participant ":Application" as SYS
+participant ":OrderDB" as ORDDB
+
+activate CLI
+CLI -> UI : Access the orders made by the clients
+activate UI
+
+UI -> CTRL : getOrder(order)
+activate CTRL
+
+CTRL -> ORDDB : getOrder(orderId)
+activate ORDDB
+deactivate ORDDB
+
+CTRL -> ORD : getDetails()
+activate ORD
+deactivate ORD
+
+CTRL -> ORD : getDelivery()
+activate ORD
+deactivate ORD
+
+CTRL -> ORD : getOrderStatus()
+activate ORD
+ORD -> DEL : getStatus()
+activate DEL
+
+deactivate DEL
+deactivate ORD
+deactivate CTRL
+
+
+UI --> CLI :Shows the orders
+
+deactivate UI
+
+CLI -> UI : Assigns the orders to each Courier \naccording to his payload
+activate UI
+activate  CTRL
+UI -->CTRL :getCourier(courier)
+CTRL --> SYS: courier=getCourier()
+activate SYS
+deactivate SYS
+deactivate CTRL
+UI --> CLI : presents the data and asks for confirmation
+deactivate UI
+
+CLI -> UI : Confirms
+activate UI
+UI --> CLI : Presents the success of the operation
+deactivate UI
+
+
+deactivate CTRL
+
+deactivate UI
+
+deactivate CLI
+@enduml

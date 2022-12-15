@@ -1,0 +1,12 @@
+@startuml
+autonumber
+actor "Client" as Client
+participant ":System" as STM
+activate Client
+Client-> STM :access to personal area and choose credits option
+activate STM
+STM --> Client : shows how many credits has
+deactivate STM
+
+deactivate Client
+@enduml

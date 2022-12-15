@@ -1,0 +1,47 @@
+@startuml
+hide methods
+left to right direction
+
+class Administrator {
+    -Integer id
+    -String name
+    -String emailAddress
+    -String password
+}
+
+class Drone {
+    -Integer id
+    -Double batterySize
+    -Double currentBattery
+    -Double batteryConsumption
+    -int payload
+}
+
+class Application {
+
+}
+
+class User {
+    -Integer id
+    -String name
+    -String emailAddress
+    -String password
+}
+
+class Pharmacy {
+    -Integer id
+    -String designation
+    -String nif
+}
+
+
+
+Administrator "1" -- "0..*" Drone: removes >
+Administrator "1" -- "1" User: acts as >
+
+Pharmacy "1" -- "1..*" Drone: has >
+Pharmacy "1" -- "1" Administrator: ha >
+Application "1" -- "1..*" User: has >
+Application "1" -- "1" Pharmacy: has >
+
+@enduml

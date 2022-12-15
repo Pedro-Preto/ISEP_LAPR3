@@ -1,0 +1,68 @@
+@startuml
+autonumber
+
+actor "Admin" as ADM
+participant ":RemoveDroneUI" as UI
+participant ":RemoveDrone\nController" as CTRL
+participant ":Application" as SYS
+participant ":Drone" as SCO
+participant ":DroneRegister" as SCOR
+participant ":DroneDB" as SCDB
+
+activate ADM
+ADM -> UI : starts the removal of a Drone
+activate UI
+
+UI -> CTRL : getDroneDB()
+activate CTRL
+
+CTRL -> SYS : getDroneDB()
+activate SYS
+deactivate SYS
+
+
+
+deactivate CTRL
+
+UI --> ADM : requests id of the Drone, \nhe wants to remove
+deactivate UI
+
+ADM -> UI : inserts the id
+activate UI
+
+UI -> CTRL : getDrone(id)
+activate CTRL
+
+CTRL -> SCDB : getDrone(id)
+activate SCDB
+deactivate SCDB
+
+
+
+deactivate CTRL
+
+UI --> ADM : shows the details of the Drone and \nrequests confirmation
+deactivate UI
+
+ADM -> UI : confirms
+activate UI
+
+UI -> CTRL : removeDrone(drone)
+activate CTRL
+
+CTRL -> SCOR : removeDrone(drone)
+activate SCOR
+
+SCOR -> SCDB : removeDrone(drone)
+deactivate SCOR
+activate SCDB
+deactivate CTRL
+
+
+UI --> ADM : notifies the Admin about the removal \nof the Drone
+deactivate SCDB
+
+deactivate UI
+
+deactivate ADM
+@enduml

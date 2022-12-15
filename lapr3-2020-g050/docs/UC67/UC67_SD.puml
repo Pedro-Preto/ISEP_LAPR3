@@ -1,0 +1,46 @@
+@startuml
+autonumber
+
+actor "Client" as CLI
+participant ":View\nCatalogueUI" as UI
+participant ":ViewCatalogue\nController" as CTRL
+participant ":System" as SYS
+participant ":Catalogue" as CAT
+participant ":ItemDB" as ITDB
+
+activate CLI
+CLI -> UI : selects the option to view Catalogue
+activate UI
+
+UI -> CTRL : getCatalogue()
+activate CTRL
+
+CTRL -> SYS : getCatalogue()
+activate SYS
+deactivate SYS
+
+CTRL -> CAT : getItemsForCatalogue()
+activate CAT
+
+CAT -> ITDB : getAllItemNames()
+activate ITDB
+deactivate ITDB
+deactivate CAT
+
+CTRL -> CAT : printCatalogue()
+activate CAT
+deactivate CAT
+
+deactivate CTRL
+
+UI --> CLI : shows all the Items in the Catalogue
+deactivate UI
+
+CLI -> UI : confirms
+activate UI
+
+UI --> CLI : closes the Catalogue
+deactivate UI
+
+deactivate CLI
+@enduml

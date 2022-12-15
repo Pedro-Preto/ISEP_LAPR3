@@ -1,0 +1,34 @@
+@startuml
+hide methods
+left to right direction
+
+
+
+
+
+
+class Application {
+
+}
+
+
+
+class Pharmacy {
+    -Integer id
+    -String designation
+    -String nif
+}
+
+
+class Scooter {
+    -Integer id
+    -Double batterySize
+    -Double currentBattery
+    -Double batteryConsumption
+    -String QRCode
+}
+
+Application "1" -- "1" Pharmacy: has >
+Pharmacy "1" -- "0..*" Scooter: has >
+
+@enduml

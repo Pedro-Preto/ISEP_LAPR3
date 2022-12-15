@@ -1,0 +1,19 @@
+@startuml
+autonumber
+actor "Courier" as Courier
+participant ":System" as STM
+activate Courier
+
+Courier-> STM :Start the process to obtain the consuption of energy for each run
+activate STM
+STM --> Courier : calculates as ask for confirmation energy consumption
+deactivate STM
+
+Courier-> STM :Confirms
+activate STM
+STM --> Courier : Returns the energy consumption
+deactivate STM
+
+
+deactivate Courier
+@enduml

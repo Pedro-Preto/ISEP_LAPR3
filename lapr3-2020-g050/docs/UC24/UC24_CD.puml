@@ -1,0 +1,36 @@
+@startuml
+
+left to right direction
+
+class AssignOrdersUI {
+}
+
+class AssignOrdersController {
+    +getOrder(order)
+}
+
+class Orders {
+    +getDetails()
+    +getDelivery()
+    +getOrderStatus()
+}
+
+class Application {
+    +getCourier()
+}
+
+
+
+class OrderDB {
+    +getOrder(orderId)
+
+}
+
+AssignOrdersUI ..> AssignOrdersController
+AssignOrdersController ..> Orders
+AssignOrdersController ..> OrderDB
+AssignOrdersController ..> Application
+
+
+
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+autonumber
+actor "Client" as CLI
+participant ":System" as STM
+activate CLI
+CLI-> STM :opens the Catalogue to check the available Items \nduring an Order
+activate STM
+STM --> CLI :shows all the available Items
+deactivate STM
+CLI -> STM : confirms
+activate STM
+STM --> CLI : the System closes the Item list
+deactivate STM
+
+deactivate CLI
+@enduml

@@ -1,0 +1,44 @@
+@startuml
+hide methods
+left to right direction
+
+
+class Application {
+
+}
+class User {
+    -Integer id
+    -String name
+    -String emailAddress
+    -String password
+}
+class Scooter {
+    -Integer id
+    -Double batterySize
+    -Double currentBattery
+    -Double batteryConsumption
+    -String QRCode
+}
+
+class Courier {
+    -Integer id
+    -String name
+    -String emailAddress
+    -String password
+    -String iban
+    -Integer nif
+}
+
+class Pharmacy {
+    -Integer id
+    -String designation
+    -String nif
+}
+
+
+Application "1" -- "1" Pharmacy: has >
+Pharmacy "1" -- "0..*" Courier: has >
+Pharmacy "1" -- "0..*" Scooter: has >
+Courier "1" -- "1" User: acts as >
+Courier "1" -- "1" Scooter: uses >
+@enduml

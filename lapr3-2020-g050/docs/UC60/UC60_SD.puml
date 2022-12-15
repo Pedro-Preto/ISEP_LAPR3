@@ -1,0 +1,75 @@
+@startuml
+autonumber
+
+actor "Admin" as ADM
+participant ":Add\nScooterUI" as UI
+participant ":AddScooter\nController" as CTRL
+participant ":System" as SYS
+participant ":ScooterDB" as SCDB
+participant ":Scooter" as SCO
+participant ":PharmacyDB" as PHDB
+participant ":Pharmacy" as PHA
+
+activate ADM
+ADM -> UI : starts the addition of a new Scooter
+activate UI
+
+UI -> CTRL : getScooterDB()
+activate CTRL
+
+CTRL -> SYS : getScooterDB()
+activate SYS
+deactivate SYS
+
+deactivate CTRL
+
+UI --> ADM : requests the details about the Scooter, \nand the id of the Pharmacy
+deactivate UI
+
+ADM -> UI : inserts the required information
+activate UI
+
+UI -> CTRL : addScooter(pharmacyId, scooterId, qrCode, batterySize, \nbatteryConsumption, currentBattery)
+activate CTRL
+
+CTRL -> SCO : newScooter(id, qrCode, batterySize, \nbatteryConsumption, currentBattery)
+activate SCO
+deactivate SCO
+
+CTRL -> SCO : getDetails()
+activate SCO
+deactivate SCO
+
+deactivate CTRL
+
+UI --> ADM : shows the details of the Scooter and \nrequests confirmation
+deactivate UI
+
+ADM -> UI : confirms
+activate UI
+
+UI -> CTRL : saveScooter(scooter)
+activate CTRL
+
+CTRL -> SCDB : saveScooter(scooter)
+activate SCDB
+deactivate SCDB
+deactivate CTRL
+
+UI -> CTRL : getPharmacy(pharmacyId)
+activate CTRL
+
+CTRL -> PHDB : getPharmacy(pharmacyId)
+activate PHDB
+deactivate PHDB
+
+CTRL -> PHA : addScooterToList(scooter)
+activate PHA
+deactivate PHA
+deactivate CTRL
+
+UI --> ADM : notifies the Admin about the addition \nof the new Scooter
+deactivate UI
+
+deactivate ADM
+@enduml

@@ -1,0 +1,190 @@
+@startuml
+hide methods
+left to right direction
+
+class Application {}
+
+class Administrator {
+    -Integer id
+    -String name
+    -String emailAddress
+    -String password
+}
+
+class User {
+    -Integer id
+    -String name
+    -String emailAddress
+    -String password
+}
+
+class Client {
+    -Integer id
+    -String name
+    -String emailAddress
+    -String password
+    -String cellphone
+    -Integer nif
+    -Integer numberOfCredits
+}
+
+class CreditCard {
+    -String cardNumber
+    -String ownerName
+    -String csv
+    -Date expireDate
+}
+
+class Credits {
+    -Integer id
+    -Integer numberOfCredits
+    -Double ratioEuroToCredit
+}
+
+class Order {
+    -Integer id
+}
+
+class Delivery {
+    -Integer id
+}
+
+class Drone {
+    -Integer id
+    -Double batterySize
+    -Double currentBattery
+    -Double batteryConsumption
+    -int payload
+}
+
+class Catalogue {}
+
+class Pharmacy_Administrator {
+    -Integer id
+    -String name
+    -String emailAddress
+    -String password
+}
+
+class Pharmacy {
+    -Integer id
+    -String designation
+    -String nif
+}
+
+class Courier {
+    -Integer id
+    -String name
+    -String emailAddress
+    -String password
+    -String iban
+    -Integer nif
+}
+
+class Park {
+    -Integer id
+    -String name
+    -Integer numberOfSlots
+    -Double maxEnergyCapacity
+}
+
+class Park_Slot {
+    -Integer id
+    -Boolean used
+}
+
+class Scooter {
+    -Integer id
+    -Double batterySize
+    -Double currentBattery
+    -Double batteryConsumption
+    -String QRCode
+}
+
+class Charging_Station {
+    -Integer id
+    -Double capacity
+    -Double power
+}
+
+class Geographical_location {
+    -Double longitude
+    -Double latitude
+}
+
+class Address {
+    -Integer id
+    -String street
+    -Integer doorNumber
+    -String city
+    -String country
+}
+
+class Item {
+    -Integer id
+    -String name
+    -Double price
+}
+
+class Stock {
+    -Integer id
+}
+
+class Receipt {
+    -Integer id
+    -Double totalValue
+}
+
+Administrator "1" -- "1" User: acts as >
+Administrator "1" -- "0..*" Courier: registers >
+Administrator "1" -- "0..*" Scooter: creates >
+Administrator "1" -- "0..1" Pharmacy: creates >
+Administrator "1" -- "0..*" Drone: creates >
+
+
+
+Application "1" -- "1" Pharmacy: has >
+Application "1" -- "1" Catalogue: has >
+Application "1" -- "1" Administrator: has >
+
+Address "1" -- "1" Geographical_location: has >
+
+
+Catalogue "1" -- "*" Item: has >
+
+Courier "1" -- "1" User: acts as >
+Courier "1" -- "1" Delivery: acts as >
+Courier "1" -- "0..*" Order: has >
+Courier "1" -- "1" Scooter: uses >
+
+Order "1..*" -- "1" Delivery: has >
+Order "1" -- "1..*" Item: has >
+Order "1" -- "1" Receipt: generates >
+Order "1" -- "0..*" Credits: generates >
+
+Pharmacy "1" -- "1" Pharmacy_Administrator: has >
+Pharmacy "1" -- "0..*" Courier: has >
+Pharmacy "1" -- "0..*" Order: has >
+Pharmacy "1" -- "0..*" Park: has >
+Pharmacy "1" -- "0..*" Scooter: has >
+Pharmacy "1" -- "0..*" Drone: has >
+Pharmacy "1" -- "1" Stock: has >
+Pharmacy "1" -- "1" Address: has >
+Pharmacy "1" -- "0..1" Receipt: has >
+Pharmacy_Administrator "1" -- "1" User: act as >
+
+Park "1" -- "1..*" Park_Slot: has >
+
+Park_Slot "1" -- "0..1" Charging_Station: has >
+
+Charging_Station "1" -- "0..1" Scooter: charges >
+Charging_Station "1" -- "0..1" Drone: charges >
+Stock "1" -- "0..*" Item: has >
+
+Client "1" -- "0..*" Order: creates >
+Client "1" -- "1" Address: has >
+Client "1" -- "0..*" Credits: has >
+Client "1" -- "1" User: acts as >
+Client "1" -- "1" CreditCard: has >
+
+@enduml

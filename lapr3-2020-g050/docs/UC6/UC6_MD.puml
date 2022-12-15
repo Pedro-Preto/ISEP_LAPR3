@@ -1,0 +1,26 @@
+@startuml
+hide methods
+left to right direction
+
+class Courier {
+    -name String
+    -nif Integer
+    -email String
+    -cellphone Integer
+    -iban Strin
+}
+
+class User {
+    -name String
+    -email String
+    -passsword String
+}
+
+class System {
+
+}
+
+System "1" -- "1..*" Courier: has >
+Courier "1" -- "1" User: acts as >
+
+@enduml

@@ -1,0 +1,62 @@
+@startuml
+
+left to right direction
+
+class RegisterOrganizacaoUI {
+}
+
+class RegisterOrganizationController {
+    +newOrganization(name, NIF, website, \ncellphone, email, manager, collaborator)
+    +registerOrganization()
+}
+
+class ApplicationEM {
++{static} ApplicationEM getInstance()
++Platform getPlatform()
+}
+
+class Platform {
+  -String designation
+ +OrganizationRegister getOrganizationRegister()
+}
+
+class Organization{
+  -String name
+  -String NIF
+  -String website
+  -String cellphone
+  -String email
+  -Collaborator collaborator
+  -Collaborator manager
+  +createCollaborator(name, function, cellphone, email)
+  +createOrganization(name, NIF, website, \ncellphone, email, manager, colab)
+}
+
+class Collaborator {
+  -String name
+  -String function
+  -String cellphone
+  -String email
+  +create(name, function, cellphone, email)
+
+}
+
+class OrganizationRegister {
+    -list<Organization> lst_org
+
+    +createOrganization(name, NIF, website, cellphone, \nemail, nameM, functionM, cellphoneM, \nemailM, nameC, functionC, cellphoneC, emailC)
+    +registerOrganization(org, pwd)
+    -validateOrganization(org, pwd)
+    -addOrganization(org)
+}
+
+
+RegisterOrganizacaoUI ..> RegisterOrganizationController
+RegisterOrganizationController ..> ApplicationEM
+RegisterOrganizationController ..> Platform
+RegisterOrganizationController ..> OrganizationRegister
+OrganizationRegister "1" --> "*" Organization: has registered
+Organization "1" --> "1..*" Collaborator: has
+Platform "1" ..> "1" OrganizationRegister: has
+
+@enduml

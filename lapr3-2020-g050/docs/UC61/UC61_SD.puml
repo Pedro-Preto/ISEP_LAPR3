@@ -1,0 +1,79 @@
+@startuml
+autonumber
+
+actor "Admin" as ADM
+participant ":Add\nScooterUI" as UI
+participant ":AddScooter\nController" as CTRL
+participant ":System" as SYS
+participant ":ScooterDB" as SCDB
+participant ":Scooter" as SCO
+participant ":PharmacyDB" as PHDB
+participant ":Pharmacy" as PHA
+
+activate ADM
+ADM -> UI : starts the removal of a Scooter
+activate UI
+
+UI -> CTRL : getScooterDB()
+activate CTRL
+
+CTRL -> SYS : getScooterDB()
+activate SYS
+deactivate SYS
+
+CTRL -> SCDB : printScooterList()
+activate SCDB
+deactivate SCDB
+
+deactivate CTRL
+
+UI --> ADM : requests id of the Scooter, \nhe wants to remove
+deactivate UI
+
+ADM -> UI : inserts the id
+activate UI
+
+UI -> CTRL : getScooter(id)
+activate CTRL
+
+CTRL -> SCDB : getScooter(id)
+activate SCDB
+deactivate SCDB
+
+CTRL -> SCO : getDetails()
+activate SCO
+deactivate SCO
+
+deactivate CTRL
+
+UI --> ADM : shows the details of the Scooter and \nrequests confirmation
+deactivate UI
+
+ADM -> UI : confirms
+activate UI
+
+UI -> CTRL : removeScooter(scooter)
+activate CTRL
+
+CTRL -> SCDB : removeScooter(scooter)
+activate SCDB
+deactivate SCDB
+deactivate CTRL
+
+UI -> CTRL : getPharmacyOfScooter(scooter)
+activate CTRL
+
+CTRL -> PHDB : getPharmacyOfScooter(scooter)
+activate PHDB
+deactivate PHDB
+
+CTRL -> PHA : removeScooterFromList(scooter)
+activate PHA
+deactivate PHA
+deactivate CTRL
+
+UI --> ADM : notifies the Admin about the removal \nof the Scooter
+deactivate UI
+
+deactivate ADM
+@enduml

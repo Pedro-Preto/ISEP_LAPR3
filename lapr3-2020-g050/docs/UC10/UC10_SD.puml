@@ -1,0 +1,32 @@
+@startuml
+autonumber
+
+actor "Administrator" as ADM
+participant ":LoginAs\nAdministratorUI" as UI
+participant ":LoginAs\nAdministrator" as CTRL
+participant ":ApplicationEM" as APP
+participant "app:ApplicationEM" as AP
+
+
+
+activate ADM
+ADM -> UI : introduces the required data\n (email and password)
+activate UI
+
+UI -> CTRL : doLogin (email, password)
+activate CTRL
+
+CTRL -> APP : app = getInstance()
+activate APP
+deactivate APP
+
+CTRL -> AP : login = doLogin(email, password)
+activate AP
+deactivate AP
+
+deactivate CTRL
+UI --> ADM :  give access to the platform
+deactivate UI
+
+deactivate ADM
+@enduml

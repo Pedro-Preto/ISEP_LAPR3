@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="288px" preserveAspectRatio="none" style="width:317px;height:288px;" version="1.1" viewBox="0 0 317 288" width="317px" zoomAndPan="magnify">
+    <defs>
+        <filter height="300%" id="f2985k9st5tnx" width="300%" x="-1" y="-1">
+            <feGaussianBlur result="blurOut" stdDeviation="2.0" />
+            <feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0" />
+            <feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3" />
+            <feBlend in="SourceGraphic" in2="blurOut3" mode="normal" />
+        </filter>
+    </defs>
+    <g>
+        <rect fill="#FFFFFF" filter="url(#f2985k9st5tnx)" height="85.4063" style="stroke:#A80036;stroke-width:1.0;" width="10" x="26" y="99.6094" />
+        <rect fill="#FFFFFF" filter="url(#f2985k9st5tnx)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="273" y="154.6641" />
+        <line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="31" x2="31" y1="89.6094" y2="203.0156" />
+        <line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="278" x2="278" y1="89.6094" y2="203.0156" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="46" x="5" y="86.5332">System</text>
+        <ellipse cx="31" cy="15" fill="#FEFECE" filter="url(#f2985k9st5tnx)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;" />
+        <path d="M31,23 L31,50 M18,31 L44,31 M31,50 L18,65 M31,50 L44,65 " fill="none" filter="url(#f2985k9st5tnx)" style="stroke:#A80036;stroke-width:2.0;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="46" x="5" y="216.5488">System</text>
+        <ellipse cx="31" cy="229.625" fill="#FEFECE" filter="url(#f2985k9st5tnx)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;" />
+        <path d="M31,237.625 L31,264.625 M18,245.625 L44,245.625 M31,264.625 L18,279.625 M31,264.625 L44,279.625 " fill="none" filter="url(#f2985k9st5tnx)" style="stroke:#A80036;stroke-width:2.0;" />
+        <rect fill="#FEFECE" filter="url(#f2985k9st5tnx)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="54" x="249" y="53" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="40" x="256" y="74.5332">:Client</text>
+        <rect fill="#FEFECE" filter="url(#f2985k9st5tnx)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="54" x="249" y="202.0156" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="40" x="256" y="223.5488">:Client</text>
+        <rect fill="#FFFFFF" filter="url(#f2985k9st5tnx)" height="85.4063" style="stroke:#A80036;stroke-width:1.0;" width="10" x="26" y="99.6094" />
+        <rect fill="#FFFFFF" filter="url(#f2985k9st5tnx)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="273" y="154.6641" />
+        <polygon fill="#A80036" points="261,150.6641,271,154.6641,261,158.6641,265,154.6641" style="stroke:#A80036;stroke-width:1.0;" />
+        <line style="stroke:#A80036;stroke-width:1.0;" x1="36" x2="267" y1="154.6641" y2="154.6641" /><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="7" x="43" y="133.4561">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="186" x="54" y="117.1045">sends a notification to the Client</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="203" x="54" y="133.4561">informing him that his Order cannot</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="57" x="54" y="149.8076">be fulfilled</text>
+        <polygon fill="#A80036" points="42,181.0156,32,185.0156,42,189.0156,38,185.0156" style="stroke:#A80036;stroke-width:1.0;" />
+        <line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="36" x2="277" y1="185.0156" y2="185.0156" /><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="7" x="48" y="180.1592">2</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="49" x="59" y="180.1592">confirms</text>
+        <!--MD5=[4f003ba7744dffc02186cb1bd9f7d846]
+@startuml
+autonumber
+actor "System" as STM
+participant ":Client" as CLI
+activate STM
+STM-> CLI :sends a notification to the Client \ninforming him that his Order cannot \nbe fulfilled
+activate CLI
+CLI - -> STM :confirms
+deactivate CLI
+
+deactivate STM
+@enduml
+
+PlantUML version 1.2020.26(Mon Dec 21 17:45:07 GMT 2020)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+-->
+    </g>
+</svg>

@@ -1,0 +1,67 @@
+@startuml
+hide methods
+left to right direction
+
+class Address {
+    -Integer id
+    -String street
+    -Integer doorNumber
+    -String city
+    -String country
+}
+
+
+
+class Courier {
+    -iban String
+}
+
+class Order {
+    - id Integer
+}
+
+
+class Pharmacy {
+    -Integer id
+    -String designation
+    -String nif
+}
+
+class Application {
+}
+
+class User {
+    -Integer id
+    -String name
+    -String emailAddress
+    -String password
+}
+
+class Client {
+    -Integer id
+    -String name
+    -String emailAddress
+    -String password
+    -String cellphone
+    -Integer nif
+    -Integer numberOfCredits
+}
+
+class Geographical_location {
+    -Longitude Double
+    -Latitude Double
+}
+Address "1" -- "1" Geographical_location: has >
+
+Client "1" -- "0..*" Order: creates >
+Client "1" -- "1" User: acts as >
+Client "1" -- "1" Address: has >
+
+Application "1" -- "1" Pharmacy: has >
+Application "1" -- "1" User: has >
+
+Courier "1" -- "1" User: acts as >
+Courier "1" -- "0..*" Order: has >
+
+Pharmacy "1" -- "1" Address: has >
+@enduml

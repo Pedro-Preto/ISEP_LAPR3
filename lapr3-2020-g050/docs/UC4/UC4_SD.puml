@@ -1,0 +1,34 @@
+@startuml
+autonumber
+
+actor "Client" as Client
+participant ":CheckCreditsUI" as UI
+participant ":CheckCreditsController" as CTRL
+participant ":System" as SYS
+participant "syst:SYSTEM" as SYST
+participant "user:USER" as USER
+participant "client:CLIENT" as CLI
+participant "Credits" as CRE
+
+
+activate Client
+Client -> UI : choose the credits option.
+activate UI
+
+UI -> CTRL : checkCredits()
+activate CTRL
+CTRL -> SYST : user = getUser()
+activate SYST
+deactivate SYST
+CTRL -> USER : client = getClient(user)
+activate USER
+deactivate USER
+CTRL -> CLI : credits=getCredits()
+activate CLI
+deactivate CLI
+
+UI --> Client : shows how many credits the client has
+deactivate UI
+
+deactivate Client
+@enduml

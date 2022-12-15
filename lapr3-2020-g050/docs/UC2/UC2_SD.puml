@@ -1,0 +1,78 @@
+@startuml
+autonumber
+
+actor "Client" as CLI
+participant ":Make\nOrderUI" as UI
+participant ":MakeOrder\nController" as CTRL
+participant ":System" as SYS
+participant ":Catalogue" as CAT
+participant ":Order" as ORD
+participant ":OrderDatabase" as ORDDB
+participant ":ItemDatabase" as ITMDB
+
+activate CLI
+CLI -> UI : starts an Order
+activate UI
+
+UI -> CTRL : getCatalogue()
+activate CTRL
+
+CTRL -> SYS : getCatalogue()
+activate SYS
+
+SYS -> CAT : getAllItems()
+activate CAT
+
+CAT -> ITMDB : getOneOfEach()
+activate ITMDB
+deactivate ITMDB
+
+deactivate CAT
+
+deactivate SYS
+
+deactivate CTRL
+
+UI --> CLI : shows all the Items in the Catalogue
+deactivate UI
+
+CLI -> UI : selects the desired Items
+activate UI
+
+UI -> CTRL : makeOrder(desiredItemsList)
+activate CTRL
+
+CTRL -> ORD : newOrder()
+activate ORD
+deactivate ORD
+
+CTRL -> ORD : updateItemList(order, desiredItemsList)
+activate ORD
+deactivate ORD
+
+CTRL -> ORD : getDetails(order)
+activate ORD
+deactivate ORD
+
+deactivate CTRL
+
+UI --> CLI : shows the details of the Order and \nasks for confirmation
+deactivate UI
+
+CLI -> UI : confirms the Order
+activate UI
+
+UI -> CTRL : saveOrder(order)
+activate CTRL
+
+
+CTRL -> ORDDB : saveOrder(order)
+activate ORDDB
+deactivate ORDDB
+
+
+UI --> CLI : informs the Client that the Order has \nbeen created
+deactivate UI
+
+deactivate CLI
+@enduml

@@ -1,0 +1,72 @@
+@startuml
+autonumber
+
+actor "Administrator" as Admin
+participant ":GetNearestPharmacyUI" as UI
+participant ":MakeOrderControllerController" as CTRL
+participant ":Platform" as PLAT
+participant  ":PharmacyRegister" as PHARR
+participant  ":PharmacyDB" as PHARDB
+participant  ":LandPathRegister" as LPR
+participant  ":LandPathDB" as LPDB
+participant ":DeliverySimulationsController" as DSC
+participant ":DistanceLandMapController" as DLMC
+participant  ":AddressRegister" as AR
+participant  ":AddressDB" as ARDB
+activate Admin
+Admin-> UI :Starts the process to identify the nearest pharmacy to the client
+activate UI
+UI->CTRL:getNearestPharmacy()
+activate CTRL
+
+CTRL->PLAT:getPharmacyRegister()
+activate PLAT
+PLAT->PHARR:getPharmacyRegister()
+activate PHARR
+
+PHARR->PHARDB:getAllPharmacies()
+activate PHARDB
+deactivate PHARDB
+deactivate PHARR
+deactivate PLAT
+
+CTRL->PLAT:getLandPathRegister()
+activate PLAT
+PLAT->LPR:getLandPathRegister()
+activate LPR
+LPR->LPDB:getAllPathsBetweenClientsAndPharmacies()
+activate LPDB
+deactivate  LPDB
+deactivate LPR
+deactivate PLAT
+
+CTRL->DSC:getDistanceLandMap(pathsBetweenClientsAndPharmacies)
+activate DSC
+DSC->DLMC:getDistanceLandMap(pathsBetweenClientsAndPharmacies)
+activate DLMC
+deactivate DLMC
+deactivate DSC
+
+CTRL->PLAT:getAddressRegister()
+activate PLAT
+PLAT-> AR:getAddressRegister()
+activate AR
+
+AR->ARDB:getAddressByID(pharmacy.addressId)
+activate ARDB
+deactivate ARDB
+
+deactivate AR
+
+deactivate PLAT
+ CTRL->DLMC:getShortestRoute(pharmacyAddress, platform.getAddressRegister().getAddressByID(client.getAddressId()), new LinkedList<>())
+activate DLMC
+deactivate DLMC
+deactivate CTRL
+UI --> Admin :returns the nearest pharmacy
+deactivate UI
+
+deactivate UI
+
+deactivate Admin
+@enduml

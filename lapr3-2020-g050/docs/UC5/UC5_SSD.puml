@@ -1,0 +1,20 @@
+@startuml
+autonumber
+actor "Client" as CLI
+participant ":System" as STM
+activate CLI
+CLI-> STM :opens the list of his Orders
+activate STM
+STM --> CLI :shows all of the Orders made by the Client
+deactivate STM
+CLI -> STM : selects the Order
+activate STM
+STM --> CLI :presents the Order's details and the option to \nmark as received
+deactivate STM
+CLI -> STM : marks order as received
+activate STM
+STM --> CLI : confirms to the client that the state of his \norder has been altered to complete
+deactivate STM
+
+deactivate CLI
+@enduml

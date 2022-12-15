@@ -1,0 +1,84 @@
+@startuml
+hide methods
+left to right direction
+
+class Application {}
+
+class Pharmacy {
+    -Integer id
+    -String designation
+    -String nif
+}
+
+class User {
+    -Integer id
+    -String name
+    -String emailAddress
+    -String password
+}
+
+class Courier {
+    -Integer id
+    -String name
+    -String emailAddress
+    -String password
+    -String iban
+    -Integer nif
+}
+
+class Park {
+    -Integer id
+    -String name
+    -Integer numberOfSlots
+    -Double maxEnergyCapacity
+}
+
+class Park_Slot {
+    -Integer id
+    -Boolean used
+}
+
+class Scooter {
+    -Integer id
+    -Double batterySize
+    -Double currentBattery
+    -Double batteryConsumption
+    -String QRCode
+}
+
+class Charging_Station {
+    -Integer id
+    -Double capacity
+    -Double power
+}
+
+class Address {
+    -Integer id
+    -String street
+    -Integer doorNumber
+    -String city
+    -String country
+}
+
+
+Application "1" -- "1" Pharmacy: has >
+
+Courier "1" -- "1" User: acts as >
+Courier "1" -- "1" Scooter: uses >
+
+Pharmacy "1" -- "1" Pharmacy_Administrator: has >
+Pharmacy "1" -- "0..*" Courier: has >
+Pharmacy "1" -- "0..*" Park: has >
+Pharmacy "1" -- "0..*" Scooter: has >
+Pharmacy "1" -- "1" Address: has >
+
+Park "1" -- "1..*" Park_Slot: has >
+
+Park_Slot "1" -- "0..1" Charging_Station: has >
+
+Charging_Station "1" -- "0..1" Scooter: charges >
+
+
+
+
+@enduml

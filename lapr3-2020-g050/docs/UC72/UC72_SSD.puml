@@ -1,0 +1,22 @@
+@startuml
+autonumber
+actor "Administrator" as ADM
+participant ":System" as STM
+activate ADM
+ADM-> STM :starts the register of a courier to the system
+activate STM
+STM --> ADM :asks for the information regarding the courier \n(name, nif, address, email, cellphone)
+deactivate STM
+
+ADM -> STM : introduces the required data.
+activate STM
+STM --> ADM :presents the data and asks for confirmation
+deactivate STM
+
+ADM -> STM : confirms
+activate STM
+STM --> ADM : registers the courier
+deactivate STM
+
+deactivate ADM
+@enduml

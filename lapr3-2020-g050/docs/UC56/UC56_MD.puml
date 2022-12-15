@@ -1,0 +1,21 @@
+@startuml
+hide methods
+left to right direction
+
+class Platform {}
+
+class Administrator {}
+
+class Pharmacy {}
+
+class Pharmacy_Administrator {}
+
+Platform "1" -- "1" Administrator: has >
+Platform "1" -- "1" Pharmacy: has >
+
+Administrator "1" -- "1" Pharmacy: creates >
+
+Pharmacy "1" -- "1" Pharmacy_Administrator: has >
+
+
+@enduml

@@ -1,0 +1,24 @@
+@startuml
+hide methods
+left to right direction
+
+class Pharmacy {
+
+}
+class System {
+
+}
+
+class Stock {
+
+}
+
+class Item {
+
+}
+
+System "1" -- "1..*" Pharmacy: has >
+Pharmacy "1" -- "1" Stock: has >
+Stock "1" -- "0..*" Item: has >
+
+@enduml

@@ -1,0 +1,15 @@
+@startuml
+autonumber
+actor "Pharmacy \n Administrator" as PHAADM
+participant ":System" as STM
+activate PHAADM
+PHAADM-> STM : log in into the platform
+activate STM
+STM --> PHAADM : asks for email and password
+deactivate STM
+PHAADM-> STM : introduces email and password
+activate STM
+STM --> PHAADM : informs the Pharmacy Administrator \nlogin was a sucess and shows menu
+deactivate STM
+deactivate PHAADM
+@enduml

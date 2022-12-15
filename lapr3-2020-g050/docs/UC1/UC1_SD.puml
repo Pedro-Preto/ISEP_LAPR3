@@ -1,0 +1,73 @@
+@startuml
+autonumber
+
+actor "Unregistered User" as USR
+participant ":Register\nClientUI" as UI
+participant ":RegisterClient\nController" as CTRL
+participant ":ApplicationEM" as APP
+participant "app:ApplicationEM" as AP
+participant ":Platform" as PLAT
+participant "cdb:ClientDB" as DB
+participant ":Address" as AD
+participant "address\n:Address" as ADD
+participant ":Client" as _CLT
+participant "client:Client" as CLT
+
+activate USR
+USR -> UI : starts the register of a \nClient in the system.
+activate UI
+UI --> USR : asks for the information regarding the client \n(name, nif, address, email, cellphone, credit card information(optional) )
+deactivate UI
+
+USR -> UI : introduces the required data
+activate UI
+
+UI -> CTRL : newClient(name, nif, address, email, cellphone)
+activate CTRL
+
+CTRL -> APP : app = getInstance()
+activate APP
+deactivate APP
+
+CTRL -> AP : plat = getPlatform()
+activate AP
+deactivate AP
+
+CTRL -> PLAT: cdb = getClientDB()
+activate PLAT
+deactivate PLAT
+
+CTRL -> DB: client = createClient(name, nif, street, doorNumber, city, country, email, cellphone).
+activate DB
+
+DB -> AD: address = createAddress(street, doorNumber, city, country)
+activate AD
+AD --> ADD **: create(street, doorNumber, city, country)
+deactivate AD
+
+
+DB --> CLT ** : create(name, nif, address, email, cellphone)
+deactivate DB
+
+deactivate CTRL
+UI --> USR : presents the data and asks for \nconfirmation.
+deactivate UI
+
+USR -> UI : confirms
+activate UI
+
+UI -> CTRL: registerClient()
+activate CTRL
+CTRL -> DB: registerOrganization(client)
+activate DB
+
+DB -> DB: validateClient(client)
+DB -> DB: savesClient(client)
+deactivate DB
+
+deactivate CTRL
+UI --> USR : registers the Client.
+deactivate UI
+
+deactivate USR
+@enduml

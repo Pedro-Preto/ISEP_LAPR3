@@ -1,0 +1,34 @@
+@startuml
+hide methods
+left to right direction
+
+class Admin {
+
+}
+
+class Scooter {
+
+}
+
+class System {
+
+}
+
+class User {
+
+}
+
+class Pharmacy {
+
+}
+
+
+Admin "1" -- "0..*" Scooter: removes >
+Admin "1" -- "1" User: acts as >
+
+Pharmacy "1" -- "1..*" Scooter: has >
+
+System "1" -- "1..*" User: has >
+System "1" -- "1" Pharmacy: has >
+
+@enduml

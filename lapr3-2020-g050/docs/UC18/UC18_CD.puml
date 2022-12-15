@@ -1,0 +1,34 @@
+@startuml
+
+left to right direction
+
+class CheckStockUI {
+}
+
+class CheckStockController {
+    +checkStock()
+}
+
+class System {
+
+}
+
+class Pharmacy {
+    getStock()
+}
+
+class Stock {
+    +getItemsOfStock()
+}
+
+class Item {
+
+}
+
+CheckStockUI ..> CheckStockController
+CheckStockController ..> System
+CheckStockController ..> Pharmacy
+CheckStockController ..> Stock
+Stock ..> Item
+
+@enduml
